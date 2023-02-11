@@ -75,13 +75,14 @@
         flex-direction: column;
         justify-content: flex-end;
         text-transform: uppercase;
-        width: 60%;
+        width: 65%;
     }
 
     .pmpro_membership_card-print-custom .left-content p {
         color: inherit;
         font-size: 70%;
         line-height: 1.5em;
+        font-weight: 700;
     }
 
     .pmpro_membership_card-print-custom p strong {
