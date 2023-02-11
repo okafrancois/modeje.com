@@ -1617,6 +1617,23 @@ $('.star-rating').starRating();
 	link.textContent = "Adhérer au MODEJE"
 	link.setAttribute('href', 'https://padeje.com/compte-dadherent/niveaux-dadhesion/');
 	mobileMenu.parentNode.insertBefore(link, mobileMenu)
+
+	// ----
+	const userCount = document.querySelector('.members-count__value');
+	const countValue = parseInt(userCount.textContent);
+	userCount.textContent = 0;
+
+	const countUp = () => {
+		if (userCount.textContent < countValue) {
+			userCount.textContent++;
+			setTimeout(countUp, 20);
+		}
+	}
+
+	countUp();
+
+
+
 	
 // ------------------ End Document ------------------ //
 });
