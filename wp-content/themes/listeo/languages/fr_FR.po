@@ -1,0 +1,7010 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Project-Id-Version: Listeo\n"
+"POT-Creation-Date: 2022-01-20 16:46+0100\n"
+"PO-Revision-Date: 2022-02-19 18:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: fr_FR\n"
+"X-Loco-Version: 2.5.8; wp-5.9"
+
+#: 404.php:22
+msgid "Page Not Found"
+msgstr "Page non trouvée"
+
+#: 404.php:45
+msgid ""
+"We&rsquo;re sorry, but the page you were looking for doesn&rsquo;t exist.."
+msgstr ""
+"Nous sommes désolés, mais la page que vous recherchez n&#39;existe pas.."
+
+#: 404.php:52 template-parts/content-none.php:29
+#: template-parts/content-none.php:44
+msgid "What are you looking for?"
+msgstr "Qu'est-ce que tu cherches?"
+
+#: 404.php:55 dokan/store.php:63 template-parts/content-none.php:32
+#: template-parts/content-none.php:47
+msgid "Search"
+msgstr "Rechercher"
+
+#: author.php:63
+msgid "reviews"
+msgstr "Commentaires"
+
+#: author.php:89
+msgid ""
+"Account has been verified and belongs to the person or organization "
+"represented."
+msgstr ""
+"Le compte a été vérifié et appartient à la personne ou à l'organisation "
+"représentée."
+
+#: author.php:90
+msgid "Verified Account"
+msgstr "Compte vérifié"
+
+#: author.php:95
+msgid "Contact"
+msgstr "Contact"
+
+#: author.php:125
+#, php-format
+msgid "Please %s sign %s in to see contact details."
+msgstr "Veuillez %s vous connecter à %s pour voir les coordonnées."
+
+#: author.php:142 author.php:149 author.php:156
+#: dokan/widgets/store-contact-form.php:30
+msgid "Send Message"
+msgstr "Envoyer le message"
+
+#: author.php:146
+msgid "Your message to "
+msgstr "Votre message à"
+
+#: author.php:163
+msgid "About"
+msgstr "Sur"
+
+#: author.php:197 template-dashboard.php:361
+msgid "Store"
+msgstr "Boutique"
+
+#: author.php:216 dokan/global/product-tab.php:49 dokan/store-lists-loop.php:38
+#: woocommerce/content-product.php:72
+msgid "Featured"
+msgstr "Mis en exergue"
+
+#: author.php:224 dokan/global/product-tab.php:57 dokan/store-lists-loop.php:46
+msgid "Store is Open"
+msgstr "Le magasin est ouvert"
+
+#: author.php:224 dokan/global/product-tab.php:57 dokan/store-lists-loop.php:46
+msgid "Open"
+msgstr "Ouvrir"
+
+#: author.php:226 dokan/global/product-tab.php:59 dokan/store-lists-loop.php:48
+msgid "Store is Closed"
+msgstr "Le magasin est fermé"
+
+#: author.php:226 dokan/global/product-tab.php:59 dokan/store-lists-loop.php:48
+msgid "Closed"
+msgstr "Fermé"
+
+#: author.php:305
+msgid "'s Listings"
+msgstr "Annonces de"
+
+#: author.php:368 template-dashboard.php:346
+#: woocommerce/single-product-reviews.php:39
+msgid "Reviews"
+msgstr "Commentaires"
+
+#: author.php:384
+msgid "on"
+msgstr "au"
+
+#: blog-parts/content-video.php:26
+#, php-format
+msgid "View all posts in %s"
+msgstr "Afficher tous les messages dans %s"
+
+#: blog-parts/content.php:32
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "Comments %1$s"
+msgid_plural " Comments %1$s"
+msgstr[0] "Commentaires %1$s"
+msgstr[1] " Commentaires %1$s"
+
+#: comments.php:40 comments.php:72
+msgid "Comment navigation"
+msgstr "commenter la navigation"
+
+#: comments.php:43 comments.php:75
+msgid "Older Comments"
+msgstr "Commentaires plus anciens"
+
+#: comments.php:44 comments.php:76
+msgid "Newer Comments"
+msgstr "Commentaires récents"
+
+#: comments.php:89
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: dokan/dashboard/big-counter-widget.php:22
+msgid "Sales"
+msgstr "Ventes"
+
+#: dokan/dashboard/big-counter-widget.php:102
+#: dokan/products/products-listing.php:113
+msgid "Earning"
+msgstr "Revenus"
+
+#: dokan/dashboard/big-counter-widget.php:197
+msgid "Pageviews"
+msgstr "Pages vues"
+
+#: dokan/dashboard/big-counter-widget.php:219
+msgid "Order"
+msgstr "Commande"
+
+#: dokan/dashboard/orders-widget.php:17
+msgid "Orders"
+msgstr "Ordres"
+
+#: dokan/dashboard/orders-widget.php:23 dokan/dashboard/products-widget.php:26
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:105
+msgid "Total"
+msgstr "Total"
+
+#: dokan/dashboard/orders-widget.php:28
+msgid "Completed"
+msgstr "Complété"
+
+#: dokan/dashboard/orders-widget.php:33 template-dashboard.php:251
+#: template-dashboard.php:316
+msgid "Pending"
+msgstr "En attente"
+
+#: dokan/dashboard/orders-widget.php:38
+msgid "Processing"
+msgstr "Traitement"
+
+#: dokan/dashboard/orders-widget.php:43 template-dashboard.php:265
+msgid "Cancelled"
+msgstr "Annulé"
+
+#: dokan/dashboard/orders-widget.php:48
+msgid "Refunded"
+msgstr "Remboursé"
+
+#: dokan/dashboard/orders-widget.php:53
+msgid "On hold"
+msgstr "En attente"
+
+#: dokan/dashboard/products-widget.php:16
+msgid "Products"
+msgstr "Des produits"
+
+#: dokan/dashboard/products-widget.php:19
+msgid "+ Add new product"
+msgstr "+ Ajouter un nouveau produit"
+
+#: dokan/dashboard/products-widget.php:31
+msgid "Live"
+msgstr "Vivre"
+
+#: dokan/dashboard/products-widget.php:36
+msgid "Offline"
+msgstr "Hors ligne"
+
+#: dokan/dashboard/products-widget.php:41
+msgid "Pending Review"
+msgstr "En attendant l'examen"
+
+#: dokan/global/product-tab.php:12
+msgid "Vendor Information"
+msgstr "Informations sur le vendeur"
+
+#: dokan/products/products-listing.php:63
+#: dokan/products/products-listing.php:259
+msgid "Add new product"
+msgstr "Ajouter un nouveau produit"
+
+#: dokan/products/products-listing.php:84
+msgid "Select bulk action"
+msgstr "Sélectionnez une action groupée"
+
+#: dokan/products/products-listing.php:95 dokan/store-lists-filter.php:39
+msgid "Apply"
+msgstr "Appliquer"
+
+#: dokan/products/products-listing.php:104 inc/customizer/home.php:185
+#: inc/customizer/home.php:333
+msgid "Image"
+msgstr "Image"
+
+#: dokan/products/products-listing.php:105
+#: woocommerce/single-product-reviews.php:83
+msgid "Name"
+msgstr "Nom"
+
+#: dokan/products/products-listing.php:106 envato_setup/envato_setup.php:1132
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Statut"
+
+#: dokan/products/products-listing.php:110
+msgid "SKU"
+msgstr "UGS"
+
+#: dokan/products/products-listing.php:111
+msgid "Stock"
+msgstr "Stocker"
+
+#: dokan/products/products-listing.php:112 woocommerce/cart/cart.php:30
+#: woocommerce/cart/cart.php:81
+msgid "Price"
+msgstr "Prix"
+
+#: dokan/products/products-listing.php:113
+msgid ""
+"Earning could be greater than or less than the calculated value based on "
+"different criteria like tax and shipping fee receiver"
+msgstr ""
+"Les gains peuvent être supérieurs ou inférieurs à la valeur calculée en "
+"fonction de différents critères tels que les taxes et le destinataire des "
+"frais d'expédition"
+
+#: dokan/products/products-listing.php:114
+#: inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Taper"
+
+#: dokan/products/products-listing.php:115
+msgid "Views"
+msgstr "Vues"
+
+#: dokan/products/products-listing.php:116 inc/customizer/blog.php:67
+#: inc/customizer/blog.php:125
+msgid "Date"
+msgstr "Date"
+
+#: dokan/products/products-listing.php:125
+msgid "Simple"
+msgstr "Simple"
+
+#: dokan/products/products-listing.php:208
+msgid "No product found"
+msgstr "Aucun produit trouvé"
+
+#: dokan/products/products-listing.php:231
+msgid "&laquo; Previous"
+msgstr "&quot; Précédent"
+
+#: dokan/products/products-listing.php:232
+msgid "Next &raquo;"
+msgstr "Suivant &quot;"
+
+#: dokan/products/products-listing.php:247
+msgid "No Products Found!"
+msgstr "Aucun produit trouvé !"
+
+#: dokan/products/products-listing.php:252
+msgid "Ready to start selling something awesome?"
+msgstr "Prêt à commencer à vendre quelque chose de génial ?"
+
+#: dokan/store-header.php:21
+msgid "Store Open"
+msgstr "Magasin ouvert"
+
+#: dokan/store-header.php:22
+msgid "Store Closed"
+msgstr "Magasin fermé"
+
+#: dokan/store-header.php:146
+msgid "Vendor's Listings"
+msgstr "Listes des vendeurs"
+
+#: dokan/store-lists-filter.php:30
+msgid "Search Vendors"
+msgstr "Rechercher des fournisseurs"
+
+#: dokan/store-lists-filter.php:38 envato_setup/envato_setup.php:715
+#: inc/megamenu.php:583
+msgid "Cancel"
+msgstr "Annuler"
+
+#: dokan/store-lists-filter.php:60
+msgid "Filter"
+msgstr "Filtre"
+
+#: dokan/store-lists-filter.php:65 dokan/store-lists-filter.php:67
+msgid "Sort by"
+msgstr "Trier par"
+
+#: dokan/store-lists-loop.php:128
+msgid "&larr; Previous"
+msgstr "← Précédent"
+
+#: dokan/store-lists-loop.php:129
+msgid "Next &rarr;"
+msgstr "Suivant →"
+
+#: dokan/store-lists-loop.php:155
+msgid "No vendor found!"
+msgstr "Aucun fournisseur trouvé !"
+
+#: dokan/store.php:61
+msgid "Enter product name"
+msgstr "Entrez le nom du produit"
+
+#: dokan/store.php:67
+msgid "Shop order"
+msgstr "Commande en boutique"
+
+#: dokan/store.php:100
+msgid "No products were found of this vendor!"
+msgstr "Aucun produit n'a été trouvé pour ce fournisseur !"
+
+#: dokan/widgets/store-contact-form.php:15
+msgid "Your Name"
+msgstr "votre nom"
+
+#: dokan/widgets/store-contact-form.php:18
+msgid "you@example.com"
+msgstr "vous@exemple.com"
+
+#: dokan/widgets/store-contact-form.php:21
+msgid "Type your messsage..."
+msgstr "Tapez votre message..."
+
+#: dokan/widgets/store-map.php:30
+msgid "Mapbox Access Token not found"
+msgstr "Jeton d'accès Mapbox introuvable"
+
+#: dokan/widgets/store-open-close.php:23
+#, php-format
+msgid "<span> %s %s %s </span>"
+msgstr "<span> %s %s %s </span>"
+
+#: envato_setup/envato_setup.php:404 envato_setup/envato_setup.php:409
+msgid "Setup Wizard"
+msgstr "Assistant de configuration"
+
+#: envato_setup/envato_setup.php:429
+msgid "Introduction"
+msgstr "introduction"
+
+#: envato_setup/envato_setup.php:435
+msgid "License Activation"
+msgstr "Activation de la licence"
+
+#: envato_setup/envato_setup.php:441
+msgid "Plugins"
+msgstr "Plugins"
+
+#: envato_setup/envato_setup.php:453
+msgid "Content"
+msgstr "Contenu"
+
+#: envato_setup/envato_setup.php:463
+msgid "Customize"
+msgstr "Personnaliser"
+
+#: envato_setup/envato_setup.php:468
+msgid "Support"
+msgstr "Support"
+
+#: envato_setup/envato_setup.php:473
+msgid "Mutli Vendor"
+msgstr "Fournisseur multiple"
+
+#: envato_setup/envato_setup.php:478
+msgid "Ready!"
+msgstr "Prêt!"
+
+#: envato_setup/envato_setup.php:511
+msgid "...verifying"
+msgstr "...vérification"
+
+#: envato_setup/envato_setup.php:570
+msgid "Theme &rsaquo; Setup Wizard"
+msgstr "Thème › Assistant de configuration"
+
+#: envato_setup/envato_setup.php:604
+msgid "Return to the WordPress Dashboard"
+msgstr "Revenir au tableau de bord WordPress"
+
+#: envato_setup/envato_setup.php:697 envato_setup/envato_setup.php:706
+#: envato_setup/envato_setup.php:721 envato_setup/envato_setup.php:859
+#, php-format
+msgid "Welcome to the setup wizard for %s."
+msgstr "Bienvenue dans l'assistant d'installation de %s."
+
+#: envato_setup/envato_setup.php:698
+msgid ""
+"It looks like you may have recently upgraded to this theme. Great! This "
+"setup wizard will help ensure all the default settings are correct. It will "
+"also show some information about your new website and support options."
+msgstr ""
+"Il semble que vous ayez récemment mis à jour ce thème. Génial! Cet assistant "
+"de configuration vous aidera à vous assurer que tous les paramètres par "
+"défaut sont corrects. Il affichera également des informations sur votre "
+"nouveau site Web et les options de support."
+
+#: envato_setup/envato_setup.php:700 envato_setup/envato_setup.php:725
+#: envato_setup/envato_setup.php:850
+msgid "Let's Go!"
+msgstr "Allons-y!"
+
+#: envato_setup/envato_setup.php:701 envato_setup/envato_setup.php:726
+msgid "Not right now"
+msgstr "Pas tout de suite"
+
+#: envato_setup/envato_setup.php:707
+msgid ""
+"It looks like you have already run the setup wizard. Below are some options: "
+msgstr ""
+"Il semble que vous ayez déjà exécuté l'assistant de configuration. Voici "
+"quelques options :"
+
+#: envato_setup/envato_setup.php:710
+msgid "Run Setup Wizard Again"
+msgstr "Exécutez à nouveau l'assistant de configuration"
+
+#: envato_setup/envato_setup.php:722
+#, php-format
+msgid ""
+"Thank you for choosing the %s theme from Purethemes. This quick setup wizard "
+"will help you configure your new website. This wizard will install the "
+"required WordPress plugins, default content, logo and tell you a little "
+"about Help &amp; Support options. It should only take 5 minutes."
+msgstr ""
+"Merci d&#39;avoir choisi le thème %s de Purethemes. Cet assistant de "
+"configuration rapide vous aidera à configurer votre nouveau site Web. Cet "
+"assistant installera les plugins WordPress requis, le contenu par défaut, le "
+"logo et vous en dira un peu plus sur les options d&#39;aide et de support. "
+"Cela ne devrait prendre que 5 minutes."
+
+#: envato_setup/envato_setup.php:723
+msgid ""
+"No time right now? If you don't want to go through the wizard, you can skip "
+"and return to the WordPress dashboard. Come back anytime if you change your "
+"mind!"
+msgstr ""
+"Pas le temps en ce moment ? Si vous ne souhaitez pas passer par l'assistant, "
+"vous pouvez ignorer et revenir au tableau de bord WordPress. Revenez quand "
+"vous voulez si vous changez d'avis !"
+
+#: envato_setup/envato_setup.php:772
+msgid ""
+"Options have been reset. Please go to Appearance > Customize in the "
+"WordPress backend."
+msgstr ""
+"Les options ont été réinitialisées. Veuillez aller dans Apparence > "
+"Personnaliser dans le backend WordPress."
+
+#: envato_setup/envato_setup.php:847
+#, php-format
+msgid "Thank you for activating your %s license."
+msgstr "Merci d'avoir activé votre licence %s."
+
+#: envato_setup/envato_setup.php:888
+msgid "License code"
+msgstr "Code de licence"
+
+#: envato_setup/envato_setup.php:896 woocommerce/myaccount/form-login.php:85
+msgid "Email address"
+msgstr "Adresse e-mail"
+
+#: envato_setup/envato_setup.php:948
+msgid "Default Plugins"
+msgstr "Plugins par défaut"
+
+#: envato_setup/envato_setup.php:955
+msgid ""
+"Your website needs a few essential plugins. The following plugins will be "
+"installed or updated:"
+msgstr ""
+"Votre site Web a besoin de quelques plugins essentiels. Les plugins suivants "
+"seront installés ou mis à jour :"
+
+#: envato_setup/envato_setup.php:980
+msgid ""
+"Good news! All plugins are already installed and up to date. Please continue."
+msgstr ""
+"Bonnes nouvelles! Tous les plugins sont déjà installés et à jour. Continuez "
+"s'il vous plaît."
+
+#: envato_setup/envato_setup.php:983
+msgid "You can add and remove plugins later on from within WordPress."
+msgstr ""
+"Vous pouvez ajouter et supprimer des plugins ultérieurement à partir de "
+"WordPress."
+
+#: envato_setup/envato_setup.php:986 envato_setup/envato_setup.php:1153
+#: envato_setup/envato_setup.php:2621 envato_setup/envato_setup.php:2689
+#: envato_setup/envato_setup.php:2773 envato_setup/envato_setup.php:2839
+#: envato_setup/envato_setup.php:2876
+msgid "Continue"
+msgstr "Continuez"
+
+#: envato_setup/envato_setup.php:987 envato_setup/envato_setup.php:1154
+#: envato_setup/envato_setup.php:2622 envato_setup/envato_setup.php:2690
+#: envato_setup/envato_setup.php:2786 envato_setup/envato_setup.php:2891
+msgid "Skip this step"
+msgstr "Passer cette étape"
+
+#: envato_setup/envato_setup.php:998
+msgid "No Slug Found"
+msgstr "Aucune limace trouvée"
+
+#: envato_setup/envato_setup.php:1014
+msgid "Activating Plugin"
+msgstr "Activation du plugin"
+
+#: envato_setup/envato_setup.php:1029
+msgid "Updating Plugin"
+msgstr "Mise à jour du plugin"
+
+#: envato_setup/envato_setup.php:1044
+msgid "Installing Plugin"
+msgstr "Installation du plug-in"
+
+#: envato_setup/envato_setup.php:1054
+msgid "Success"
+msgstr "Succès"
+
+#: envato_setup/envato_setup.php:1076
+#, php-format
+msgid "This will create default %s as seen in the demo."
+msgstr "Cela créera %s par défaut comme on le voit dans la démo."
+
+#: envato_setup/envato_setup.php:1077 envato_setup/envato_setup.php:1090
+#: envato_setup/envato_setup.php:1100 envato_setup/envato_setup_init.php:67
+msgid "Pending."
+msgstr "En attente."
+
+#: envato_setup/envato_setup.php:1078
+msgid "Installing."
+msgstr "Installation."
+
+#: envato_setup/envato_setup.php:1079 envato_setup/envato_setup.php:1092
+#: envato_setup/envato_setup.php:1102 envato_setup/envato_setup_init.php:69
+msgid "Success."
+msgstr "Succès."
+
+#: envato_setup/envato_setup.php:1088
+msgid "Widgets"
+msgstr "Widget"
+
+#: envato_setup/envato_setup.php:1089
+msgid "Insert default sidebar widgets as seen in the demo."
+msgstr ""
+"Insérez les widgets de la barre latérale par défaut comme indiqué dans la "
+"démo."
+
+#: envato_setup/envato_setup.php:1091
+msgid "Installing Default Widgets."
+msgstr "Installation des widgets par défaut."
+
+#: envato_setup/envato_setup.php:1098
+msgid "Settings"
+msgstr "Réglages"
+
+#: envato_setup/envato_setup.php:1099
+msgid "Configure default settings."
+msgstr "Configurez les paramètres par défaut."
+
+#: envato_setup/envato_setup.php:1101
+msgid "Installing Default Settings."
+msgstr "Installation des paramètres par défaut."
+
+#: envato_setup/envato_setup.php:1119
+msgid "Default Content"
+msgstr "Contenu par défaut"
+
+#: envato_setup/envato_setup.php:1122
+msgid ""
+"It looks like you already have content installed on this website. If you "
+"would like to install the default demo content as well you can select it "
+"below. Otherwise just choose the upgrade option to ensure everything is up "
+"to date."
+msgstr ""
+"Il semble que vous ayez déjà installé du contenu sur ce site Web. Si vous "
+"souhaitez également installer le contenu de démonstration par défaut, vous "
+"pouvez le sélectionner ci-dessous. Sinon, choisissez simplement l'option de "
+"mise à niveau pour vous assurer que tout est à jour."
+
+#: envato_setup/envato_setup.php:1124
+msgid ""
+"It's time to insert some default content for your new WordPress website. "
+"Choose what you would like inserted below and click Continue. It is "
+"recommended to leave everything selected. Once inserted, this content can be "
+"managed from the WordPress admin dashboard. "
+msgstr ""
+"Il est temps d'insérer du contenu par défaut pour votre nouveau site "
+"WordPress. Choisissez ce que vous souhaitez insérer ci-dessous et cliquez "
+"sur Continuer. Il est recommandé de tout laisser sélectionné. Une fois "
+"inséré, ce contenu peut être géré depuis le tableau de bord d'administration "
+"de WordPress."
+
+#: envato_setup/envato_setup.php:1130
+msgid "Item"
+msgstr "Article"
+
+#: envato_setup/envato_setup.php:1131 inc/megamenu.php:478
+msgid "Description"
+msgstr "La description"
+
+#: envato_setup/envato_setup.php:1166
+msgid "No content Found"
+msgstr "Aucun contenu trouvé"
+
+#: envato_setup/envato_setup.php:1234
+msgid "Error"
+msgstr "Erreur"
+
+#: envato_setup/envato_setup.php:2258
+msgid "Remote server did not respond"
+msgstr "Le serveur distant n'a pas répondu"
+
+#: envato_setup/envato_setup.php:2266
+msgid "Remote file is incorrect size"
+msgstr "Le fichier distant n'a pas la bonne taille"
+
+#: envato_setup/envato_setup.php:2272
+msgid "Zero size file downloaded"
+msgstr "Fichier de taille nulle téléchargé"
+
+#: envato_setup/envato_setup.php:2278
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Le fichier distant est trop volumineux, la limite est %s"
+
+#: envato_setup/envato_setup.php:2606
+msgid "Site Style"
+msgstr "Style du site"
+
+#: envato_setup/envato_setup.php:2608
+msgid "Please choose your site style below."
+msgstr "Veuillez choisir le style de votre site ci-dessous."
+
+#: envato_setup/envato_setup.php:2653
+msgid "Logo"
+msgstr "Logo"
+
+#: envato_setup/envato_setup.php:2655
+#, php-format
+msgid ""
+"Please add your logo below. For best results, the logo should be a "
+"transparent PNG . The logo can be changed at any time from the Appearance > "
+"Customize area in your dashboard. Try %sEnvato Studio%s if you need a new "
+"logo designed."
+msgstr ""
+"Veuillez ajouter votre logo ci-dessous. Pour de meilleurs résultats, le logo "
+"doit être un PNG transparent. Le logo peut être modifié à tout moment depuis "
+"la zone Apparence > Personnaliser de votre tableau de bord. Essayez %sEnvato "
+"Studio%s si vous avez besoin d'un nouveau logo."
+
+#: envato_setup/envato_setup.php:2675
+msgid "Upload New Logo"
+msgstr "Télécharger un nouveau logo"
+
+#: envato_setup/envato_setup.php:2746
+msgid "Theme Updates"
+msgstr "Mises à jour du thème"
+
+#: envato_setup/envato_setup.php:2778
+msgid ""
+"Please login using your ThemeForest account to enable Theme Updates. We "
+"update themes when a new feature is added or a bug is fixed. It is highly "
+"recommended to enable Theme Updates."
+msgstr ""
+"Veuillez vous connecter en utilisant votre compte ThemeForest pour activer "
+"les mises à jour thématiques. Nous mettons à jour les thèmes lorsqu'une "
+"nouvelle fonctionnalité est ajoutée ou qu'un bogue est corrigé. Il est "
+"fortement recommandé d'activer les mises à jour de thème."
+
+#: envato_setup/envato_setup.php:2785
+msgid "Login with Envato"
+msgstr "Connectez-vous avec Envato"
+
+#: envato_setup/envato_setup.php:2918
+msgid "Your Website is Ready!"
+msgstr "Votre site Web est prêt !"
+
+#: envato_setup/envato_setup.php:2933
+msgid "Next Steps"
+msgstr "Prochaines étapes"
+
+#: envato_setup/envato_setup.php:2935
+msgid "Follow @purethemes on Twitter"
+msgstr "Suivez @purethemes sur Twitter"
+
+#: envato_setup/envato_setup.php:2937
+msgid "View your new website!"
+msgstr "Visualisez votre nouveau site web !"
+
+#: envato_setup/envato_setup.php:2942
+msgid "More Resources"
+msgstr "Davantage de ressources"
+
+#: envato_setup/envato_setup.php:2944
+msgid "Read the Theme Documentation"
+msgstr "Lire la documentation du thème"
+
+#: envato_setup/envato_setup.php:2946
+msgid "Learn how to use WordPress"
+msgstr "Apprendre à utiliser WordPress"
+
+#: envato_setup/envato_setup.php:2948
+msgid "Leave an Item Rating"
+msgstr "Laisser une note d'article"
+
+#: envato_setup/envato_setup.php:3035
+#, php-format
+msgid "Something went wrong while trying to retrieve oauth token: %s"
+msgstr ""
+"Une erreur s'est produite lors de la tentative de récupération du jeton "
+"oauth : %s"
+
+#: envato_setup/envato_setup.php:3052
+#, php-format
+msgid "Login for %s updates"
+msgstr "Connectez-vous pour les mises à jour de %s"
+
+#: envato_setup/envato_setup.php:3059
+msgid "oAuth Login"
+msgstr "Connexion oAuth"
+
+#: envato_setup/envato_setup.php:3224
+msgid ""
+"Please activate ThemeForest updates to ensure you have the latest version of "
+"this theme."
+msgstr ""
+"Veuillez activer les mises à jour de ThemeForest pour vous assurer que vous "
+"disposez de la dernière version de ce thème."
+
+#: envato_setup/envato_setup.php:3227
+#, php-format
+msgid "<a class=\"button button-primary\" href=\"%s\">Activate Updates</a>"
+msgstr ""
+"<a class=\"button button-primary\" href=\"%s\">Activer les mises à jour</a>"
+
+#: envato_setup/envato_setup_init.php:65
+msgid "Upgrade"
+msgstr "Améliorer"
+
+#: envato_setup/envato_setup_init.php:66
+msgid "Upgrade Content and Settings"
+msgstr "Mettre à niveau le contenu et les paramètres"
+
+#: envato_setup/envato_setup_init.php:68
+msgid "Installing Updates."
+msgstr "Installation de mises à jour."
+
+#: footer.php:120
+msgid "Starting from"
+msgstr "Commençant par"
+
+#: footer.php:122
+msgid "Select dates to see prices"
+msgstr "Sélectionnez les dates pour voir les prix"
+
+#: footer.php:144 footer.php:146
+msgid "Book Now"
+msgstr "Reserve maintenant"
+
+#: functions.php:86
+msgid "Main Menu"
+msgstr "Menu principal"
+
+#: functions.php:134
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: functions.php:136
+msgid "Add widgets here."
+msgstr "Ajoutez des widgets ici."
+
+#: functions.php:143
+msgid "Shop page sidebar"
+msgstr "Barre latérale de la page de la boutique"
+
+#: functions.php:153
+msgid "Footer 1st Column"
+msgstr "Pied de page 1ère colonne"
+
+#: functions.php:154
+msgid "1st column for widgets in Footer"
+msgstr "1ère colonne pour les widgets dans le pied de page"
+
+#: functions.php:162
+msgid "Footer 2nd Column"
+msgstr "Pied de page 2e colonne"
+
+#: functions.php:163
+msgid "2nd column for widgets in Footer"
+msgstr "2e colonne pour les widgets dans le pied de page"
+
+#: functions.php:171
+msgid "Footer 3rd Column"
+msgstr "Pied de page 3e colonne"
+
+#: functions.php:172
+msgid "3rd column for widgets in Footer"
+msgstr "3e colonne pour les widgets dans le pied de page"
+
+#: functions.php:180
+msgid "Footer 4th Column"
+msgstr "Pied de page 4e colonne"
+
+#: functions.php:181
+msgid "4th column for widgets in Footer"
+msgstr "4e colonne pour les widgets dans le pied de page"
+
+#: header-split.php:125
+msgid "Sign In"
+msgstr "S'identifier"
+
+#: inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Installez les plug-ins requis"
+
+#: inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Installer des plugins"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installation du plug-in : %s"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Mise à jour du plug-in : %s"
+
+#: inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Une erreur s'est produite avec l'API du plugin."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ce thème nécessite le plug-in suivant : %1$s."
+msgstr[1] "Ce thème nécessite les plugins suivants : %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ce thème recommande le plugin suivant : %1$s."
+msgstr[1] "Ce thème recommande les plugins suivants : %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Le plug-in suivant doit être mis à jour vers sa dernière version pour "
+"garantir une compatibilité maximale avec ce thème : %1$s."
+msgstr[1] ""
+"Les plugins suivants doivent être mis à jour vers leur dernière version pour "
+"assurer une compatibilité maximale avec ce thème : %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Une mise à jour est disponible pour : %1$s."
+msgstr[1] "Des mises à jour sont disponibles pour les plugins suivants : %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Le plug-in requis suivant est actuellement inactif : %1$s."
+msgstr[1] "Les plugins requis suivants sont actuellement inactifs : %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Le plug-in recommandé suivant est actuellement inactif : %1$s."
+msgstr[1] ""
+"Les plug-ins recommandés suivants sont actuellement inactifs : %1$s."
+
+#: inc/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Commencer l'installation du plugin"
+msgstr[1] "Commencer l'installation des plugins"
+
+#: inc/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Commencer la mise à jour du plugin"
+msgstr[1] "Commencer la mise à jour des plugins"
+
+#: inc/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Commencer à activer le plugin"
+msgstr[1] "Commencer à activer les plugins"
+
+#: inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Retourner à l'installateur de plugins requis"
+
+#: inc/class-tgm-plugin-activation.php:386
+#: inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:2533
+#: inc/class-tgm-plugin-activation.php:3563
+msgid "Return to the Dashboard"
+msgstr "Retour au tableau de bord"
+
+#: inc/class-tgm-plugin-activation.php:387
+#: inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Plugin activé avec succès."
+
+#: inc/class-tgm-plugin-activation.php:388
+msgid "Plugin was activated successfully:"
+msgstr "Le plugin a été activé avec succès :"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Pas d'action prise. Le plug-in %1$s était déjà actif."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin non activé. Une version supérieure de %s est nécessaire pour ce thème."
+" Veuillez mettre à jour le plug-in."
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tous les plugins sont installés et activés avec succès. %1$s"
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Ne tenez pas compte de cet avertissement"
+
+#: inc/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Il existe un ou plusieurs plugins requis ou recommandés à installer, mettre "
+"à jour ou activer."
+
+#: inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Veuillez contacter l'administrateur de ce site pour obtenir de l'aide."
+
+#: inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Ce plugin doit être mis à jour pour être compatible avec votre thème."
+
+#: inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Mise à jour requise"
+
+#: inc/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Le package de plug-in distant ne contient pas de dossier avec le slug "
+"souhaité et le changement de nom n'a pas fonctionné."
+
+#: inc/class-tgm-plugin-activation.php:934
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Veuillez contacter le fournisseur du plugin et lui demander de conditionner "
+"son plugin conformément aux directives de WordPress."
+
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Le package de plug-in distant se compose de plusieurs fichiers, mais les "
+"fichiers ne sont pas regroupés dans un dossier."
+
+#: inc/class-tgm-plugin-activation.php:1121
+#: inc/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "et"
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Obligatoire"
+
+#: inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "conseillé"
+
+#: inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Référentiel WordPress"
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Source externe"
+
+#: inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Préemballé"
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Pas installé"
+
+#: inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Installé mais pas activé"
+
+#: inc/class-tgm-plugin-activation.php:2321 template-dashboard.php:309
+msgid "Active"
+msgstr "actif"
+
+#: inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Mise à jour requise non disponible"
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Nécessite une mise à jour"
+
+#: inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Mise à jour recommandée"
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Tous <span class=\"count\">(%s)</span>"
+msgstr[1] "Tous <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "À installer <span class=\"count\">(%s)</span>"
+msgstr[1] "À installer <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Mise à jour disponible <span class=\"count\">(%s)</span>"
+msgstr[1] "Mise à jour disponible <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "À activer <span class=\"count\">(%s)</span>"
+msgstr[1] "À activer <span class=\"count\">(%s)</span>"
+
+#: inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "inconnu"
+
+#: inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Version installée :"
+
+#: inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Version minimale requise :"
+
+#: inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Version disponible :"
+
+#: inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Aucun plugin à installer, mettre à jour ou activer."
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Brancher"
+
+#: inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "La source"
+
+#: inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Version"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr "Installer %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr "Mettre à jour %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr "Activer %2$s"
+
+#: inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Message de mise à jour de l'auteur du plugin :"
+
+#: inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Installer"
+
+#: inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Activer"
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Aucun plugin n'a été sélectionné pour être installé. Pas d'action prise."
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Aucun plugin n'a été sélectionné pour être mis à jour. Pas d'action prise."
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Aucun plug-in n'est disponible pour être installé pour le moment."
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "Aucun plugin n'est disponible pour être mis à jour pour le moment."
+
+#: inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Aucun plugin n'a été sélectionné pour être activé. Pas d'action prise."
+
+#: inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Aucun plug-in n'est disponible pour être activé pour le moment."
+
+#: inc/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Le plugin suivant a été activé avec succès :"
+msgstr[1] "Les plugins suivants ont été activés avec succès :"
+
+#: inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "L'activation du plug-in a échoué."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3481
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Mise à jour du plug-in %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3484
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Une erreur s'est produite lors de l'installation de %1$s : <strong>"
+"%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3486
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "L'installation de %1$s a échoué."
+
+#: inc/class-tgm-plugin-activation.php:3490
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Le processus d'installation et d'activation démarre. Ce processus peut "
+"prendre un certain temps sur certains hôtes, alors soyez patient."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3492
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installé et activé avec succès."
+
+#: inc/class-tgm-plugin-activation.php:3492
+#: inc/class-tgm-plugin-activation.php:3500
+msgid "Show Details"
+msgstr "Afficher les détails"
+
+#: inc/class-tgm-plugin-activation.php:3492
+#: inc/class-tgm-plugin-activation.php:3500
+msgid "Hide Details"
+msgstr "Cacher les détails"
+
+#: inc/class-tgm-plugin-activation.php:3493
+msgid "All installations and activations have been completed."
+msgstr "Toutes les installations et activations sont terminées."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3495
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation et activation du plug-in %1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3498
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Le processus d'installation démarre. Ce processus peut prendre un certain "
+"temps sur certains hôtes, alors soyez patient."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3500
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s installé avec succès."
+
+#: inc/class-tgm-plugin-activation.php:3501
+msgid "All installations have been completed."
+msgstr "Toutes les installations sont terminées."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation du plug-in %1$s (%2$d/%3$d)"
+
+#: inc/customizer/blog.php:14 inc/customizer/header.php:14
+msgid "--Select slider--"
+msgstr "--Sélectionner le curseur--"
+
+#: inc/customizer/blog.php:26
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/customizer/blog.php:27
+msgid "Blog related settings"
+msgstr "Paramètres liés au blog"
+
+#: inc/customizer/blog.php:31
+msgid "Blog Options"
+msgstr "Options de blog"
+
+#: inc/customizer/blog.php:32
+msgid "Blog related options"
+msgstr "Options liées au blog"
+
+#: inc/customizer/blog.php:44
+msgid "Blog layout"
+msgstr "Mise en page du blog"
+
+#: inc/customizer/blog.php:45
+msgid "Choose the sidebar side for blog"
+msgstr "Choisissez le côté de la barre latérale pour le blog"
+
+#: inc/customizer/blog.php:60
+msgid "Post meta informations on single post"
+msgstr "Publier des méta-informations sur un seul post"
+
+#: inc/customizer/blog.php:61
+msgid "Set which elements of posts meta data you want to display"
+msgstr ""
+"Définissez les éléments des métadonnées des messages que vous souhaitez "
+"afficher"
+
+#: inc/customizer/blog.php:66 inc/customizer/blog.php:124
+msgid "Author"
+msgstr "Auteur"
+
+#: inc/customizer/blog.php:68 inc/customizer/blog.php:126
+msgid "Tags"
+msgstr "Mots clés"
+
+#: inc/customizer/blog.php:69 inc/customizer/blog.php:127
+msgid "Categories"
+msgstr "Catégories"
+
+#: inc/customizer/blog.php:76
+msgid "Share buttons on single post"
+msgstr "Partager des boutons sur un seul post"
+
+#: inc/customizer/blog.php:77
+msgid "Set which share buttons you want to display on single blog post"
+msgstr ""
+"Définissez les boutons de partage que vous souhaitez afficher sur un seul "
+"article de blog"
+
+#: inc/customizer/blog.php:82
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer/blog.php:83 template-parts/content-single.php:42
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer/blog.php:84
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/customizer/blog.php:85
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer/blog.php:92
+msgid "Display \"About Author\" box below post."
+msgstr "Afficher la case \"À propos de l'auteur\" sous le message."
+
+#: inc/customizer/blog.php:93
+msgid "Author needs to have Bio field filled."
+msgstr "L'auteur doit avoir rempli le champ Bio."
+
+#: inc/customizer/blog.php:98 inc/customizer/blog.php:110
+#: inc/customizer/header.php:44 inc/customizer/header.php:57
+#: inc/customizer/header.php:69 inc/customizer/header.php:81
+#: inc/customizer/header.php:93 inc/customizer/home.php:40
+#: inc/customizer/home.php:77 inc/customizer/home.php:90
+#: inc/customizer/home.php:163 inc/customizer/home.php:215
+#: inc/customizer/listings.php:52 inc/customizer/listings.php:224
+#: inc/customizer/var.php:136
+msgid "Enable"
+msgstr "Permettre"
+
+#: inc/customizer/blog.php:99 inc/customizer/blog.php:111
+#: inc/customizer/header.php:45 inc/customizer/header.php:58
+#: inc/customizer/header.php:70 inc/customizer/header.php:82
+#: inc/customizer/header.php:94 inc/customizer/home.php:41
+#: inc/customizer/home.php:78 inc/customizer/home.php:91
+#: inc/customizer/home.php:164 inc/customizer/home.php:216
+#: inc/customizer/listings.php:53 inc/customizer/listings.php:225
+#: inc/customizer/var.php:137 inc/meta-boxes.php:225 inc/meta-boxes.php:237
+msgid "Disable"
+msgstr "Désactiver"
+
+#: inc/customizer/blog.php:105
+msgid "Display \"Related posts\" box below post"
+msgstr "Afficher la case \"Articles associés\" sous l'article"
+
+#: inc/customizer/blog.php:118
+msgid "Post meta informations on blog post"
+msgstr "Publier des méta-informations sur un article de blog"
+
+#: inc/customizer/blog.php:119
+msgid ""
+"Set which elements of posts meta data you want to display on blog and "
+"archive pages"
+msgstr ""
+"Définissez les éléments de métadonnées des publications que vous souhaitez "
+"afficher sur les pages de blog et d'archives"
+
+#: inc/customizer/blog.php:128
+msgid "Comments"
+msgstr "commentaires"
+
+#: inc/customizer/blog.php:137
+msgid "Blog Header"
+msgstr "En-tête de blog"
+
+#: inc/customizer/blog.php:138 inc/customizer/header.php:27
+msgid "Header settings"
+msgstr "Paramètres d'en-tête"
+
+#: inc/customizer/blog.php:147
+msgid "Enable/Disable titlebar."
+msgstr "Activer/désactiver la barre de titre."
+
+#: inc/customizer/blog.php:151
+msgid "Show titlebar"
+msgstr "Afficher la barre de titre"
+
+#: inc/customizer/blog.php:152
+msgid "Hide titlebar"
+msgstr "Masquer la barre de titre"
+
+#: inc/customizer/blog.php:158
+msgid "Blog page title"
+msgstr "Titre de la page du blog"
+
+#: inc/customizer/blog.php:167
+msgid "Blog page subtitle"
+msgstr "Sous-titre de la page du blog"
+
+#: inc/customizer/blog.php:175
+msgid "Choose gradient or solid color."
+msgstr "Choisissez une couleur dégradée ou unie."
+
+#: inc/customizer/blog.php:180
+msgid "Gradient"
+msgstr "Pente"
+
+#: inc/customizer/blog.php:181
+msgid "Solid"
+msgstr "Solide"
+
+#: inc/customizer/footer.php:3
+msgid "Footer Options"
+msgstr "Options de pied de page"
+
+#: inc/customizer/footer.php:4
+msgid "Footer related options"
+msgstr "Options liées au pied de page"
+
+#: inc/customizer/footer.php:17
+msgid "Copyrights text"
+msgstr "Texte de droits d'auteur"
+
+#: inc/customizer/footer.php:26
+msgid "Footer widgets layout"
+msgstr "Disposition des widgets de pied de page"
+
+#: inc/customizer/footer.php:27
+msgid ""
+"Total width of footer is 16 columns, here you can decide layout based on "
+"columns number for each widget area in footer"
+msgstr ""
+"La largeur totale du pied de page est de 16 colonnes, ici vous pouvez "
+"décider de la disposition en fonction du nombre de colonnes pour chaque zone "
+"de widget dans le pied de page"
+
+#: inc/customizer/footer.php:32
+msgid "6 | 6"
+msgstr "6 | 6"
+
+#: inc/customizer/footer.php:33
+msgid "3 | 3 | 3 | 3"
+msgstr "3 | 3 | 3 | 3"
+
+#: inc/customizer/footer.php:34
+msgid "6 | 3 | 3 "
+msgstr "6 | 3 | 3"
+
+#: inc/customizer/footer.php:35
+msgid "5 | 4 | 3 "
+msgstr "5 | 4 | 3"
+
+#: inc/customizer/footer.php:36
+msgid "3 | 6 | 3"
+msgstr "3 | 6 | 3"
+
+#: inc/customizer/footer.php:37
+msgid "3 | 3 | 6"
+msgstr "3 | 3 | 6"
+
+#: inc/customizer/footer.php:38
+msgid "4 | 4 | 4"
+msgstr "4 | 4 | 4"
+
+#: inc/customizer/footer.php:39
+msgid "4 | 8"
+msgstr "4 | 8"
+
+#: inc/customizer/footer.php:40
+msgid "8 | 4"
+msgstr "8 | 4"
+
+#: inc/customizer/footer.php:41
+msgid "12"
+msgstr "12"
+
+#: inc/customizer/footer.php:50
+msgid "Footer style"
+msgstr "Style de pied de page"
+
+#: inc/customizer/footer.php:55 inc/meta-boxes.php:212
+msgid "Light"
+msgstr "Léger"
+
+#: inc/customizer/footer.php:56 inc/customizer/home.php:421
+#: inc/meta-boxes.php:213
+msgid "Dark"
+msgstr "Sombre"
+
+#: inc/customizer/general.php:4
+msgid "General Options"
+msgstr "Options générales"
+
+#: inc/customizer/general.php:5
+msgid "General options"
+msgstr "Options générales"
+
+#: inc/customizer/general.php:15
+msgid "Sidebar generator"
+msgstr "Générateur de barre latérale"
+
+#: inc/customizer/general.php:23
+msgid "Sidebar name"
+msgstr "Nom de la barre latérale"
+
+#: inc/customizer/general.php:24
+msgid "This will be name of sidebar"
+msgstr "Ce sera le nom de la barre latérale"
+
+#: inc/customizer/general.php:29
+msgid "Sidebar ID"
+msgstr "ID de la barre latérale"
+
+#: inc/customizer/general.php:30
+msgid "Replace x with a number"
+msgstr "Remplacer x par un nombre"
+
+#: inc/customizer/header.php:26
+msgid "Header"
+msgstr "Entête"
+
+#: inc/customizer/header.php:38
+msgid "Switching it to ON will globally enable sticky header for all pages"
+msgstr ""
+"Le basculer sur ON activera globalement l'en-tête collant pour toutes les "
+"pages"
+
+#: inc/customizer/header.php:52
+msgid "Display Cart in header"
+msgstr "Afficher le panier dans l'en-tête"
+
+#: inc/customizer/header.php:64
+msgid "Display \"My account\" button in header"
+msgstr "Afficher le bouton \"Mon compte\" dans l'en-tête"
+
+#: inc/customizer/header.php:76
+msgid "Display \"Add Listing\" button in header"
+msgstr "Afficher le bouton \"Ajouter une annonce\" dans l'en-tête"
+
+#: inc/customizer/header.php:88
+msgid "Full width header"
+msgstr "En-tête pleine largeur"
+
+#: inc/customizer/home.php:6
+msgid "Home Search Options"
+msgstr "Options de recherche de domicile"
+
+#: inc/customizer/home.php:7
+msgid "Options for Home Page templates"
+msgstr "Options pour les modèles de page d'accueil"
+
+#: inc/customizer/home.php:13
+msgid "General Home Search Template Options"
+msgstr "Options générales du modèle de recherche d'accueil"
+
+#: inc/customizer/home.php:14
+msgid "Options for Page with Search form"
+msgstr "Options pour Page avec formulaire de recherche"
+
+#: inc/customizer/home.php:22
+msgid "Home Search with Slider Template Options"
+msgstr "Recherche d'accueil avec les options de modèle de curseur"
+
+#: inc/customizer/home.php:23
+msgid "Options for Page with Search form & Slider"
+msgstr "Options pour la page avec formulaire de recherche et curseur"
+
+#: inc/customizer/home.php:35
+msgid "Enable Transparent Header on Homepage"
+msgstr "Activer l'en-tête transparent sur la page d'accueil"
+
+#: inc/customizer/home.php:48
+msgid "Choose Search Form Style:"
+msgstr "Choisissez le style de formulaire de recherche :"
+
+#: inc/customizer/home.php:53
+msgid "Wide"
+msgstr "Large"
+
+#: inc/customizer/home.php:54
+msgid "Boxed"
+msgstr "En boîte"
+
+#: inc/customizer/home.php:61
+msgid "Search Banner Title"
+msgstr "Titre de la bannière de recherche"
+
+#: inc/customizer/home.php:62
+msgid "Title above search form "
+msgstr "Titre au-dessus du formulaire de recherche"
+
+#: inc/customizer/home.php:64
+msgid "Find Nearby Attractions"
+msgstr "Trouver des attractions à proximité"
+
+#: inc/customizer/home.php:71
+msgid "Full Screen Search Container"
+msgstr "Conteneur de recherche plein écran"
+
+#: inc/customizer/home.php:72
+msgid "Works above 1360px viewport"
+msgstr "Fonctionne au-dessus de la fenêtre d'affichage 1360px"
+
+#: inc/customizer/home.php:85
+msgid "Enable Typed words effect"
+msgstr "Activer l'effet des mots saisis"
+
+#: inc/customizer/home.php:105
+msgid "Text to display in \"typed\" Banner Subtitle"
+msgstr "Texte à afficher dans le sous-titre \"tapé\" de la bannière"
+
+#: inc/customizer/home.php:106
+msgid "Separate with coma"
+msgstr "Séparer avec coma"
+
+#: inc/customizer/home.php:108
+msgid "Attractions, Restaurants, Hotels"
+msgstr "Attractions, Restaurants, Hôtels"
+
+#: inc/customizer/home.php:129
+msgid "Search Banner Subtitle"
+msgstr "Sous-titre de la bannière de recherche"
+
+#: inc/customizer/home.php:130
+msgid "Subtitle above search form "
+msgstr "Sous-titre au-dessus du formulaire de recherche"
+
+#: inc/customizer/home.php:132
+msgid "Expolore top-rated attractions, activities and more"
+msgstr "Attractions, activités et plus encore les mieux notées d'Explore"
+
+#: inc/customizer/home.php:139
+msgid "Text alignment on Search form"
+msgstr "Alignement du texte sur le formulaire de recherche"
+
+#: inc/customizer/home.php:144
+msgid "Center"
+msgstr "Centre"
+
+#: inc/customizer/home.php:145
+msgid "Left"
+msgstr "La gauche"
+
+#: inc/customizer/home.php:158
+msgid "Enable \"or browse by category\" section"
+msgstr "Activer la section \"ou parcourir par catégorie\""
+
+#: inc/customizer/home.php:180
+msgid "Choose Background Type for Form:"
+msgstr "Choisissez le type d'arrière-plan pour le formulaire :"
+
+#: inc/customizer/home.php:186
+msgid "Video"
+msgstr "Vidéo"
+
+#: inc/customizer/home.php:193
+msgid "Background for search banner on homepage"
+msgstr "Arrière-plan de la bannière de recherche sur la page d'accueil"
+
+#: inc/customizer/home.php:194
+msgid "Set image for search banner, should be 1920px wide"
+msgstr ""
+"Définir l'image pour la bannière de recherche, doit avoir une largeur de "
+"1920px"
+
+#: inc/customizer/home.php:210
+msgid "Enable Solid Background"
+msgstr "Activer l'arrière-plan uni"
+
+#: inc/customizer/home.php:229
+msgid "Banner opacity"
+msgstr "Opacité de la bannière"
+
+#: inc/customizer/home.php:244
+msgid "Color for the image overlay on homepage search banner"
+msgstr ""
+"Couleur de la superposition d'image sur la bannière de recherche de la page "
+"d'accueil"
+
+#: inc/customizer/home.php:254
+msgid "Video Poster"
+msgstr "Affiche vidéo"
+
+#: inc/customizer/home.php:270
+msgid "Upload webm file"
+msgstr "Télécharger le fichier webm"
+
+#: inc/customizer/home.php:286
+msgid "Upload mp4 file"
+msgstr "Téléchargez le fichier mp4"
+
+#: inc/customizer/home.php:318
+msgid "Home Page Slider Images"
+msgstr "Images du curseur de la page d'accueil"
+
+#: inc/customizer/home.php:323
+msgid "Photo Slide"
+msgstr "Diapositive de photos"
+
+#: inc/customizer/home.php:326
+msgid "Add new image"
+msgstr "Ajouter une nouvelle image"
+
+#: inc/customizer/home.php:345
+msgid "Background Options"
+msgstr "Options d'arrière-plan"
+
+#: inc/customizer/home.php:350
+msgid "Solid color"
+msgstr "Couleur unie"
+
+#: inc/customizer/home.php:351
+msgid "SVG Background"
+msgstr "Arrière-plan SVG"
+
+#: inc/customizer/home.php:365
+msgid "Color for the banner background"
+msgstr "Couleur pour le fond de la bannière"
+
+#: inc/customizer/home.php:396
+msgid "SVG background code "
+msgstr "Code d'arrière-plan SVG"
+
+#: inc/customizer/home.php:416
+msgid "Headline text color"
+msgstr "Couleur du texte du titre"
+
+#: inc/customizer/home.php:422
+msgid "White"
+msgstr "blanche"
+
+#: inc/customizer/home.php:545
+msgid "Featured Categories"
+msgstr "catégories vedettes"
+
+#: inc/customizer/listings.php:5
+msgid "Listings List Options"
+msgstr "Options de la liste des annonces"
+
+#: inc/customizer/listings.php:6
+msgid "Archive page related options"
+msgstr "Options liées à la page d'archivage"
+
+#: inc/customizer/listings.php:16
+msgid "Listings per page"
+msgstr "Annonces par page"
+
+#: inc/customizer/listings.php:31
+msgid "Author archive listings per page"
+msgstr "Listes d'archives d'auteurs par page"
+
+#: inc/customizer/listings.php:46
+msgid "Show archive title above list of listings"
+msgstr "Afficher le titre de l'archive au-dessus de la liste des annonces"
+
+#: inc/customizer/listings.php:60
+msgid "Listings archive title"
+msgstr "Titre de l'archive des annonces"
+
+#: inc/customizer/listings.php:69
+msgid "Listings archive subtitle"
+msgstr "Sous-titre des archives des annonces"
+
+#: inc/customizer/listings.php:78
+msgid "Choose rating display style on listings"
+msgstr "Choisissez le style d'affichage des notes sur les annonces"
+
+#: inc/customizer/listings.php:79
+msgid "Stars or colored numbers"
+msgstr "Étoiles ou chiffres colorés"
+
+#: inc/customizer/listings.php:84
+msgid "Stars"
+msgstr "Étoiles"
+
+#: inc/customizer/listings.php:85
+msgid "Numerical"
+msgstr "Numérique"
+
+#: inc/customizer/listings.php:93
+msgid "Choose Price filter tag icon"
+msgstr "Choisissez l'icône de balise de filtre de prix"
+
+#: inc/customizer/listings.php:94
+msgid "Choose the icon for your currency"
+msgstr "Choisissez l'icône de votre devise"
+
+#: inc/customizer/listings.php:99
+msgid "Tag"
+msgstr "Étiqueter"
+
+#: inc/customizer/listings.php:100
+msgid "Dollar"
+msgstr "Dollar"
+
+#: inc/customizer/listings.php:101
+msgid "Euro"
+msgstr "euro"
+
+#: inc/customizer/listings.php:102
+msgid "GBP"
+msgstr "GBP"
+
+#: inc/customizer/listings.php:103
+msgid "Ruble"
+msgstr "Rouble"
+
+#: inc/customizer/listings.php:104
+msgid "Turkish lira"
+msgstr "livre turque"
+
+#: inc/customizer/listings.php:105
+msgid "Rupee"
+msgstr "Roupie"
+
+#: inc/customizer/listings.php:106
+msgid "Won"
+msgstr "Gagné"
+
+#: inc/customizer/listings.php:107
+msgid "Shekel"
+msgstr "sicle"
+
+#: inc/customizer/listings.php:108
+msgid "KRW"
+msgstr "KRW"
+
+#: inc/customizer/listings.php:117
+msgid "Map listing marker style"
+msgstr "Style de marqueur de liste de carte"
+
+#: inc/customizer/listings.php:118
+msgid "Choose the general marker style for all maps"
+msgstr "Choisissez le style de marqueur général pour toutes les cartes"
+
+#: inc/customizer/listings.php:123
+msgid "With Icons"
+msgstr "Avec des icônes"
+
+#: inc/customizer/listings.php:124
+msgid "No Icon"
+msgstr "Aucune icône"
+
+#: inc/customizer/listings.php:131
+msgid "Listings archive general layout"
+msgstr "Disposition générale des archives des annonces"
+
+#: inc/customizer/listings.php:132
+msgid "Choose the general archive  layout"
+msgstr "Choisir la mise en page générale des archives"
+
+#: inc/customizer/listings.php:137
+msgid "Standard titlebar"
+msgstr "Barre de titre standard"
+
+#: inc/customizer/listings.php:138
+msgid "Full width search form"
+msgstr "Formulaire de recherche pleine largeur"
+
+#: inc/customizer/listings.php:139
+msgid "Map with search form"
+msgstr "Carte avec formulaire de recherche"
+
+#: inc/customizer/listings.php:140
+msgid "Map on top"
+msgstr "Carte en haut"
+
+#: inc/customizer/listings.php:141
+msgid "Split Map/Content"
+msgstr "Diviser carte/contenu"
+
+#: inc/customizer/listings.php:142
+msgid "Disable titlebar"
+msgstr "Désactiver la barre de titre"
+
+#: inc/customizer/listings.php:149
+msgid "Listings content layout"
+msgstr "Mise en page du contenu des annonces"
+
+#: inc/customizer/listings.php:150
+msgid "Choose the general archive content  layout"
+msgstr "Choisir la disposition générale du contenu de l'archive"
+
+#: inc/customizer/listings.php:155
+msgid "List"
+msgstr "Lister"
+
+#: inc/customizer/listings.php:156
+msgid "Grid"
+msgstr "Grille"
+
+#: inc/customizer/listings.php:157
+msgid "Grid alt layout"
+msgstr "Disposition alternative de la grille"
+
+#: inc/customizer/listings.php:165 inc/customizer/listings.php:268
+msgid "Sidebar side"
+msgstr "Côté barre latérale"
+
+#: inc/customizer/listings.php:166 inc/customizer/listings.php:182
+#: inc/customizer/listings.php:269 inc/customizer/listings.php:284
+msgid "Applies if the choosen layout has sidebar"
+msgstr "S'applique si la mise en page choisie a une barre latérale"
+
+#: inc/customizer/listings.php:181
+msgid "Mobile Layout sidebar side"
+msgstr "Côté de la barre latérale de la mise en page mobile"
+
+#: inc/customizer/listings.php:205
+msgid "Default Background image for listings if there are no images added"
+msgstr ""
+"Image d'arrière-plan par défaut pour les annonces s'il n'y a pas d'images "
+"ajoutées"
+
+#: inc/customizer/listings.php:206
+msgid "Set image for default listing list background"
+msgstr "Définir l'image pour l'arrière-plan de la liste de liste par défaut"
+
+#: inc/customizer/listings.php:218
+msgid "Show additional buttons before listings"
+msgstr "Afficher des boutons supplémentaires avant les listes"
+
+#: inc/customizer/listings.php:232
+msgid "Function buttons configuration"
+msgstr "Configuration des boutons de fonction"
+
+#: inc/customizer/listings.php:238
+msgid "List/Grid (works only with Ajax)"
+msgstr "Liste/Grille (fonctionne uniquement avec Ajax)"
+
+#: inc/customizer/listings.php:239
+msgid "Features panel filter"
+msgstr "Filtre de panneau de fonctionnalités"
+
+#: inc/customizer/listings.php:240
+msgid "Radius slider"
+msgstr "Curseur de rayon"
+
+#: inc/customizer/listings.php:241
+msgid "Orderby dropdown"
+msgstr "Trier par liste déroulante"
+
+#: inc/customizer/listings.php:257
+msgid "Single Listing Options"
+msgstr "Options d'inscription unique"
+
+#: inc/customizer/listings.php:258
+msgid "Options for single listing layout"
+msgstr "Options pour la mise en page d'une seule liste"
+
+#: inc/customizer/listings.php:283
+msgid "Mobile layout sidebar side"
+msgstr "Côté de la barre latérale de mise en page mobile"
+
+#: inc/customizer/shop.php:3
+msgid "Shop Options"
+msgstr "Options de la boutique"
+
+#: inc/customizer/shop.php:4
+msgid "Shop related options"
+msgstr "Options liées à la boutique"
+
+#: inc/customizer/shop.php:14
+msgid "Shop layout"
+msgstr "Aménagement de la boutique"
+
+#: inc/customizer/shop.php:15
+msgid "Choose the sidebar side for shop"
+msgstr "Choisissez le côté de la barre latérale pour la boutique"
+
+#: inc/customizer/shop.php:30
+msgid "Show/hide results count and order select on shop page"
+msgstr ""
+"Afficher/masquer le nombre de résultats et sélectionner la commande sur la "
+"page de la boutique"
+
+#: inc/customizer/shop.php:36
+msgid "Show"
+msgstr "Montrer"
+
+#: inc/customizer/shop.php:37
+msgid "Hide"
+msgstr "Cacher"
+
+#: inc/customizer/shop.php:45
+msgid "Background for shop banner"
+msgstr "Arrière-plan pour la bannière de la boutique"
+
+#: inc/customizer/shop.php:46
+msgid "Set image for header banner, should be 1920px wide"
+msgstr ""
+"Définir l'image pour la bannière d'en-tête, doit être de 1920 pixels de large"
+
+#: inc/customizer/shop.php:56
+msgid "Header opacity"
+msgstr "Opacité de l'en-tête"
+
+#: inc/customizer/shop.php:71
+msgid "Color for the image overlay on shop header banner"
+msgstr ""
+"Couleur de la superposition d'image sur la bannière d'en-tête de la boutique"
+
+#: inc/customizer/typography.php:5
+msgid "Typography"
+msgstr "Typographie"
+
+#: inc/customizer/typography.php:6
+msgid "Fonts options"
+msgstr "Options de polices"
+
+#: inc/customizer/typography.php:16
+msgid "Body font"
+msgstr "Police du corps"
+
+#: inc/customizer/typography.php:40
+msgid "Text logo font"
+msgstr "Police du logo du texte"
+
+#: inc/customizer/typography.php:64
+msgid "h1..h6 font"
+msgstr "police h1..h6"
+
+#: inc/customizer/typography.php:83
+msgid "Menu font"
+msgstr "Police des menus"
+
+#: inc/customizer/var.php:6
+msgid "Logo image"
+msgstr "Image logo"
+
+#: inc/customizer/var.php:7
+msgid "Upload logo for your website"
+msgstr "Télécharger le logo de votre site Web"
+
+#: inc/customizer/var.php:24
+msgid "Transparent Header / Dashboard logo image"
+msgstr "Image du logo d'en-tête/tableau de bord transparent"
+
+#: inc/customizer/var.php:25
+msgid "Upload logo for user dashboard"
+msgstr "Télécharger le logo pour le tableau de bord de l'utilisateur"
+
+#: inc/customizer/var.php:43
+msgid "Logo Max Height (px)"
+msgstr "Hauteur maximale du logo (px)"
+
+#: inc/customizer/var.php:63
+msgid "Sticky Header Logo Width (px)"
+msgstr "Largeur du logo de l'en-tête collant (px)"
+
+#: inc/customizer/var.php:84
+msgid "Menu top margin (px)"
+msgstr "Marge supérieure du menu (px)"
+
+#: inc/customizer/var.php:97
+msgid "Menu bottom margin (px)"
+msgstr "Marge inférieure du menu (px)"
+
+#: inc/customizer/var.php:111
+msgid "Alternative header Sticky Logo image"
+msgstr "En-tête alternatif Image du logo collant"
+
+#: inc/customizer/var.php:112
+msgid "Upload logo used in sticky header"
+msgstr "Télécharger le logo utilisé dans l'en-tête collant"
+
+#: inc/customizer/var.php:124
+msgid "Select main theme color"
+msgstr "Sélectionnez la couleur du thème principal"
+
+#: inc/customizer/var.php:133
+msgid "Enable dark mode color"
+msgstr "Activer la couleur en mode sombre"
+
+#: inc/dokan-widget.php:19
+msgid "Dokan Seller Store Menu"
+msgstr "Menu du magasin du vendeur Dokan"
+
+#: inc/dokan-widget.php:21
+msgid "Dokan: Store Product Category Menu"
+msgstr "Dokan : Menu des catégories de produits du magasin"
+
+#: inc/dokan-widget.php:39 inc/dokan-widget.php:86
+msgid "Store Product Category"
+msgstr "Catégorie de produit du magasin"
+
+#: inc/dokan-widget.php:93
+msgid "Title:"
+msgstr "Titre:"
+
+#: inc/dokan.php:120
+msgid "No product has been found!"
+msgstr "Aucun produit n'a été trouvé !"
+
+#: inc/dokan.php:140
+msgid "More Products"
+msgstr "Plus de produits"
+
+#: inc/extras.php:319
+msgid "no icon"
+msgstr "pas d'icône"
+
+#: inc/extras.php:337
+msgid "500px"
+msgstr "500px"
+
+#: inc/extras.php:338
+msgid "accessible-icon"
+msgstr "icône-accessible"
+
+#: inc/extras.php:339
+msgid "accusoft"
+msgstr "accusoft"
+
+#: inc/extras.php:340 inc/extras.php:341
+msgid "address-book"
+msgstr "carnet d'adresses"
+
+#: inc/extras.php:342 inc/extras.php:343
+msgid "address-card"
+msgstr "carte d'adresse"
+
+#: inc/extras.php:344
+msgid "adjust"
+msgstr "régler"
+
+#: inc/extras.php:345
+msgid "adn"
+msgstr "et"
+
+#: inc/extras.php:346
+msgid "adversal"
+msgstr "adversaire"
+
+#: inc/extras.php:347
+msgid "affiliatetheme"
+msgstr "thème d'affiliation"
+
+#: inc/extras.php:348
+msgid "algolia"
+msgstr "algolie"
+
+#: inc/extras.php:349
+msgid "align-center"
+msgstr "align-center"
+
+#: inc/extras.php:350
+msgid "align-justify"
+msgstr "aligner-justifier"
+
+#: inc/extras.php:351
+msgid "align-left"
+msgstr "alignez à gauche"
+
+#: inc/extras.php:352
+msgid "align-right"
+msgstr "aligner à droite"
+
+#: inc/extras.php:353
+msgid "allergies"
+msgstr "allergique"
+
+#: inc/extras.php:354
+msgid "amazon"
+msgstr "amazone"
+
+#: inc/extras.php:355
+msgid "amazon-pay"
+msgstr "amazon-payer"
+
+#: inc/extras.php:356
+msgid "ambulance"
+msgstr "ambulance"
+
+#: inc/extras.php:357
+msgid "american-sign-language-interpreting"
+msgstr "interprétariat en langue des signes américaine"
+
+#: inc/extras.php:358
+msgid "amilia"
+msgstr "amilia"
+
+#: inc/extras.php:359
+msgid "anchor"
+msgstr "ancre"
+
+#: inc/extras.php:360
+msgid "android"
+msgstr "Android"
+
+#: inc/extras.php:361
+msgid "angellist"
+msgstr "angeliste"
+
+#: inc/extras.php:362
+msgid "angle-double-down"
+msgstr "angle-double-vers le bas"
+
+#: inc/extras.php:363
+msgid "angle-double-left"
+msgstr "angle-double-gauche"
+
+#: inc/extras.php:364
+msgid "angle-double-right"
+msgstr "angle-double-droit"
+
+#: inc/extras.php:365
+msgid "angle-double-up"
+msgstr "angle-double-vers le haut"
+
+#: inc/extras.php:366
+msgid "angle-down"
+msgstr "angle vers le bas"
+
+#: inc/extras.php:367
+msgid "angle-left"
+msgstr "angle-gauche"
+
+#: inc/extras.php:368
+msgid "angle-right"
+msgstr "angle droit"
+
+#: inc/extras.php:369
+msgid "angle-up"
+msgstr "angle vers le haut"
+
+#: inc/extras.php:370
+msgid "angrycreative"
+msgstr "en colèrecréatif"
+
+#: inc/extras.php:371
+msgid "angular"
+msgstr "angulaire"
+
+#: inc/extras.php:372
+msgid "app-store"
+msgstr "magasin d'applications"
+
+#: inc/extras.php:373
+msgid "app-store-ios"
+msgstr "app-store-ios"
+
+#: inc/extras.php:374
+msgid "apper"
+msgstr "apper"
+
+#: inc/extras.php:375
+msgid "apple"
+msgstr "Pomme"
+
+#: inc/extras.php:376
+msgid "apple-pay"
+msgstr "pomme-payer"
+
+#: inc/extras.php:377
+msgid "archive"
+msgstr "archiver"
+
+#: inc/extras.php:378 inc/extras.php:379
+msgid "arrow-alt-circle-down"
+msgstr "flèche-alt-cercle-bas"
+
+#: inc/extras.php:380 inc/extras.php:381
+msgid "arrow-alt-circle-left"
+msgstr "flèche-alt-cercle-gauche"
+
+#: inc/extras.php:382 inc/extras.php:383
+msgid "arrow-alt-circle-right"
+msgstr "flèche-alt-cercle-droite"
+
+#: inc/extras.php:384 inc/extras.php:385
+msgid "arrow-alt-circle-up"
+msgstr "flèche-alt-cercle vers le haut"
+
+#: inc/extras.php:386
+msgid "arrow-circle-down"
+msgstr "flèche-cercle-bas"
+
+#: inc/extras.php:387
+msgid "arrow-circle-left"
+msgstr "flèche-cercle-gauche"
+
+#: inc/extras.php:388
+msgid "arrow-circle-right"
+msgstr "flèche-cercle-droite"
+
+#: inc/extras.php:389
+msgid "arrow-circle-up"
+msgstr "flèche-cercle vers le haut"
+
+#: inc/extras.php:390
+msgid "arrow-down"
+msgstr "flèche vers le bas"
+
+#: inc/extras.php:391
+msgid "arrow-left"
+msgstr "flèche gauche"
+
+#: inc/extras.php:392
+msgid "arrow-right"
+msgstr "flèche droite"
+
+#: inc/extras.php:393
+msgid "arrow-up"
+msgstr "flèche vers le haut"
+
+#: inc/extras.php:394
+msgid "arrows-alt"
+msgstr "flèches-alt"
+
+#: inc/extras.php:395
+msgid "arrows-alt-h"
+msgstr "flèches-alt-h"
+
+#: inc/extras.php:396
+msgid "arrows-alt-v"
+msgstr "flèches-alt-v"
+
+#: inc/extras.php:397
+msgid "assistive-listening-systems"
+msgstr "systèmes d'aide à l'écoute"
+
+#: inc/extras.php:398
+msgid "asterisk"
+msgstr "astérisque"
+
+#: inc/extras.php:399
+msgid "asymmetrik"
+msgstr "asymétrique"
+
+#: inc/extras.php:400 woocommerce/checkout/form-pay.php:73
+msgid "at"
+msgstr "à"
+
+#: inc/extras.php:401
+msgid "audible"
+msgstr "audible"
+
+#: inc/extras.php:402
+msgid "audio-description"
+msgstr "audio-description"
+
+#: inc/extras.php:403
+msgid "autoprefixer"
+msgstr "préfixe automatique"
+
+#: inc/extras.php:404
+msgid "avianex"
+msgstr "aviaire"
+
+#: inc/extras.php:405
+msgid "aviato"
+msgstr "aviato"
+
+#: inc/extras.php:406
+msgid "aws"
+msgstr "aws"
+
+#: inc/extras.php:407
+msgid "backward"
+msgstr "en arrière"
+
+#: inc/extras.php:408
+msgid "balance-scale"
+msgstr "balance-balance"
+
+#: inc/extras.php:409
+msgid "ban"
+msgstr "interdire"
+
+#: inc/extras.php:410
+msgid "band-aid"
+msgstr "pansement"
+
+#: inc/extras.php:411
+msgid "bandcamp"
+msgstr "camp de bande"
+
+#: inc/extras.php:412
+msgid "barcode"
+msgstr "code à barre"
+
+#: inc/extras.php:413
+msgid "bars"
+msgstr "barres"
+
+#: inc/extras.php:414
+msgid "baseball-ball"
+msgstr "balle de baseball"
+
+#: inc/extras.php:415
+msgid "basketball-ball"
+msgstr "ballon de basket"
+
+#: inc/extras.php:416
+msgid "bath"
+msgstr "bain"
+
+#: inc/extras.php:417
+msgid "battery-empty"
+msgstr "Batterie vide"
+
+#: inc/extras.php:418
+msgid "battery-full"
+msgstr "batterie pleine"
+
+#: inc/extras.php:419
+msgid "battery-half"
+msgstr "demi-batterie"
+
+#: inc/extras.php:420
+msgid "battery-quarter"
+msgstr "quart de batterie"
+
+#: inc/extras.php:421
+msgid "battery-three-quarters"
+msgstr "batterie aux trois quarts"
+
+#: inc/extras.php:422
+msgid "bed"
+msgstr "lit"
+
+#: inc/extras.php:423
+msgid "beer"
+msgstr "Bière"
+
+#: inc/extras.php:424
+msgid "behance"
+msgstr "behance"
+
+#: inc/extras.php:425
+msgid "behance-square"
+msgstr "behance-carré"
+
+#: inc/extras.php:426 inc/extras.php:427
+msgid "bell"
+msgstr "cloche"
+
+#: inc/extras.php:428 inc/extras.php:429
+msgid "bell-slash"
+msgstr "coup de cloche"
+
+#: inc/extras.php:430
+msgid "bicycle"
+msgstr "vélo"
+
+#: inc/extras.php:431
+msgid "bimobject"
+msgstr "objet bim"
+
+#: inc/extras.php:432
+msgid "binoculars"
+msgstr "jumelles"
+
+#: inc/extras.php:433
+msgid "birthday-cake"
+msgstr "gâteau d'anniversaire"
+
+#: inc/extras.php:434
+msgid "bitbucket"
+msgstr "bitbucket"
+
+#: inc/extras.php:435
+msgid "bitcoin"
+msgstr "bitcoins"
+
+#: inc/extras.php:436
+msgid "bity"
+msgstr "peu"
+
+#: inc/extras.php:437
+msgid "black-tie"
+msgstr "cravate noire"
+
+#: inc/extras.php:438
+msgid "blackberry"
+msgstr "mûre"
+
+#: inc/extras.php:439
+msgid "blind"
+msgstr "aveugle"
+
+#: inc/extras.php:440
+msgid "blogger"
+msgstr "blogueur"
+
+#: inc/extras.php:441
+msgid "blogger-b"
+msgstr "blogueur-b"
+
+#: inc/extras.php:442
+msgid "bluetooth"
+msgstr "Bluetooth"
+
+#: inc/extras.php:443
+msgid "bluetooth-b"
+msgstr "bluetooth-b"
+
+#: inc/extras.php:444
+msgid "bold"
+msgstr "audacieux"
+
+#: inc/extras.php:445
+msgid "bolt"
+msgstr "verrouiller"
+
+#: inc/extras.php:446
+msgid "bomb"
+msgstr "bombe"
+
+#: inc/extras.php:447
+msgid "book"
+msgstr "livre"
+
+#: inc/extras.php:448 inc/extras.php:449
+msgid "bookmark"
+msgstr "signet"
+
+#: inc/extras.php:450
+msgid "bowling-ball"
+msgstr "boule de bowling"
+
+#: inc/extras.php:451
+msgid "box"
+msgstr "boîte"
+
+#: inc/extras.php:452
+msgid "box-open"
+msgstr "boîte ouverte"
+
+#: inc/extras.php:453
+msgid "boxes"
+msgstr "des boites"
+
+#: inc/extras.php:454
+msgid "braille"
+msgstr "braille"
+
+#: inc/extras.php:455
+msgid "briefcase"
+msgstr "mallette"
+
+#: inc/extras.php:456
+msgid "briefcase-medical"
+msgstr "porte-documents-medical"
+
+#: inc/extras.php:457
+msgid "btc"
+msgstr "btc"
+
+#: inc/extras.php:458
+msgid "bug"
+msgstr "bogue"
+
+#: inc/extras.php:459 inc/extras.php:460
+msgid "building"
+msgstr "bâtiment"
+
+#: inc/extras.php:461
+msgid "bullhorn"
+msgstr "porte-voix"
+
+#: inc/extras.php:462
+msgid "bullseye"
+msgstr "œil de boeuf"
+
+#: inc/extras.php:463
+msgid "burn"
+msgstr "brûler"
+
+#: inc/extras.php:464
+msgid "buromobelexperte"
+msgstr "buromobelexperte"
+
+#: inc/extras.php:465
+msgid "bus"
+msgstr "autobus"
+
+#: inc/extras.php:466
+msgid "buysellads"
+msgstr "achetervendre"
+
+#: inc/extras.php:467
+msgid "calculator"
+msgstr "calculatrice"
+
+#: inc/extras.php:468 inc/extras.php:469
+msgid "calendar"
+msgstr "calendrier"
+
+#: inc/extras.php:470 inc/extras.php:471
+msgid "calendar-alt"
+msgstr "calendrier-alt"
+
+#: inc/extras.php:472 inc/extras.php:473
+msgid "calendar-check"
+msgstr "vérification du calendrier"
+
+#: inc/extras.php:474 inc/extras.php:475
+msgid "calendar-minus"
+msgstr "calendrier-moins"
+
+#: inc/extras.php:476 inc/extras.php:477
+msgid "calendar-plus"
+msgstr "calendrier-plus"
+
+#: inc/extras.php:478 inc/extras.php:479
+msgid "calendar-times"
+msgstr "calendrier-heures"
+
+#: inc/extras.php:480
+msgid "camera"
+msgstr "appareil photo"
+
+#: inc/extras.php:481
+msgid "camera-retro"
+msgstr "caméra-rétro"
+
+#: inc/extras.php:482
+msgid "capsules"
+msgstr "gélules"
+
+#: inc/extras.php:483
+msgid "car"
+msgstr "auto"
+
+#: inc/extras.php:484
+msgid "caret-down"
+msgstr "curseur vers le bas"
+
+#: inc/extras.php:485
+msgid "caret-left"
+msgstr "caret-gauche"
+
+#: inc/extras.php:486
+msgid "caret-right"
+msgstr "caret-droite"
+
+#: inc/extras.php:487 inc/extras.php:488
+msgid "caret-square-down"
+msgstr "caret-carré-vers le bas"
+
+#: inc/extras.php:489 inc/extras.php:490
+msgid "caret-square-left"
+msgstr "caret-carré-gauche"
+
+#: inc/extras.php:491 inc/extras.php:492
+msgid "caret-square-right"
+msgstr "caret-carré-droit"
+
+#: inc/extras.php:493 inc/extras.php:494
+msgid "caret-square-up"
+msgstr "caret carré"
+
+#: inc/extras.php:495
+msgid "caret-up"
+msgstr "caret-up"
+
+#: inc/extras.php:496
+msgid "cart-arrow-down"
+msgstr "panier-flèche-bas"
+
+#: inc/extras.php:497
+msgid "cart-plus"
+msgstr "chariot-plus"
+
+#: inc/extras.php:498
+msgid "cc-amazon-pay"
+msgstr "cc-amazon-payer"
+
+#: inc/extras.php:499
+msgid "cc-amex"
+msgstr "cc-amex"
+
+#: inc/extras.php:500
+msgid "cc-apple-pay"
+msgstr "cc-apple-pay"
+
+#: inc/extras.php:501
+msgid "cc-diners-club"
+msgstr "cc-diners-club"
+
+#: inc/extras.php:502
+msgid "cc-discover"
+msgstr "cc-découvrir"
+
+#: inc/extras.php:503
+msgid "cc-jcb"
+msgstr "cc-jcb"
+
+#: inc/extras.php:504
+msgid "cc-mastercard"
+msgstr "cc-mastercard"
+
+#: inc/extras.php:505
+msgid "cc-paypal"
+msgstr "cc-paypal"
+
+#: inc/extras.php:506
+msgid "cc-stripe"
+msgstr "cc-bande"
+
+#: inc/extras.php:507
+msgid "cc-visa"
+msgstr "cc-visa"
+
+#: inc/extras.php:508
+msgid "centercode"
+msgstr "code central"
+
+#: inc/extras.php:509
+msgid "certificate"
+msgstr "certificat"
+
+#: inc/extras.php:510
+msgid "chart-area"
+msgstr "zone graphique"
+
+#: inc/extras.php:511 inc/extras.php:512
+msgid "chart-bar"
+msgstr "barre graphique"
+
+#: inc/extras.php:513
+msgid "chart-line"
+msgstr "ligne de graphique"
+
+#: inc/extras.php:514
+msgid "chart-pie"
+msgstr "diagramme circulaire"
+
+#: inc/extras.php:515
+msgid "check"
+msgstr "Chèque"
+
+#: inc/extras.php:516 inc/extras.php:517
+msgid "check-circle"
+msgstr "cercle de contrôle"
+
+#: inc/extras.php:518 inc/extras.php:519
+msgid "check-square"
+msgstr "carré de contrôle"
+
+#: inc/extras.php:520
+msgid "chess"
+msgstr "échecs"
+
+#: inc/extras.php:521
+msgid "chess-bishop"
+msgstr "fou d'echec"
+
+#: inc/extras.php:522
+msgid "chess-board"
+msgstr "échiquier"
+
+#: inc/extras.php:523
+msgid "chess-king"
+msgstr "roi d'échecs"
+
+#: inc/extras.php:524
+msgid "chess-knight"
+msgstr "chevalier d'échecs"
+
+#: inc/extras.php:525
+msgid "chess-pawn"
+msgstr "pion aux échecs"
+
+#: inc/extras.php:526
+msgid "chess-queen"
+msgstr "reine des échecs"
+
+#: inc/extras.php:527
+msgid "chess-rook"
+msgstr "tour d'échecs"
+
+#: inc/extras.php:528
+msgid "chevron-circle-down"
+msgstr "chevron-cercle-vers le bas"
+
+#: inc/extras.php:529
+msgid "chevron-circle-left"
+msgstr "chevron-cercle-gauche"
+
+#: inc/extras.php:530
+msgid "chevron-circle-right"
+msgstr "chevron-cercle-droit"
+
+#: inc/extras.php:531
+msgid "chevron-circle-up"
+msgstr "chevron-cercle vers le haut"
+
+#: inc/extras.php:532
+msgid "chevron-down"
+msgstr "chevron vers le bas"
+
+#: inc/extras.php:533
+msgid "chevron-left"
+msgstr "chevron gauche"
+
+#: inc/extras.php:534
+msgid "chevron-right"
+msgstr "chevron droit"
+
+#: inc/extras.php:535
+msgid "chevron-up"
+msgstr "chevron vers le haut"
+
+#: inc/extras.php:536
+msgid "child"
+msgstr "enfant"
+
+#: inc/extras.php:537
+msgid "chrome"
+msgstr "chrome"
+
+#: inc/extras.php:538 inc/extras.php:539
+msgid "circle"
+msgstr "cercle"
+
+#: inc/extras.php:540
+msgid "circle-notch"
+msgstr "encoche circulaire"
+
+#: inc/extras.php:541 inc/extras.php:542
+msgid "clipboard"
+msgstr "presse-papiers"
+
+#: inc/extras.php:543
+msgid "clipboard-check"
+msgstr "vérification du presse-papiers"
+
+#: inc/extras.php:544
+msgid "clipboard-list"
+msgstr "presse-papiers-liste"
+
+#: inc/extras.php:545 inc/extras.php:546
+msgid "clock"
+msgstr "l'horloge"
+
+#: inc/extras.php:547 inc/extras.php:548
+msgid "clone"
+msgstr "cloner"
+
+#: inc/extras.php:549 inc/extras.php:550
+msgid "closed-captioning"
+msgstr "sous-titrage"
+
+#: inc/extras.php:551
+msgid "cloud"
+msgstr "nuage"
+
+#: inc/extras.php:552
+msgid "cloud-download-alt"
+msgstr "cloud-download-alt"
+
+#: inc/extras.php:553
+msgid "cloud-upload-alt"
+msgstr "cloud-upload-alt"
+
+#: inc/extras.php:554
+msgid "cloudscale"
+msgstr "à l'échelle des nuages"
+
+#: inc/extras.php:555
+msgid "cloudsmith"
+msgstr "forgeron"
+
+#: inc/extras.php:556
+msgid "cloudversify"
+msgstr "cloudversifier"
+
+#: inc/extras.php:557
+msgid "code"
+msgstr "code"
+
+#: inc/extras.php:558
+msgid "code-branch"
+msgstr "branche de code"
+
+#: inc/extras.php:559
+msgid "codepen"
+msgstr "codepen"
+
+#: inc/extras.php:560
+msgid "codiepie"
+msgstr "codepie"
+
+#: inc/extras.php:561
+msgid "coffee"
+msgstr "café"
+
+#: inc/extras.php:562
+msgid "cog"
+msgstr "dent"
+
+#: inc/extras.php:563
+msgid "cogs"
+msgstr "rouages"
+
+#: inc/extras.php:564
+msgid "columns"
+msgstr "Colonnes"
+
+#: inc/extras.php:565 inc/extras.php:566
+msgid "comment"
+msgstr "commenter"
+
+#: inc/extras.php:567 inc/extras.php:568
+msgid "comment-alt"
+msgstr "commentaire-alt"
+
+#: inc/extras.php:569
+msgid "comment-dots"
+msgstr "points de commentaire"
+
+#: inc/extras.php:570
+msgid "comment-slash"
+msgstr "barre oblique de commentaire"
+
+#: inc/extras.php:571 inc/extras.php:572
+msgid "comments"
+msgstr "commentaires"
+
+#: inc/extras.php:573 inc/extras.php:574
+msgid "compass"
+msgstr "boussole"
+
+#: inc/extras.php:575
+msgid "compress"
+msgstr "compresse"
+
+#: inc/extras.php:576
+msgid "connectdevelop"
+msgstr "connecterdévelopper"
+
+#: inc/extras.php:577
+msgid "contao"
+msgstr "contact"
+
+#: inc/extras.php:578 inc/extras.php:579
+msgid "copy"
+msgstr "copie"
+
+#: inc/extras.php:580 inc/extras.php:581
+msgid "copyright"
+msgstr "droits d'auteur"
+
+#: inc/extras.php:582
+msgid "couch"
+msgstr "canapé"
+
+#: inc/extras.php:583
+msgid "cpanel"
+msgstr "cpanel"
+
+#: inc/extras.php:584
+msgid "creative-commons"
+msgstr "creative-commons"
+
+#: inc/extras.php:585 inc/extras.php:586
+msgid "credit-card"
+msgstr "carte de crédit"
+
+#: inc/extras.php:587
+msgid "crop"
+msgstr "recadrer"
+
+#: inc/extras.php:588
+msgid "crosshairs"
+msgstr "réticule"
+
+#: inc/extras.php:589
+msgid "css3"
+msgstr "css3"
+
+#: inc/extras.php:590
+msgid "css3-alt"
+msgstr "css3-alt"
+
+#: inc/extras.php:591
+msgid "cube"
+msgstr "cube"
+
+#: inc/extras.php:592
+msgid "cubes"
+msgstr "cubes"
+
+#: inc/extras.php:593
+msgid "cut"
+msgstr "couper"
+
+#: inc/extras.php:594
+msgid "cuttlefish"
+msgstr "seiche"
+
+#: inc/extras.php:595
+msgid "d-and-d"
+msgstr "d-et-d"
+
+#: inc/extras.php:596
+msgid "dashcube"
+msgstr "tableau de bord"
+
+#: inc/extras.php:597
+msgid "database"
+msgstr "base de données"
+
+#: inc/extras.php:598
+msgid "deaf"
+msgstr "sourd"
+
+#: inc/extras.php:599
+msgid "delicious"
+msgstr "délicieuse"
+
+#: inc/extras.php:600
+msgid "deploydog"
+msgstr "déployerchien"
+
+#: inc/extras.php:601
+msgid "deskpro"
+msgstr "bureaupro"
+
+#: inc/extras.php:602
+msgid "desktop"
+msgstr "bureau"
+
+#: inc/extras.php:603
+msgid "deviantart"
+msgstr "déviantart"
+
+#: inc/extras.php:604
+msgid "diagnoses"
+msgstr "diagnostics"
+
+#: inc/extras.php:605
+msgid "digg"
+msgstr "creuser"
+
+#: inc/extras.php:606
+msgid "digital-ocean"
+msgstr "océan numérique"
+
+#: inc/extras.php:607
+msgid "discord"
+msgstr "discorde"
+
+#: inc/extras.php:608
+msgid "discourse"
+msgstr "discours"
+
+#: inc/extras.php:609
+msgid "dna"
+msgstr "adn"
+
+#: inc/extras.php:610
+msgid "dochub"
+msgstr "dochub"
+
+#: inc/extras.php:611
+msgid "docker"
+msgstr "docker"
+
+#: inc/extras.php:612
+msgid "dollar-sign"
+msgstr "signe dollar"
+
+#: inc/extras.php:613
+msgid "dolly"
+msgstr "chariot"
+
+#: inc/extras.php:614
+msgid "dolly-flatbed"
+msgstr "chariot à plat"
+
+#: inc/extras.php:615
+msgid "donate"
+msgstr "faire un don"
+
+#: inc/extras.php:616 inc/extras.php:617
+msgid "dot-circle"
+msgstr "point-cercle"
+
+#: inc/extras.php:618
+msgid "dove"
+msgstr "Colombe"
+
+#: inc/extras.php:619
+msgid "download"
+msgstr "Télécharger"
+
+#: inc/extras.php:620
+msgid "draft2digital"
+msgstr "brouillon2numérique"
+
+#: inc/extras.php:621
+msgid "dribbble"
+msgstr "dribbler"
+
+#: inc/extras.php:622
+msgid "dribbble-square"
+msgstr "dribble-carré"
+
+#: inc/extras.php:623
+msgid "dropbox"
+msgstr "boîte de dépôt"
+
+#: inc/extras.php:624
+msgid "drupal"
+msgstr "drupe"
+
+#: inc/extras.php:625
+msgid "dyalog"
+msgstr "dialogue"
+
+#: inc/extras.php:626
+msgid "earlybirds"
+msgstr "les lève-tôt"
+
+#: inc/extras.php:627
+msgid "edge"
+msgstr "bord"
+
+#: inc/extras.php:628 inc/extras.php:629
+msgid "edit"
+msgstr "Éditer"
+
+#: inc/extras.php:630
+msgid "eject"
+msgstr "éjecter"
+
+#: inc/extras.php:631
+msgid "elementor"
+msgstr "élémentor"
+
+#: inc/extras.php:632
+msgid "ellipsis-h"
+msgstr "ellipse-h"
+
+#: inc/extras.php:633
+msgid "ellipsis-v"
+msgstr "points de suspension-v"
+
+#: inc/extras.php:634
+msgid "ember"
+msgstr "braise"
+
+#: inc/extras.php:635
+msgid "empire"
+msgstr "Empire"
+
+#: inc/extras.php:636 inc/extras.php:637
+msgid "envelope"
+msgstr "enveloppe"
+
+#: inc/extras.php:638 inc/extras.php:639
+msgid "envelope-open"
+msgstr "enveloppe ouverte"
+
+#: inc/extras.php:640
+msgid "envelope-square"
+msgstr "enveloppe-carré"
+
+#: inc/extras.php:641
+msgid "envira"
+msgstr "envira"
+
+#: inc/extras.php:642
+msgid "eraser"
+msgstr "la gomme"
+
+#: inc/extras.php:643
+msgid "erlang"
+msgstr "erlang"
+
+#: inc/extras.php:644
+msgid "ethereum"
+msgstr "éthéré"
+
+#: inc/extras.php:645
+msgid "etsy"
+msgstr "etsy"
+
+#: inc/extras.php:646
+msgid "euro-sign"
+msgstr "signe euro"
+
+#: inc/extras.php:647
+msgid "exchange-alt"
+msgstr "échange-alt"
+
+#: inc/extras.php:648
+msgid "exclamation"
+msgstr "exclamation"
+
+#: inc/extras.php:649
+msgid "exclamation-circle"
+msgstr "cercle d'exclamation"
+
+#: inc/extras.php:650
+msgid "exclamation-triangle"
+msgstr "triangle d'exclamation"
+
+#: inc/extras.php:651
+msgid "expand"
+msgstr "développer"
+
+#: inc/extras.php:652
+msgid "expand-arrows-alt"
+msgstr "développer-flèches-alt"
+
+#: inc/extras.php:653
+msgid "expeditedssl"
+msgstr "SSL accéléré"
+
+#: inc/extras.php:654
+msgid "external-link-alt"
+msgstr "lien externe-alt"
+
+#: inc/extras.php:655
+msgid "external-link-square-alt"
+msgstr "lien-externe-carré-alt"
+
+#: inc/extras.php:656
+msgid "eye"
+msgstr "œil"
+
+#: inc/extras.php:657
+msgid "eye-dropper"
+msgstr "compte-gouttes"
+
+#: inc/extras.php:658 inc/extras.php:659
+msgid "eye-slash"
+msgstr "barre oblique"
+
+#: inc/extras.php:660
+msgid "facebook"
+msgstr "Facebook"
+
+#: inc/extras.php:661
+msgid "facebook-f"
+msgstr "facebook-f"
+
+#: inc/extras.php:662
+msgid "facebook-messenger"
+msgstr "Facebook Messenger"
+
+#: inc/extras.php:663
+msgid "facebook-square"
+msgstr "carré facebook"
+
+#: inc/extras.php:664
+msgid "fast-backward"
+msgstr "retour rapide"
+
+#: inc/extras.php:665
+msgid "fast-forward"
+msgstr "avance rapide"
+
+#: inc/extras.php:666
+msgid "fax"
+msgstr "fax"
+
+#: inc/extras.php:667
+msgid "female"
+msgstr "Femme"
+
+#: inc/extras.php:668
+msgid "fighter-jet"
+msgstr "avion de chasse"
+
+#: inc/extras.php:669 inc/extras.php:670
+msgid "file"
+msgstr "fichier"
+
+#: inc/extras.php:671 inc/extras.php:672
+msgid "file-alt"
+msgstr "fichier-alt"
+
+#: inc/extras.php:673 inc/extras.php:674
+msgid "file-archive"
+msgstr "fichier-archive"
+
+#: inc/extras.php:675 inc/extras.php:676
+msgid "file-audio"
+msgstr "fichier-audio"
+
+#: inc/extras.php:677 inc/extras.php:678
+msgid "file-code"
+msgstr "code-fichier"
+
+#: inc/extras.php:679 inc/extras.php:680
+msgid "file-excel"
+msgstr "fichier-excel"
+
+#: inc/extras.php:681 inc/extras.php:682
+msgid "file-image"
+msgstr "fichier-image"
+
+#: inc/extras.php:683
+msgid "file-medical"
+msgstr "dossier-medical"
+
+#: inc/extras.php:684
+msgid "file-medical-alt"
+msgstr "fichier-medical-alt"
+
+#: inc/extras.php:685 inc/extras.php:686
+msgid "file-pdf"
+msgstr "fichier-pdf"
+
+#: inc/extras.php:687 inc/extras.php:688
+msgid "file-powerpoint"
+msgstr "fichier-powerpoint"
+
+#: inc/extras.php:689 inc/extras.php:690
+msgid "file-video"
+msgstr "fichier-vidéo"
+
+#: inc/extras.php:691 inc/extras.php:692
+msgid "file-word"
+msgstr "mot-fichier"
+
+#: inc/extras.php:693
+msgid "film"
+msgstr "film"
+
+#: inc/extras.php:694
+msgid "filter"
+msgstr "filtre"
+
+#: inc/extras.php:695
+msgid "fire"
+msgstr "Feu"
+
+#: inc/extras.php:696
+msgid "fire-extinguisher"
+msgstr "extincteur d'incendie"
+
+#: inc/extras.php:697
+msgid "firefox"
+msgstr "Firefox"
+
+#: inc/extras.php:698
+msgid "first-aid"
+msgstr "premiers secours"
+
+#: inc/extras.php:699
+msgid "first-order"
+msgstr "Premier ordre"
+
+#: inc/extras.php:700
+msgid "firstdraft"
+msgstr "premier essai"
+
+#: inc/extras.php:701 inc/extras.php:702
+msgid "flag"
+msgstr "drapeau"
+
+#: inc/extras.php:703
+msgid "flag-checkered"
+msgstr "drapeau à damier"
+
+#: inc/extras.php:704
+msgid "flask"
+msgstr "ballon"
+
+#: inc/extras.php:705
+msgid "flickr"
+msgstr "flickr"
+
+#: inc/extras.php:706
+msgid "flipboard"
+msgstr "flipboard"
+
+#: inc/extras.php:707
+msgid "fly"
+msgstr "voler"
+
+#: inc/extras.php:708 inc/extras.php:709
+msgid "folder"
+msgstr "dossier"
+
+#: inc/extras.php:710 inc/extras.php:711
+msgid "folder-open"
+msgstr "dossier ouvert"
+
+#: inc/extras.php:712
+msgid "font"
+msgstr "Police de caractère"
+
+#: inc/extras.php:713
+msgid "font-awesome"
+msgstr "police-impressionnant"
+
+#: inc/extras.php:714
+msgid "font-awesome-alt"
+msgstr "font-awesome-alt"
+
+#: inc/extras.php:715
+msgid "font-awesome-flag"
+msgstr "font-awesome-drapeau"
+
+#: inc/extras.php:716
+msgid "fonticons"
+msgstr "fonticons"
+
+#: inc/extras.php:717
+msgid "fonticons-fi"
+msgstr "fonticons-fi"
+
+#: inc/extras.php:718
+msgid "football-ball"
+msgstr "ballon de football"
+
+#: inc/extras.php:719
+msgid "fort-awesome"
+msgstr "fort-génial"
+
+#: inc/extras.php:720
+msgid "fort-awesome-alt"
+msgstr "fort-awesome-alt"
+
+#: inc/extras.php:721
+msgid "forumbee"
+msgstr "forumbee"
+
+#: inc/extras.php:722
+msgid "forward"
+msgstr "effronté"
+
+#: inc/extras.php:723
+msgid "foursquare"
+msgstr "carré"
+
+#: inc/extras.php:724
+msgid "free-code-camp"
+msgstr "camp de code gratuit"
+
+#: inc/extras.php:725
+msgid "freebsd"
+msgstr "freebsd"
+
+#: inc/extras.php:726 inc/extras.php:727
+msgid "frown"
+msgstr "froncer les sourcils"
+
+#: inc/extras.php:728 inc/extras.php:729
+msgid "futbol"
+msgstr "futbol"
+
+#: inc/extras.php:730
+msgid "gamepad"
+msgstr "manette de jeu"
+
+#: inc/extras.php:731
+msgid "gavel"
+msgstr "marteau"
+
+#: inc/extras.php:732 inc/extras.php:733
+msgid "gem"
+msgstr "gemme"
+
+#: inc/extras.php:734
+msgid "genderless"
+msgstr "asexué"
+
+#: inc/extras.php:735
+msgid "get-pocket"
+msgstr "faire la poche"
+
+#: inc/extras.php:736
+msgid "gg"
+msgstr "gg"
+
+#: inc/extras.php:737
+msgid "gg-circle"
+msgstr "gg-cercle"
+
+#: inc/extras.php:738
+msgid "gift"
+msgstr "cadeau"
+
+#: inc/extras.php:739
+msgid "git"
+msgstr "git"
+
+#: inc/extras.php:740
+msgid "git-square"
+msgstr "git-carré"
+
+#: inc/extras.php:741
+msgid "github"
+msgstr "github"
+
+#: inc/extras.php:742
+msgid "github-alt"
+msgstr "github-alt"
+
+#: inc/extras.php:743
+msgid "github-square"
+msgstr "github-carré"
+
+#: inc/extras.php:744
+msgid "gitkraken"
+msgstr "gitkraken"
+
+#: inc/extras.php:745
+msgid "gitlab"
+msgstr "gitlab"
+
+#: inc/extras.php:746
+msgid "gitter"
+msgstr "gitter"
+
+#: inc/extras.php:747
+msgid "glass-martini"
+msgstr "verre-martini"
+
+#: inc/extras.php:748
+msgid "glide"
+msgstr "glisser"
+
+#: inc/extras.php:749
+msgid "glide-g"
+msgstr "glisse-g"
+
+#: inc/extras.php:750
+msgid "globe"
+msgstr "globe"
+
+#: inc/extras.php:751
+msgid "gofore"
+msgstr "allez-y"
+
+#: inc/extras.php:752
+msgid "golf-ball"
+msgstr "balle de golf"
+
+#: inc/extras.php:753
+msgid "goodreads"
+msgstr "bonnes lectures"
+
+#: inc/extras.php:754
+msgid "goodreads-g"
+msgstr "bonnes lectures-g"
+
+#: inc/extras.php:755
+msgid "google"
+msgstr "Google"
+
+#: inc/extras.php:756
+msgid "google-drive"
+msgstr "Google Drive"
+
+#: inc/extras.php:757
+msgid "google-play"
+msgstr "jeu de Google"
+
+#: inc/extras.php:758
+msgid "google-plus"
+msgstr "Google Plus"
+
+#: inc/extras.php:759
+msgid "google-plus-g"
+msgstr "google-plus-g"
+
+#: inc/extras.php:760
+msgid "google-plus-square"
+msgstr "google-plus-square"
+
+#: inc/extras.php:761
+msgid "google-wallet"
+msgstr "portefeuille Google"
+
+#: inc/extras.php:762
+msgid "graduation-cap"
+msgstr "bonnet de graduation"
+
+#: inc/extras.php:763
+msgid "gratipay"
+msgstr "à titre gracieux"
+
+#: inc/extras.php:764
+msgid "grav"
+msgstr "grave"
+
+#: inc/extras.php:765
+msgid "gripfire"
+msgstr "poignée de feu"
+
+#: inc/extras.php:766
+msgid "grunt"
+msgstr "grognement"
+
+#: inc/extras.php:767
+msgid "gulp"
+msgstr "gorgée"
+
+#: inc/extras.php:768
+msgid "h-square"
+msgstr "h-carré"
+
+#: inc/extras.php:769
+msgid "hacker-news"
+msgstr "hacker-news"
+
+#: inc/extras.php:770
+msgid "hacker-news-square"
+msgstr "hacker-news-square"
+
+#: inc/extras.php:771
+msgid "hand-holding"
+msgstr "se tenir la main"
+
+#: inc/extras.php:772
+msgid "hand-holding-heart"
+msgstr "coeur qui tient la main"
+
+#: inc/extras.php:773
+msgid "hand-holding-usd"
+msgstr "main-tenant-usd"
+
+#: inc/extras.php:774 inc/extras.php:775
+msgid "hand-lizard"
+msgstr "main-lézard"
+
+#: inc/extras.php:776 inc/extras.php:777
+msgid "hand-paper"
+msgstr "papier à main"
+
+#: inc/extras.php:778 inc/extras.php:779
+msgid "hand-peace"
+msgstr "main-paix"
+
+#: inc/extras.php:780 inc/extras.php:781
+msgid "hand-point-down"
+msgstr "main pointée vers le bas"
+
+#: inc/extras.php:782 inc/extras.php:783
+msgid "hand-point-left"
+msgstr "main-pointe-gauche"
+
+#: inc/extras.php:784 inc/extras.php:785
+msgid "hand-point-right"
+msgstr "main-pointe-droite"
+
+#: inc/extras.php:786 inc/extras.php:787
+msgid "hand-point-up"
+msgstr "main pointée vers le haut"
+
+#: inc/extras.php:788 inc/extras.php:789
+msgid "hand-pointer"
+msgstr "pointeur de la main"
+
+#: inc/extras.php:790 inc/extras.php:791
+msgid "hand-rock"
+msgstr "rock à la main"
+
+#: inc/extras.php:792 inc/extras.php:793
+msgid "hand-scissors"
+msgstr "ciseaux à main"
+
+#: inc/extras.php:794 inc/extras.php:795
+msgid "hand-spock"
+msgstr "hand-spock"
+
+#: inc/extras.php:796
+msgid "hands"
+msgstr "mains"
+
+#: inc/extras.php:797
+msgid "hands-helping"
+msgstr "coup de main"
+
+#: inc/extras.php:798 inc/extras.php:799
+msgid "handshake"
+msgstr "poignée de main"
+
+#: inc/extras.php:800
+msgid "hashtag"
+msgstr "hashtag"
+
+#: inc/extras.php:801 inc/extras.php:802
+msgid "hdd"
+msgstr "disque dur"
+
+#: inc/extras.php:803
+msgid "heading"
+msgstr "titre"
+
+#: inc/extras.php:804
+msgid "headphones"
+msgstr "écouteurs"
+
+#: inc/extras.php:805 inc/extras.php:806
+msgid "heart"
+msgstr "cœur"
+
+#: inc/extras.php:807
+msgid "heartbeat"
+msgstr "battement de coeur"
+
+#: inc/extras.php:808
+msgid "hips"
+msgstr "hanches"
+
+#: inc/extras.php:809
+msgid "hire-a-helper"
+msgstr "embaucher un assistant"
+
+#: inc/extras.php:810
+msgid "history"
+msgstr "l'histoire"
+
+#: inc/extras.php:811
+msgid "hockey-puck"
+msgstr "rondelle de hockey"
+
+#: inc/extras.php:812
+msgid "home"
+msgstr "domicile"
+
+#: inc/extras.php:813
+msgid "hooli"
+msgstr "houli"
+
+#: inc/extras.php:814 inc/extras.php:815
+msgid "hospital"
+msgstr "hôpital"
+
+#: inc/extras.php:816
+msgid "hospital-alt"
+msgstr "hôpital-alt"
+
+#: inc/extras.php:817
+msgid "hospital-symbol"
+msgstr "symbole-hôpital"
+
+#: inc/extras.php:818
+msgid "hotjar"
+msgstr "hotjar"
+
+#: inc/extras.php:819 inc/extras.php:820
+msgid "hourglass"
+msgstr "Sablier"
+
+#: inc/extras.php:821
+msgid "hourglass-end"
+msgstr "bout de sablier"
+
+#: inc/extras.php:822
+msgid "hourglass-half"
+msgstr "demi-sablier"
+
+#: inc/extras.php:823
+msgid "hourglass-start"
+msgstr "début de sablier"
+
+#: inc/extras.php:824
+msgid "houzz"
+msgstr "houzz"
+
+#: inc/extras.php:825
+msgid "html5"
+msgstr "html5"
+
+#: inc/extras.php:826
+msgid "hubspot"
+msgstr "hubspot"
+
+#: inc/extras.php:827
+msgid "i-cursor"
+msgstr "i-curseur"
+
+#: inc/extras.php:828 inc/extras.php:829
+msgid "id-badge"
+msgstr "badge d'identité"
+
+#: inc/extras.php:830 inc/extras.php:831
+msgid "id-card"
+msgstr "Carte d'identité"
+
+#: inc/extras.php:832
+msgid "id-card-alt"
+msgstr "carte-d-identité-alt"
+
+#: inc/extras.php:833 inc/extras.php:834
+msgid "image"
+msgstr "image"
+
+#: inc/extras.php:835 inc/extras.php:836
+msgid "images"
+msgstr "images"
+
+#: inc/extras.php:837
+msgid "imdb"
+msgstr "imdb"
+
+#: inc/extras.php:838
+msgid "inbox"
+msgstr "boîte de réception"
+
+#: inc/extras.php:839
+msgid "indent"
+msgstr "retrait"
+
+#: inc/extras.php:840
+msgid "industry"
+msgstr "industrie"
+
+#: inc/extras.php:841
+msgid "info"
+msgstr "Info"
+
+#: inc/extras.php:842
+msgid "info-circle"
+msgstr "cercle d'info"
+
+#: inc/extras.php:843
+msgid "instagram"
+msgstr "Instagram"
+
+#: inc/extras.php:844
+msgid "internet-explorer"
+msgstr "Internet Explorer"
+
+#: inc/extras.php:845
+msgid "ioxhost"
+msgstr "ioxhost"
+
+#: inc/extras.php:846
+msgid "italic"
+msgstr "italique"
+
+#: inc/extras.php:847
+msgid "itunes"
+msgstr "iTunes"
+
+#: inc/extras.php:848
+msgid "itunes-note"
+msgstr "note itunes"
+
+#: inc/extras.php:849
+msgid "java"
+msgstr "Java"
+
+#: inc/extras.php:850
+msgid "jenkins"
+msgstr "jenkins"
+
+#: inc/extras.php:851
+msgid "joget"
+msgstr "Joget"
+
+#: inc/extras.php:852
+msgid "joomla"
+msgstr "joomla"
+
+#: inc/extras.php:853
+msgid "js"
+msgstr "js"
+
+#: inc/extras.php:854
+msgid "js-square"
+msgstr "js-carré"
+
+#: inc/extras.php:855
+msgid "jsfiddle"
+msgstr "jsviolon"
+
+#: inc/extras.php:856
+msgid "key"
+msgstr "clé"
+
+#: inc/extras.php:857 inc/extras.php:858
+msgid "keyboard"
+msgstr "clavier"
+
+#: inc/extras.php:859
+msgid "keycdn"
+msgstr "keycdn"
+
+#: inc/extras.php:860
+msgid "kickstarter"
+msgstr "démarreur"
+
+#: inc/extras.php:861
+msgid "kickstarter-k"
+msgstr "kickstarter-k"
+
+#: inc/extras.php:862
+msgid "korvue"
+msgstr "korvue"
+
+#: inc/extras.php:863
+msgid "language"
+msgstr "Langue"
+
+#: inc/extras.php:864
+msgid "laptop"
+msgstr "portable"
+
+#: inc/extras.php:865
+msgid "laravel"
+msgstr "Laravel"
+
+#: inc/extras.php:866
+msgid "lastfm"
+msgstr "lastfm"
+
+#: inc/extras.php:867
+msgid "lastfm-square"
+msgstr "lastfm-carré"
+
+#: inc/extras.php:868
+msgid "leaf"
+msgstr "feuille"
+
+#: inc/extras.php:869
+msgid "leanpub"
+msgstr "pub maigre"
+
+#: inc/extras.php:870 inc/extras.php:871
+msgid "lemon"
+msgstr "citron"
+
+#: inc/extras.php:872
+msgid "less"
+msgstr "moins"
+
+#: inc/extras.php:873
+msgid "level-down-alt"
+msgstr "niveau bas-alt"
+
+#: inc/extras.php:874
+msgid "level-up-alt"
+msgstr "niveau supérieur"
+
+#: inc/extras.php:875 inc/extras.php:876
+msgid "life-ring"
+msgstr "Bouee de sauvetage"
+
+#: inc/extras.php:877 inc/extras.php:878
+msgid "lightbulb"
+msgstr "ampoule"
+
+#: inc/extras.php:879
+msgid "line"
+msgstr "ligne"
+
+#: inc/extras.php:880
+msgid "link"
+msgstr "lien"
+
+#: inc/extras.php:881
+msgid "linkedin"
+msgstr "LinkedIn"
+
+#: inc/extras.php:882
+msgid "linkedin-in"
+msgstr "LinkedIn"
+
+#: inc/extras.php:883
+msgid "linode"
+msgstr "linode"
+
+#: inc/extras.php:884
+msgid "linux"
+msgstr "linux"
+
+#: inc/extras.php:885
+msgid "lira-sign"
+msgstr "signe-lire"
+
+#: inc/extras.php:886
+msgid "list"
+msgstr "liste"
+
+#: inc/extras.php:887 inc/extras.php:888
+msgid "list-alt"
+msgstr "liste-alt"
+
+#: inc/extras.php:889
+msgid "list-ol"
+msgstr "liste-ol"
+
+#: inc/extras.php:890
+msgid "list-ul"
+msgstr "liste-ul"
+
+#: inc/extras.php:891
+msgid "location-arrow"
+msgstr "emplacement-flèche"
+
+#: inc/extras.php:892
+msgid "lock"
+msgstr "fermer à clé"
+
+#: inc/extras.php:893
+msgid "lock-open"
+msgstr "serrure ouverte"
+
+#: inc/extras.php:894
+msgid "long-arrow-alt-down"
+msgstr "longue-flèche-alt-bas"
+
+#: inc/extras.php:895
+msgid "long-arrow-alt-left"
+msgstr "flèche longue-alt-gauche"
+
+#: inc/extras.php:896
+msgid "long-arrow-alt-right"
+msgstr "longue-flèche-alt-droite"
+
+#: inc/extras.php:897
+msgid "long-arrow-alt-up"
+msgstr "flèche longue-alt-up"
+
+#: inc/extras.php:898
+msgid "low-vision"
+msgstr "basse vision"
+
+#: inc/extras.php:899
+msgid "lyft"
+msgstr "léger"
+
+#: inc/extras.php:900
+msgid "magento"
+msgstr "magento"
+
+#: inc/extras.php:901
+msgid "magic"
+msgstr "la magie"
+
+#: inc/extras.php:902
+msgid "magnet"
+msgstr "aimant"
+
+#: inc/extras.php:903
+msgid "male"
+msgstr "Masculin"
+
+#: inc/extras.php:904 inc/extras.php:905
+msgid "map"
+msgstr "carte"
+
+#: inc/extras.php:906
+msgid "map-marker"
+msgstr "marqueur de carte"
+
+#: inc/extras.php:907
+msgid "map-marker-alt"
+msgstr "map-marker-alt"
+
+#: inc/extras.php:908
+msgid "map-pin"
+msgstr "broche de carte"
+
+#: inc/extras.php:909
+msgid "map-signs"
+msgstr "carte-signes"
+
+#: inc/extras.php:910
+msgid "mars"
+msgstr "Mars"
+
+#: inc/extras.php:911
+msgid "mars-double"
+msgstr "mars-double"
+
+#: inc/extras.php:912
+msgid "mars-stroke"
+msgstr "coup de mars"
+
+#: inc/extras.php:913
+msgid "mars-stroke-h"
+msgstr "Mars-AVC-h"
+
+#: inc/extras.php:914
+msgid "mars-stroke-v"
+msgstr "Mars-AVC-v"
+
+#: inc/extras.php:915
+msgid "maxcdn"
+msgstr "maxcdn"
+
+#: inc/extras.php:916
+msgid "medapps"
+msgstr "applications médicales"
+
+#: inc/extras.php:917
+msgid "medium"
+msgstr "moyen"
+
+#: inc/extras.php:918
+msgid "medium-m"
+msgstr "moyen-m"
+
+#: inc/extras.php:919
+msgid "medkit"
+msgstr "trousse médicale"
+
+#: inc/extras.php:920
+msgid "medrt"
+msgstr "médecin"
+
+#: inc/extras.php:921
+msgid "meetup"
+msgstr "se rencontrer"
+
+#: inc/extras.php:922 inc/extras.php:923
+msgid "meh"
+msgstr "meh"
+
+#: inc/extras.php:924
+msgid "mercury"
+msgstr "Mercure"
+
+#: inc/extras.php:925
+msgid "microchip"
+msgstr "puce électronique"
+
+#: inc/extras.php:926
+msgid "microphone"
+msgstr "microphone"
+
+#: inc/extras.php:927
+msgid "microphone-slash"
+msgstr "micro-slash"
+
+#: inc/extras.php:928
+msgid "microsoft"
+msgstr "Microsoft"
+
+#: inc/extras.php:929
+msgid "minus"
+msgstr "moins"
+
+#: inc/extras.php:930
+msgid "minus-circle"
+msgstr "cercle moins"
+
+#: inc/extras.php:931 inc/extras.php:932
+msgid "minus-square"
+msgstr "moins-carré"
+
+#: inc/extras.php:933
+msgid "mix"
+msgstr "mélanger"
+
+#: inc/extras.php:934
+msgid "mixcloud"
+msgstr "mixcloud"
+
+#: inc/extras.php:935
+msgid "mizuni"
+msgstr "mizuni"
+
+#: inc/extras.php:936
+msgid "mobile"
+msgstr "mobile"
+
+#: inc/extras.php:937
+msgid "mobile-alt"
+msgstr "mobile-alt"
+
+#: inc/extras.php:938
+msgid "modx"
+msgstr "modx"
+
+#: inc/extras.php:939
+msgid "monero"
+msgstr "monéro"
+
+#: inc/extras.php:940 inc/extras.php:941
+msgid "money-bill-alt"
+msgstr "money-bill-alt"
+
+#: inc/extras.php:942 inc/extras.php:943
+msgid "moon"
+msgstr "lune"
+
+#: inc/extras.php:944
+msgid "motorcycle"
+msgstr "moto"
+
+#: inc/extras.php:945
+msgid "mouse-pointer"
+msgstr "pointeur de la souris"
+
+#: inc/extras.php:946
+msgid "music"
+msgstr "la musique"
+
+#: inc/extras.php:947
+msgid "napster"
+msgstr "Napster"
+
+#: inc/extras.php:948
+msgid "neuter"
+msgstr "neutre"
+
+#: inc/extras.php:949 inc/extras.php:950
+msgid "newspaper"
+msgstr "un journal"
+
+#: inc/extras.php:951
+msgid "nintendo-switch"
+msgstr "nintendo-switch"
+
+#: inc/extras.php:952
+msgid "node"
+msgstr "nœud"
+
+#: inc/extras.php:953
+msgid "node-js"
+msgstr "nœud-js"
+
+#: inc/extras.php:954
+msgid "notes-medical"
+msgstr "notes-médicales"
+
+#: inc/extras.php:955
+msgid "npm"
+msgstr "npm"
+
+#: inc/extras.php:956
+msgid "ns8"
+msgstr "ns8"
+
+#: inc/extras.php:957
+msgid "nutritionix"
+msgstr "nutritionix"
+
+#: inc/extras.php:958 inc/extras.php:959
+msgid "object-group"
+msgstr "groupe d'objets"
+
+#: inc/extras.php:960 inc/extras.php:961
+msgid "object-ungroup"
+msgstr "dissocier un objet"
+
+#: inc/extras.php:962
+msgid "odnoklassniki"
+msgstr "odnoklassniki"
+
+#: inc/extras.php:963
+msgid "odnoklassniki-square"
+msgstr "place odnoklassniki"
+
+#: inc/extras.php:964
+msgid "opencart"
+msgstr "opencart"
+
+#: inc/extras.php:965
+msgid "openid"
+msgstr "ID ouvert"
+
+#: inc/extras.php:966
+msgid "opera"
+msgstr "opéra"
+
+#: inc/extras.php:967
+msgid "optin-monster"
+msgstr "optin-monstre"
+
+#: inc/extras.php:968
+msgid "osi"
+msgstr "osi"
+
+#: inc/extras.php:969
+msgid "outdent"
+msgstr "retrait"
+
+#: inc/extras.php:970
+msgid "page4"
+msgstr "page4"
+
+#: inc/extras.php:971
+msgid "pagelines"
+msgstr "lignes de page"
+
+#: inc/extras.php:972
+msgid "paint-brush"
+msgstr "pinceau"
+
+#: inc/extras.php:973
+msgid "palfed"
+msgstr "palfé"
+
+#: inc/extras.php:974
+msgid "pallet"
+msgstr "palette"
+
+#: inc/extras.php:975 inc/extras.php:976
+msgid "paper-plane"
+msgstr "avion en papier"
+
+#: inc/extras.php:977
+msgid "paperclip"
+msgstr "trombone"
+
+#: inc/extras.php:978
+msgid "parachute-box"
+msgstr "boîte-parachute"
+
+#: inc/extras.php:979
+msgid "paragraph"
+msgstr "paragraphe"
+
+#: inc/extras.php:980
+msgid "paste"
+msgstr "pâte"
+
+#: inc/extras.php:981
+msgid "patreon"
+msgstr "pateron"
+
+#: inc/extras.php:982
+msgid "pause"
+msgstr "pause"
+
+#: inc/extras.php:983 inc/extras.php:984
+msgid "pause-circle"
+msgstr "pause-cercle"
+
+#: inc/extras.php:985
+msgid "paw"
+msgstr "patte"
+
+#: inc/extras.php:986
+msgid "paypal"
+msgstr "Pay Pal"
+
+#: inc/extras.php:987
+msgid "pen-square"
+msgstr "stylo carré"
+
+#: inc/extras.php:988
+msgid "pencil-alt"
+msgstr "crayon-alt"
+
+#: inc/extras.php:989
+msgid "people-carry"
+msgstr "transport de personnes"
+
+#: inc/extras.php:990
+msgid "percent"
+msgstr "pour cent"
+
+#: inc/extras.php:991
+msgid "periscope"
+msgstr "périscope"
+
+#: inc/extras.php:992
+msgid "phabricator"
+msgstr "phabricateur"
+
+#: inc/extras.php:993
+msgid "phoenix-framework"
+msgstr "cadre-phoenix"
+
+#: inc/extras.php:994
+msgid "phone"
+msgstr "téléphoner"
+
+#: inc/extras.php:995
+msgid "phone-slash"
+msgstr "coup de téléphone"
+
+#: inc/extras.php:996
+msgid "phone-square"
+msgstr "téléphone-carré"
+
+#: inc/extras.php:997
+msgid "phone-volume"
+msgstr "volume du téléphone"
+
+#: inc/extras.php:998
+msgid "php"
+msgstr "php"
+
+#: inc/extras.php:999
+msgid "pied-piper"
+msgstr "joueur de flûte"
+
+#: inc/extras.php:1000
+msgid "pied-piper-alt"
+msgstr "joueur de flûte-alt"
+
+#: inc/extras.php:1001
+msgid "pied-piper-hat"
+msgstr "chapeau de joueur de flûte"
+
+#: inc/extras.php:1002
+msgid "pied-piper-pp"
+msgstr "joueur de flûte-pp"
+
+#: inc/extras.php:1003
+msgid "piggy-bank"
+msgstr "tirelire"
+
+#: inc/extras.php:1004
+msgid "pills"
+msgstr "pilules"
+
+#: inc/extras.php:1005
+msgid "pinterest"
+msgstr "pinterest"
+
+#: inc/extras.php:1006
+msgid "pinterest-p"
+msgstr "pinterest-p"
+
+#: inc/extras.php:1007
+msgid "pinterest-square"
+msgstr "carré-pinterest"
+
+#: inc/extras.php:1008
+msgid "plane"
+msgstr "avion"
+
+#: inc/extras.php:1009
+msgid "play"
+msgstr "jouer"
+
+#: inc/extras.php:1010 inc/extras.php:1011
+msgid "play-circle"
+msgstr "cercle de jeu"
+
+#: inc/extras.php:1012
+msgid "playstation"
+msgstr "station de jeu"
+
+#: inc/extras.php:1013
+msgid "plug"
+msgstr "brancher"
+
+#: inc/extras.php:1014
+msgid "plus"
+msgstr "plus"
+
+#: inc/extras.php:1015
+msgid "plus-circle"
+msgstr "plus-cercle"
+
+#: inc/extras.php:1016 inc/extras.php:1017
+msgid "plus-square"
+msgstr "plus-carré"
+
+#: inc/extras.php:1018
+msgid "podcast"
+msgstr "Podcast"
+
+#: inc/extras.php:1019
+msgid "poo"
+msgstr "caca"
+
+#: inc/extras.php:1020
+msgid "pound-sign"
+msgstr "signe dièse"
+
+#: inc/extras.php:1021
+msgid "power-off"
+msgstr "éteindre"
+
+#: inc/extras.php:1022
+msgid "prescription-bottle"
+msgstr "bouteille d'ordonnance"
+
+#: inc/extras.php:1023
+msgid "prescription-bottle-alt"
+msgstr "prescription-bouteille-alt"
+
+#: inc/extras.php:1024
+msgid "print"
+msgstr "impression"
+
+#: inc/extras.php:1025
+msgid "procedures"
+msgstr "procédures"
+
+#: inc/extras.php:1026
+msgid "product-hunt"
+msgstr "chasse aux produits"
+
+#: inc/extras.php:1027
+msgid "pushed"
+msgstr "poussé"
+
+#: inc/extras.php:1028
+msgid "puzzle-piece"
+msgstr "pièce de puzzle"
+
+#: inc/extras.php:1029
+msgid "python"
+msgstr "python"
+
+#: inc/extras.php:1030
+msgid "qq"
+msgstr "qq"
+
+#: inc/extras.php:1031
+msgid "qrcode"
+msgstr "QR Code"
+
+#: inc/extras.php:1032
+msgid "question"
+msgstr "question"
+
+#: inc/extras.php:1033 inc/extras.php:1034
+msgid "question-circle"
+msgstr "cercle de questions"
+
+#: inc/extras.php:1035
+msgid "quidditch"
+msgstr "quidditch"
+
+#: inc/extras.php:1036
+msgid "quinscape"
+msgstr "quinscape"
+
+#: inc/extras.php:1037
+msgid "quora"
+msgstr "quora"
+
+#: inc/extras.php:1038
+msgid "quote-left"
+msgstr "citation-gauche"
+
+#: inc/extras.php:1039
+msgid "quote-right"
+msgstr "devis-droit"
+
+#: inc/extras.php:1040
+msgid "random"
+msgstr "Aléatoire"
+
+#: inc/extras.php:1041
+msgid "ravelry"
+msgstr "ravelerie"
+
+#: inc/extras.php:1042
+msgid "react"
+msgstr "réagir"
+
+#: inc/extras.php:1043
+msgid "readme"
+msgstr "Lisez-moi"
+
+#: inc/extras.php:1044
+msgid "rebel"
+msgstr "rebelle"
+
+#: inc/extras.php:1045
+msgid "recycle"
+msgstr "recycler"
+
+#: inc/extras.php:1046
+msgid "red-river"
+msgstr "rivière Rouge"
+
+#: inc/extras.php:1047
+msgid "reddit"
+msgstr "reddit"
+
+#: inc/extras.php:1048
+msgid "reddit-alien"
+msgstr "reddit-étranger"
+
+#: inc/extras.php:1049
+msgid "reddit-square"
+msgstr "carré reddit"
+
+#: inc/extras.php:1050
+msgid "redo"
+msgstr "refaire"
+
+#: inc/extras.php:1051
+msgid "redo-alt"
+msgstr "refaire-alt"
+
+#: inc/extras.php:1052 inc/extras.php:1053
+msgid "registered"
+msgstr "inscrit"
+
+#: inc/extras.php:1054
+msgid "rendact"
+msgstr "rendre compte"
+
+#: inc/extras.php:1055
+msgid "renren"
+msgstr "Renren"
+
+#: inc/extras.php:1056
+msgid "reply"
+msgstr "réponse"
+
+#: inc/extras.php:1057
+msgid "reply-all"
+msgstr "répondre à tous"
+
+#: inc/extras.php:1058
+msgid "replyd"
+msgstr "répondu"
+
+#: inc/extras.php:1059
+msgid "resolving"
+msgstr "résoudre"
+
+#: inc/extras.php:1060
+msgid "retweet"
+msgstr "retweeter"
+
+#: inc/extras.php:1061
+msgid "ribbon"
+msgstr "ruban"
+
+#: inc/extras.php:1062
+msgid "road"
+msgstr "route"
+
+#: inc/extras.php:1063
+msgid "rocket"
+msgstr "fusée"
+
+#: inc/extras.php:1064
+msgid "rocketchat"
+msgstr "fusée"
+
+#: inc/extras.php:1065
+msgid "rockrms"
+msgstr "rockrms"
+
+#: inc/extras.php:1066
+msgid "rss"
+msgstr "rss"
+
+#: inc/extras.php:1067
+msgid "rss-square"
+msgstr "rss-carré"
+
+#: inc/extras.php:1068
+msgid "ruble-sign"
+msgstr "signe rouble"
+
+#: inc/extras.php:1069
+msgid "rupee-sign"
+msgstr "signe roupie"
+
+#: inc/extras.php:1070
+msgid "safari"
+msgstr "safari"
+
+#: inc/extras.php:1071
+msgid "sass"
+msgstr "toupet"
+
+#: inc/extras.php:1072 inc/extras.php:1073
+msgid "save"
+msgstr "enregistrer"
+
+#: inc/extras.php:1074
+msgid "schlix"
+msgstr "schlix"
+
+#: inc/extras.php:1075
+msgid "scribd"
+msgstr "scribd"
+
+#: inc/extras.php:1076
+msgid "search"
+msgstr "chercher"
+
+#: inc/extras.php:1077
+msgid "search-minus"
+msgstr "recherche-moins"
+
+#: inc/extras.php:1078
+msgid "search-plus"
+msgstr "recherche-plus"
+
+#: inc/extras.php:1079
+msgid "searchengin"
+msgstr "moteur de recherche"
+
+#: inc/extras.php:1080
+msgid "seedling"
+msgstr "semis"
+
+#: inc/extras.php:1081
+msgid "sellcast"
+msgstr "sellcast"
+
+#: inc/extras.php:1082
+msgid "sellsy"
+msgstr "vendsy"
+
+#: inc/extras.php:1083
+msgid "server"
+msgstr "serveur"
+
+#: inc/extras.php:1084
+msgid "servicestack"
+msgstr "pile de services"
+
+#: inc/extras.php:1085
+msgid "share"
+msgstr "partager"
+
+#: inc/extras.php:1086
+msgid "share-alt"
+msgstr "partage-alt"
+
+#: inc/extras.php:1087
+msgid "share-alt-square"
+msgstr "partager-alt-carré"
+
+#: inc/extras.php:1088 inc/extras.php:1089
+msgid "share-square"
+msgstr "partage-carré"
+
+#: inc/extras.php:1090
+msgid "shekel-sign"
+msgstr "signe shekel"
+
+#: inc/extras.php:1091
+msgid "shield-alt"
+msgstr "bouclier-alt"
+
+#: inc/extras.php:1092
+msgid "ship"
+msgstr "bateau"
+
+#: inc/extras.php:1093
+msgid "shipping-fast"
+msgstr "expédition rapide"
+
+#: inc/extras.php:1094
+msgid "shirtsinbulk"
+msgstr "chemisesen vrac"
+
+#: inc/extras.php:1095
+msgid "shopping-bag"
+msgstr "sac de courses"
+
+#: inc/extras.php:1096
+msgid "shopping-basket"
+msgstr "panier"
+
+#: inc/extras.php:1097
+msgid "shopping-cart"
+msgstr "Panier"
+
+#: inc/extras.php:1098
+msgid "shower"
+msgstr "douche"
+
+#: inc/extras.php:1099
+msgid "sign"
+msgstr "signer"
+
+#: inc/extras.php:1100
+msgid "sign-in-alt"
+msgstr "connexion-alt"
+
+#: inc/extras.php:1101
+msgid "sign-language"
+msgstr "langage des signes"
+
+#: inc/extras.php:1102
+msgid "sign-out-alt"
+msgstr "déconnexion-alt"
+
+#: inc/extras.php:1103
+msgid "signal"
+msgstr "signal"
+
+#: inc/extras.php:1104
+msgid "simplybuilt"
+msgstr "construit simplement"
+
+#: inc/extras.php:1105
+msgid "sistrix"
+msgstr "sœur"
+
+#: inc/extras.php:1106
+msgid "sitemap"
+msgstr "plan du site"
+
+#: inc/extras.php:1107
+msgid "skyatlas"
+msgstr "skyatlas"
+
+#: inc/extras.php:1108
+msgid "skype"
+msgstr "Skype"
+
+#: inc/extras.php:1109
+msgid "slack"
+msgstr "mou"
+
+#: inc/extras.php:1110
+msgid "slack-hash"
+msgstr "slack-hash"
+
+#: inc/extras.php:1111
+msgid "sliders-h"
+msgstr "curseurs-h"
+
+#: inc/extras.php:1112
+msgid "slideshare"
+msgstr "partage de diapositives"
+
+#: inc/extras.php:1113 inc/extras.php:1114
+msgid "smile"
+msgstr "le sourire"
+
+#: inc/extras.php:1115
+msgid "smoking"
+msgstr "fumeur"
+
+#: inc/extras.php:1116
+msgid "snapchat"
+msgstr "snapchat"
+
+#: inc/extras.php:1117
+msgid "snapchat-ghost"
+msgstr "snapchat-fantôme"
+
+#: inc/extras.php:1118
+msgid "snapchat-square"
+msgstr "snapchat-carré"
+
+#: inc/extras.php:1119 inc/extras.php:1120
+msgid "snowflake"
+msgstr "flocon de neige"
+
+#: inc/extras.php:1121
+msgid "sort"
+msgstr "sorte"
+
+#: inc/extras.php:1122
+msgid "sort-alpha-down"
+msgstr "trier alpha vers le bas"
+
+#: inc/extras.php:1123
+msgid "sort-alpha-up"
+msgstr "trier alpha vers le haut"
+
+#: inc/extras.php:1124
+msgid "sort-amount-down"
+msgstr "trier-montant-vers le bas"
+
+#: inc/extras.php:1125
+msgid "sort-amount-up"
+msgstr "tri-montant-up"
+
+#: inc/extras.php:1126
+msgid "sort-down"
+msgstr "trier"
+
+#: inc/extras.php:1127
+msgid "sort-numeric-down"
+msgstr "tri-numérique vers le bas"
+
+#: inc/extras.php:1128
+msgid "sort-numeric-up"
+msgstr "tri numérique vers le haut"
+
+#: inc/extras.php:1129
+msgid "sort-up"
+msgstr "Trier"
+
+#: inc/extras.php:1130
+msgid "soundcloud"
+msgstr "nuage sonore"
+
+#: inc/extras.php:1131
+msgid "space-shuttle"
+msgstr "navette spatiale"
+
+#: inc/extras.php:1132
+msgid "speakap"
+msgstr "parler"
+
+#: inc/extras.php:1133
+msgid "spinner"
+msgstr "fileur"
+
+#: inc/extras.php:1134
+msgid "spotify"
+msgstr "repérer"
+
+#: inc/extras.php:1135 inc/extras.php:1136
+msgid "square"
+msgstr "carré"
+
+#: inc/extras.php:1137
+msgid "square-full"
+msgstr "carré plein"
+
+#: inc/extras.php:1138
+msgid "stack-exchange"
+msgstr "pile-échange"
+
+#: inc/extras.php:1139
+msgid "stack-overflow"
+msgstr "débordement de pile"
+
+#: inc/extras.php:1140 inc/extras.php:1141
+msgid "star"
+msgstr "Star"
+
+#: inc/extras.php:1142 inc/extras.php:1143
+msgid "star-half"
+msgstr "demi-étoile"
+
+#: inc/extras.php:1144
+msgid "staylinked"
+msgstr "rester connecté"
+
+#: inc/extras.php:1145
+msgid "steam"
+msgstr "fumer"
+
+#: inc/extras.php:1146
+msgid "steam-square"
+msgstr "carré vapeur"
+
+#: inc/extras.php:1147
+msgid "steam-symbol"
+msgstr "symbole vapeur"
+
+#: inc/extras.php:1148
+msgid "step-backward"
+msgstr "reculer"
+
+#: inc/extras.php:1149
+msgid "step-forward"
+msgstr "pas en avant"
+
+#: inc/extras.php:1150
+msgid "stethoscope"
+msgstr "stéthoscope"
+
+#: inc/extras.php:1151
+msgid "sticker-mule"
+msgstr "autocollant-mule"
+
+#: inc/extras.php:1152 inc/extras.php:1153
+msgid "sticky-note"
+msgstr "note collante"
+
+#: inc/extras.php:1154
+msgid "stop"
+msgstr "arrêter"
+
+#: inc/extras.php:1155 inc/extras.php:1156
+msgid "stop-circle"
+msgstr "cercle d'arrêt"
+
+#: inc/extras.php:1157
+msgid "stopwatch"
+msgstr "chronomètre"
+
+#: inc/extras.php:1158
+msgid "strava"
+msgstr "strava"
+
+#: inc/extras.php:1159
+msgid "street-view"
+msgstr "vue sur la rue"
+
+#: inc/extras.php:1160
+msgid "strikethrough"
+msgstr "barré"
+
+#: inc/extras.php:1161
+msgid "stripe"
+msgstr "Bande"
+
+#: inc/extras.php:1162
+msgid "stripe-s"
+msgstr "rayures"
+
+#: inc/extras.php:1163
+msgid "studiovinari"
+msgstr "studiovinari"
+
+#: inc/extras.php:1164
+msgid "stumbleupon"
+msgstr "trébucher"
+
+#: inc/extras.php:1165
+msgid "stumbleupon-circle"
+msgstr "trébucher sur le cercle"
+
+#: inc/extras.php:1166
+msgid "subscript"
+msgstr "indice"
+
+#: inc/extras.php:1167
+msgid "subway"
+msgstr "métro"
+
+#: inc/extras.php:1168
+msgid "suitcase"
+msgstr "valise"
+
+#: inc/extras.php:1169 inc/extras.php:1170
+msgid "sun"
+msgstr "soleil"
+
+#: inc/extras.php:1171
+msgid "superpowers"
+msgstr "superpuissances"
+
+#: inc/extras.php:1172
+msgid "superscript"
+msgstr "exposant"
+
+#: inc/extras.php:1173
+msgid "supple"
+msgstr "souple"
+
+#: inc/extras.php:1174
+msgid "sync"
+msgstr "synchroniser"
+
+#: inc/extras.php:1175
+msgid "sync-alt"
+msgstr "sync-alt"
+
+#: inc/extras.php:1176
+msgid "syringe"
+msgstr "seringue"
+
+#: inc/extras.php:1177
+msgid "table"
+msgstr "table"
+
+#: inc/extras.php:1178
+msgid "table-tennis"
+msgstr "tennis de table"
+
+#: inc/extras.php:1179
+msgid "tablet"
+msgstr "tablette"
+
+#: inc/extras.php:1180
+msgid "tablet-alt"
+msgstr "tablette-alt"
+
+#: inc/extras.php:1181
+msgid "tablets"
+msgstr "comprimés"
+
+#: inc/extras.php:1182
+msgid "tachometer-alt"
+msgstr "tachymètre-alt"
+
+#: inc/extras.php:1183
+msgid "tag"
+msgstr "étiqueter"
+
+#: inc/extras.php:1184
+msgid "tags"
+msgstr "Mots clés"
+
+#: inc/extras.php:1185
+msgid "tape"
+msgstr "ruban"
+
+#: inc/extras.php:1186
+msgid "tasks"
+msgstr "Tâches"
+
+#: inc/extras.php:1187
+msgid "taxi"
+msgstr "Taxi"
+
+#: inc/extras.php:1188
+msgid "telegram"
+msgstr "télégramme"
+
+#: inc/extras.php:1189
+msgid "telegram-plane"
+msgstr "télégramme-avion"
+
+#: inc/extras.php:1190
+msgid "tencent-weibo"
+msgstr "tencent-weibo"
+
+#: inc/extras.php:1191
+msgid "terminal"
+msgstr "Terminal"
+
+#: inc/extras.php:1192
+msgid "text-height"
+msgstr "hauteur du texte"
+
+#: inc/extras.php:1193
+msgid "text-width"
+msgstr "largeur du texte"
+
+#: inc/extras.php:1194
+msgid "th"
+msgstr "e"
+
+#: inc/extras.php:1195
+msgid "th-large"
+msgstr "e-grand"
+
+#: inc/extras.php:1196
+msgid "th-list"
+msgstr "ème-liste"
+
+#: inc/extras.php:1197
+msgid "themeisle"
+msgstr "île à thème"
+
+#: inc/extras.php:1198
+msgid "thermometer"
+msgstr "thermomètre"
+
+#: inc/extras.php:1199
+msgid "thermometer-empty"
+msgstr "thermomètre-vide"
+
+#: inc/extras.php:1200
+msgid "thermometer-full"
+msgstr "thermomètre plein"
+
+#: inc/extras.php:1201
+msgid "thermometer-half"
+msgstr "demi-thermomètre"
+
+#: inc/extras.php:1202
+msgid "thermometer-quarter"
+msgstr "thermomètre-quart"
+
+#: inc/extras.php:1203
+msgid "thermometer-three-quarters"
+msgstr "thermomètre-trois-quarts"
+
+#: inc/extras.php:1204 inc/extras.php:1205
+msgid "thumbs-down"
+msgstr "pouces vers le bas"
+
+#: inc/extras.php:1206 inc/extras.php:1207
+msgid "thumbs-up"
+msgstr "pouces vers le haut"
+
+#: inc/extras.php:1208
+msgid "thumbtack"
+msgstr "punaise"
+
+#: inc/extras.php:1209
+msgid "ticket-alt"
+msgstr "ticket-alt"
+
+#: inc/extras.php:1210
+msgid "times"
+msgstr "fois"
+
+#: inc/extras.php:1211 inc/extras.php:1212
+msgid "times-circle"
+msgstr "cercle des temps"
+
+#: inc/extras.php:1213
+msgid "tint"
+msgstr "teinte"
+
+#: inc/extras.php:1214
+msgid "toggle-off"
+msgstr "désactiver"
+
+#: inc/extras.php:1215
+msgid "toggle-on"
+msgstr "basculer"
+
+#: inc/extras.php:1216
+msgid "trademark"
+msgstr "marque déposée"
+
+#: inc/extras.php:1217
+msgid "train"
+msgstr "former"
+
+#: inc/extras.php:1218
+msgid "transgender"
+msgstr "transgenres"
+
+#: inc/extras.php:1219
+msgid "transgender-alt"
+msgstr "transgenre-alt"
+
+#: inc/extras.php:1220
+msgid "trash"
+msgstr "déchets"
+
+#: inc/extras.php:1221 inc/extras.php:1222
+msgid "trash-alt"
+msgstr "corbeille-alt"
+
+#: inc/extras.php:1223
+msgid "tree"
+msgstr "arbre"
+
+#: inc/extras.php:1224
+msgid "trello"
+msgstr "trello"
+
+#: inc/extras.php:1225
+msgid "tripadvisor"
+msgstr "tripadvisor"
+
+#: inc/extras.php:1226
+msgid "trophy"
+msgstr "trophée"
+
+#: inc/extras.php:1227
+msgid "truck"
+msgstr "un camion"
+
+#: inc/extras.php:1228
+msgid "truck-loading"
+msgstr "chargement de camion"
+
+#: inc/extras.php:1229
+msgid "truck-moving"
+msgstr "camion de déménagement"
+
+#: inc/extras.php:1230
+msgid "tty"
+msgstr "téléscripteur"
+
+#: inc/extras.php:1231
+msgid "tumblr"
+msgstr "tumblr"
+
+#: inc/extras.php:1232
+msgid "tumblr-square"
+msgstr "tumblr-carré"
+
+#: inc/extras.php:1233
+msgid "tv"
+msgstr "la télé"
+
+#: inc/extras.php:1234
+msgid "twitch"
+msgstr "tic"
+
+#: inc/extras.php:1235
+msgid "twitter"
+msgstr "Twitter"
+
+#: inc/extras.php:1236
+msgid "twitter-square"
+msgstr "carré twitter"
+
+#: inc/extras.php:1237
+msgid "typo3"
+msgstr "faute de frappe3"
+
+#: inc/extras.php:1238
+msgid "uber"
+msgstr "uber"
+
+#: inc/extras.php:1239
+msgid "uikit"
+msgstr "uikit"
+
+#: inc/extras.php:1240
+msgid "umbrella"
+msgstr "parapluie"
+
+#: inc/extras.php:1241
+msgid "underline"
+msgstr "souligner"
+
+#: inc/extras.php:1242
+msgid "undo"
+msgstr "annuler"
+
+#: inc/extras.php:1243
+msgid "undo-alt"
+msgstr "annuler-alt"
+
+#: inc/extras.php:1244
+msgid "uniregistry"
+msgstr "uniregistry"
+
+#: inc/extras.php:1245
+msgid "universal-access"
+msgstr "accès universel"
+
+#: inc/extras.php:1246
+msgid "university"
+msgstr "Université"
+
+#: inc/extras.php:1247
+msgid "unlink"
+msgstr "dissocier"
+
+#: inc/extras.php:1248
+msgid "unlock"
+msgstr "ouvrir"
+
+#: inc/extras.php:1249
+msgid "unlock-alt"
+msgstr "déverrouiller-alt"
+
+#: inc/extras.php:1250
+msgid "untappd"
+msgstr "inexploité"
+
+#: inc/extras.php:1251
+msgid "upload"
+msgstr "télécharger"
+
+#: inc/extras.php:1252
+msgid "usb"
+msgstr "USB"
+
+#: inc/extras.php:1253 inc/extras.php:1254
+msgid "user"
+msgstr "utilisateur"
+
+#: inc/extras.php:1255 inc/extras.php:1256
+msgid "user-circle"
+msgstr "cercle d'utilisateurs"
+
+#: inc/extras.php:1257
+msgid "user-md"
+msgstr "utilisateur-md"
+
+#: inc/extras.php:1258
+msgid "user-plus"
+msgstr "utilisateur-plus"
+
+#: inc/extras.php:1259
+msgid "user-secret"
+msgstr "secret d'utilisateur"
+
+#: inc/extras.php:1260
+msgid "user-times"
+msgstr "temps d'utilisation"
+
+#: inc/extras.php:1261
+msgid "users"
+msgstr "utilisateurs"
+
+#: inc/extras.php:1262
+msgid "ussunnah"
+msgstr "ussunnah"
+
+#: inc/extras.php:1263
+msgid "utensil-spoon"
+msgstr "ustensile-cuillère"
+
+#: inc/extras.php:1264
+msgid "utensils"
+msgstr "ustensiles"
+
+#: inc/extras.php:1265
+msgid "vaadin"
+msgstr "vaadin"
+
+#: inc/extras.php:1266
+msgid "venus"
+msgstr "Vénus"
+
+#: inc/extras.php:1267
+msgid "venus-double"
+msgstr "vénus-double"
+
+#: inc/extras.php:1268
+msgid "venus-mars"
+msgstr "vénus-mars"
+
+#: inc/extras.php:1269
+msgid "viacoin"
+msgstr "viacoin"
+
+#: inc/extras.php:1270
+msgid "viadeo"
+msgstr "viadéo"
+
+#: inc/extras.php:1271
+msgid "viadeo-square"
+msgstr "viadeo-carré"
+
+#: inc/extras.php:1272
+msgid "vial"
+msgstr "Fiole"
+
+#: inc/extras.php:1273
+msgid "vials"
+msgstr "flacons"
+
+#: inc/extras.php:1274
+msgid "viber"
+msgstr "vibrer"
+
+#: inc/extras.php:1275
+msgid "video"
+msgstr "vidéo"
+
+#: inc/extras.php:1276
+msgid "video-slash"
+msgstr "vidéo-slash"
+
+#: inc/extras.php:1277
+msgid "vimeo"
+msgstr "viméo"
+
+#: inc/extras.php:1278
+msgid "vimeo-square"
+msgstr "vimeo-carré"
+
+#: inc/extras.php:1279
+msgid "vimeo-v"
+msgstr "viméo-v"
+
+#: inc/extras.php:1280
+msgid "vine"
+msgstr "vigne"
+
+#: inc/extras.php:1281
+msgid "vk"
+msgstr "vk"
+
+#: inc/extras.php:1282
+msgid "vnv"
+msgstr "vnv"
+
+#: inc/extras.php:1283
+msgid "volleyball-ball"
+msgstr "volley-ball"
+
+#: inc/extras.php:1284
+msgid "volume-down"
+msgstr "baisser le volume"
+
+#: inc/extras.php:1285
+msgid "volume-off"
+msgstr "volume coupé"
+
+#: inc/extras.php:1286
+msgid "volume-up"
+msgstr "monter le son"
+
+#: inc/extras.php:1287
+msgid "vuejs"
+msgstr "vuejs"
+
+#: inc/extras.php:1288
+msgid "warehouse"
+msgstr "dépot"
+
+#: inc/extras.php:1289
+msgid "weibo"
+msgstr "weibo"
+
+#: inc/extras.php:1290
+msgid "weight"
+msgstr "poids"
+
+#: inc/extras.php:1291
+msgid "weixin"
+msgstr "weixin"
+
+#: inc/extras.php:1292
+msgid "whatsapp"
+msgstr "WhatsApp"
+
+#: inc/extras.php:1293
+msgid "whatsapp-square"
+msgstr "whatsapp-carré"
+
+#: inc/extras.php:1294
+msgid "wheelchair"
+msgstr "fauteuil roulant"
+
+#: inc/extras.php:1295
+msgid "whmcs"
+msgstr "whmcs"
+
+#: inc/extras.php:1296
+msgid "wifi"
+msgstr "Wifi"
+
+#: inc/extras.php:1297
+msgid "wikipedia-w"
+msgstr "wikipedia-w"
+
+#: inc/extras.php:1298 inc/extras.php:1299
+msgid "window-close"
+msgstr "fermer la fenêtre"
+
+#: inc/extras.php:1300 inc/extras.php:1301
+msgid "window-maximize"
+msgstr "fenêtre-maximiser"
+
+#: inc/extras.php:1302 inc/extras.php:1303
+msgid "window-minimize"
+msgstr "fenêtre-réduire"
+
+#: inc/extras.php:1304 inc/extras.php:1305
+msgid "window-restore"
+msgstr "restauration de fenêtre"
+
+#: inc/extras.php:1306
+msgid "windows"
+msgstr "les fenêtres"
+
+#: inc/extras.php:1307
+msgid "wine-glass"
+msgstr "verre de vin"
+
+#: inc/extras.php:1308
+msgid "won-sign"
+msgstr "signe gagné"
+
+#: inc/extras.php:1309
+msgid "wordpress"
+msgstr "wordpress"
+
+#: inc/extras.php:1310
+msgid "wordpress-simple"
+msgstr "wordpress-simple"
+
+#: inc/extras.php:1311
+msgid "wpbeginner"
+msgstr "wpdébutant"
+
+#: inc/extras.php:1312
+msgid "wpexplorer"
+msgstr "wpexplorer"
+
+#: inc/extras.php:1313
+msgid "wpforms"
+msgstr "wpforms"
+
+#: inc/extras.php:1314
+msgid "wrench"
+msgstr "clé"
+
+#: inc/extras.php:1315
+msgid "x-ray"
+msgstr "radiographie"
+
+#: inc/extras.php:1316
+msgid "xbox"
+msgstr "Xbox"
+
+#: inc/extras.php:1317
+msgid "xing"
+msgstr "xing"
+
+#: inc/extras.php:1318
+msgid "xing-square"
+msgstr "xing-carré"
+
+#: inc/extras.php:1319
+msgid "y-combinator"
+msgstr "y-combinateur"
+
+#: inc/extras.php:1320
+msgid "yahoo"
+msgstr "yahoo"
+
+#: inc/extras.php:1321
+msgid "yandex"
+msgstr "yandex"
+
+#: inc/extras.php:1322
+msgid "yandex-international"
+msgstr "yandex-international"
+
+#: inc/extras.php:1323
+msgid "yelp"
+msgstr "japper"
+
+#: inc/extras.php:1324
+msgid "yen-sign"
+msgstr "signe yen"
+
+#: inc/extras.php:1325
+msgid "yoast"
+msgstr "levain"
+
+#: inc/extras.php:1326
+msgid "youtube"
+msgstr "Youtube"
+
+#: inc/extras.php:1327
+msgid "youtube-square"
+msgstr "carré youtube"
+
+#: inc/licenser.php:104 inc/licenser.php:275
+msgid "<i class=\"fa fa-sliders-h\"></i> General"
+msgstr "<i class=\"fa fa-sliders-h\"></i>Général"
+
+#: inc/licenser.php:108 inc/licenser.php:279
+msgid "<i class=\"fa fa-map-marked-alt\"></i> Map Settings"
+msgstr "<i class=\"fa fa-map-marked-alt\"></i>Paramètres de la carte"
+
+#: inc/licenser.php:112 inc/licenser.php:283
+msgid "<i class=\"fa fa-plus-square\"></i> Submit Listing"
+msgstr "<i class=\"fa fa-plus-square\"></i>Soumettre l&#39;annonce"
+
+#: inc/licenser.php:116 inc/licenser.php:287
+msgid "<i class=\"fa fa-cubes\"></i> Packages Options"
+msgstr "<i class=\"fa fa-cubes\"></i>Options de forfaits"
+
+#: inc/licenser.php:120 inc/licenser.php:291
+msgid "<i class=\"fa fa-file\"></i> Single Listing"
+msgstr "<i class=\"fa fa-file\"></i>Liste unique"
+
+#: inc/licenser.php:124 inc/licenser.php:295
+msgid "<i class=\"fa fa-calendar-alt\"></i> Booking"
+msgstr "<i class=\"fa fa-calendar-alt\"></i>Réservation"
+
+#: inc/licenser.php:127 inc/licenser.php:298
+msgid "<i class=\"fa fa-search-location\"></i> Browse Listing"
+msgstr "<i class=\"fa fa-search-location\"></i>Parcourir la liste"
+
+#: inc/licenser.php:131 inc/licenser.php:302
+msgid "<i class=\"fa fa-user-friends\"></i> Registration"
+msgstr "<i class=\"fa fa-user-friends\"></i>Inscription"
+
+#: inc/licenser.php:135 inc/licenser.php:306
+msgid "<i class=\"fa fa-layer-group\"></i> Pages"
+msgstr "<i class=\"fa fa-layer-group\"></i>pages"
+
+#: inc/licenser.php:139 inc/licenser.php:310
+msgid "<i class=\"fa fa-envelope\"></i> Emails"
+msgstr "<i class=\"fa fa-envelope\"></i>E-mails"
+
+#: inc/licenser.php:145 inc/licenser.php:315
+msgid "Plugin Settings"
+msgstr "Paramètres des plugins"
+
+#: inc/licenser.php:197
+msgid "Status:"
+msgstr "Statut:"
+
+#: inc/licenser.php:200
+msgid "Valid"
+msgstr "Valide"
+
+#: inc/licenser.php:202
+msgid "Invalid"
+msgstr "Invalide"
+
+#: inc/licenser.php:209
+msgid "License Type:"
+msgstr "Type de licence:"
+
+#: inc/licenser.php:219
+msgid "Support Ends on"
+msgstr "L'assistance prend fin le"
+
+#: inc/licenser.php:233
+msgid "Support Expired on"
+msgstr "Assistance expirée le"
+
+#: inc/licenser.php:247
+msgid "Your License Key:"
+msgstr "Votre clé de licence :"
+
+#: inc/licenser.php:262
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: inc/licenser.php:375
+msgid "Your Purchase Code"
+msgstr "Votre code d'achat"
+
+#: inc/licenser.php:383
+msgid "Your ThemeForest Email Address"
+msgstr "Votre adresse e-mail ThemeForest"
+
+#: inc/licenser.php:400
+msgid "Activate License"
+msgstr "Activer la licence"
+
+#. translators: %s: title of menu item which is invalid
+#: inc/megamenu.php:382
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (invalide)"
+
+#. translators: %s: title of menu item in draft status
+#: inc/megamenu.php:386
+#, php-format
+msgid "%s (Pending)"
+msgstr "%dépenses)"
+
+#: inc/megamenu.php:399
+msgid "sub item"
+msgstr "sous-élément"
+
+#: inc/megamenu.php:414
+msgid "Move up"
+msgstr "Déplacer vers le haut"
+
+#: inc/megamenu.php:427
+msgid "Move down"
+msgstr "Descendre"
+
+#: inc/megamenu.php:431
+msgid "Edit menu item"
+msgstr "Modifier l'élément de menu"
+
+#: inc/megamenu.php:431
+msgid "Edit"
+msgstr "Éditer"
+
+#: inc/megamenu.php:441
+msgid "URL"
+msgstr "URL"
+
+#: inc/megamenu.php:448
+msgid "Navigation Label"
+msgstr "Étiquette de navigation"
+
+#: inc/megamenu.php:454
+msgid "Title Attribute"
+msgstr "Attribut de titre"
+
+#: inc/megamenu.php:461
+msgid "Open link in a new tab"
+msgstr "Ouvrir le lien dans un nouvel onglet"
+
+#: inc/megamenu.php:466
+msgid "CSS Classes (optional)"
+msgstr "Classes CSS (facultatif)"
+
+#: inc/megamenu.php:472
+msgid "Link Relationship (XFN)"
+msgstr "Relation de lien (XFN)"
+
+#: inc/megamenu.php:480
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+"La description sera affichée dans le menu si le thème actuel le prend en "
+"charge."
+
+#: inc/megamenu.php:485
+msgid "Icon"
+msgstr "Icône"
+
+#: inc/megamenu.php:503
+msgid "Enable megamenu"
+msgstr "Activer le mégamenu"
+
+#: inc/megamenu.php:507
+msgid "Number of columns"
+msgstr "Le nombre de colonnes"
+
+#: inc/megamenu.php:511
+msgid "2 columns"
+msgstr "2 colonnes"
+
+#: inc/megamenu.php:512
+msgid "3 columns"
+msgstr "3 colonnes"
+
+#: inc/megamenu.php:513
+msgid "4 columns"
+msgstr "4 colonnes"
+
+#: inc/megamenu.php:522
+msgid "Act as link or title"
+msgstr "Agir comme lien ou titre"
+
+#: inc/megamenu.php:525
+msgid "Link"
+msgstr "Lien"
+
+#: inc/megamenu.php:526
+msgid "Hidden element"
+msgstr "Élément caché"
+
+#: inc/megamenu.php:527 inc/meta-boxes.php:48
+msgid "Title"
+msgstr "Titre"
+
+#: inc/megamenu.php:528
+msgid "Text"
+msgstr "Texte"
+
+#: inc/megamenu.php:529
+msgid "Text with title"
+msgstr "Texte avec titre"
+
+#: inc/megamenu.php:534
+msgid "Custom html text"
+msgstr "Texte HTML personnalisé"
+
+#: inc/megamenu.php:548
+msgid "Hide on mobile navigation"
+msgstr "Masquer sur la navigation mobile"
+
+#: inc/megamenu.php:557
+msgid "Move"
+msgstr "Bouge toi"
+
+#: inc/megamenu.php:558
+msgid "Up one"
+msgstr "Jusqu'à un"
+
+#: inc/megamenu.php:559
+msgid "Down one"
+msgstr "Un en bas"
+
+#: inc/megamenu.php:562
+msgid "To the top"
+msgstr "Jusqu'au sommet"
+
+#: inc/megamenu.php:569
+#, php-format
+msgid "Original: %s"
+msgstr "Original : %s"
+
+#: inc/megamenu.php:582
+msgid "Remove"
+msgstr "Retirer"
+
+#: inc/meta-boxes.php:11
+msgid "Additional Informations"
+msgstr "Informations supplémentaires"
+
+#: inc/meta-boxes.php:16
+msgid "Company"
+msgstr "Compagnie"
+
+#: inc/meta-boxes.php:33
+msgid "Comming Soon Page Options"
+msgstr "Options de page à venir"
+
+#: inc/meta-boxes.php:42
+msgid "Background image"
+msgstr "Image de fond"
+
+#: inc/meta-boxes.php:43
+msgid "Set background image for this page"
+msgstr "Définir l'image d'arrière-plan pour cette page"
+
+#: inc/meta-boxes.php:49
+msgid "Title on the page"
+msgstr "Titre sur la page"
+
+#: inc/meta-boxes.php:55
+msgid "Date to count to"
+msgstr "Date à compter"
+
+#: inc/meta-boxes.php:56 inc/meta-boxes.php:64 inc/meta-boxes.php:70
+msgid "For instructions check documentaiton"
+msgstr "Pour les instructions, consultez la documentation"
+
+#: inc/meta-boxes.php:63
+msgid "Sign up form acton"
+msgstr "Formulaire d'inscription acton"
+
+#: inc/meta-boxes.php:69
+msgid "Sign up hidden input id"
+msgstr "Inscrivez-vous avec un identifiant d'entrée caché"
+
+#: inc/meta-boxes.php:95
+msgid "Listeo Property Options"
+msgstr "Options de propriété Listeo"
+
+#: inc/meta-boxes.php:101 inc/meta-boxes.php:308
+msgid "Selected Sidebar"
+msgstr "Barre latérale sélectionnée"
+
+#: inc/meta-boxes.php:108
+msgid "Slider Image field"
+msgstr "Champ Image du curseur"
+
+#: inc/meta-boxes.php:109
+msgid ""
+"Upload an image that will be used in Properties slider (recomended min "
+"1920px wide). If not set, Post Thumbnail will be used instead."
+msgstr ""
+"Téléchargez une image qui sera utilisée dans le curseur Propriétés "
+"(recommandé min 1920px de large). S'il n'est pas défini, Post Thumbnail sera "
+"utilisé à la place."
+
+#: inc/meta-boxes.php:139
+msgid "Post Options"
+msgstr "Options de publication"
+
+#: inc/meta-boxes.php:145
+msgid "Post Layout"
+msgstr "Mise en page des messages"
+
+#: inc/meta-boxes.php:146
+msgid "Select post layout, default is full-width"
+msgstr ""
+"Sélectionnez la mise en page de la publication, la valeur par défaut est "
+"pleine largeur"
+
+#: inc/meta-boxes.php:151 inc/meta-boxes.php:290
+msgid "Full width"
+msgstr "Pleine largeur"
+
+#: inc/meta-boxes.php:152 inc/meta-boxes.php:291
+msgid "Left Sidebar"
+msgstr "Barre latérale de gauche"
+
+#: inc/meta-boxes.php:153 inc/meta-boxes.php:292
+msgid "Right Sidebar"
+msgstr "Barre latérale droite"
+
+#: inc/meta-boxes.php:161
+msgid "Page Options"
+msgstr "Options de page"
+
+#: inc/meta-boxes.php:167
+msgid "Page Top Section"
+msgstr "Haut de la page"
+
+#: inc/meta-boxes.php:168 inc/meta-boxes.php:285
+msgid "Select page layout, default is full-width"
+msgstr "Sélectionnez la mise en page, la largeur par défaut est pleine largeur"
+
+#: inc/meta-boxes.php:173
+msgid "Regular Titlebar"
+msgstr "Barre de titre régulière"
+
+#: inc/meta-boxes.php:174
+msgid "Parallax image background"
+msgstr "Fond d'image de parallaxe"
+
+#: inc/meta-boxes.php:175
+msgid "Disable top section"
+msgstr "Désactiver la section supérieure"
+
+#: inc/meta-boxes.php:180
+msgid "Regular Titlebar style"
+msgstr "Style de barre de titre normal"
+
+#: inc/meta-boxes.php:181
+msgid "Select titlebar style"
+msgstr "Sélectionnez le style de la barre de titre"
+
+#: inc/meta-boxes.php:186
+msgid "Solid gray color"
+msgstr "Couleur gris uni"
+
+#: inc/meta-boxes.php:187
+msgid "Gray gradient"
+msgstr "Dégradé de gris"
+
+#: inc/meta-boxes.php:196
+msgid "\"Glue\" footer to content"
+msgstr "\"Coller\" le pied de page au contenu"
+
+#: inc/meta-boxes.php:197
+msgid "Removes the top margin from footer section,"
+msgstr "Supprime la marge supérieure de la section de pied de page,"
+
+#: inc/meta-boxes.php:205
+msgid "Footer color style"
+msgstr "Style de couleur du pied de page"
+
+#: inc/meta-boxes.php:206
+msgid "Sets footer color style, ignoring global settings"
+msgstr ""
+"Définit le style de couleur du pied de page, en ignorant les paramètres "
+"globaux"
+
+#: inc/meta-boxes.php:211 inc/meta-boxes.php:224 inc/meta-boxes.php:236
+msgid "Use Global setting from Customizer"
+msgstr "Utiliser le paramètre global de Customizer"
+
+#: inc/meta-boxes.php:218
+msgid "Sticky header"
+msgstr "En-tête collant"
+
+#: inc/meta-boxes.php:219
+msgid ""
+"Enables sticky header for this page, even if it disabled in global settings"
+msgstr ""
+"Active l'en-tête collant pour cette page, même s'il est désactivé dans les "
+"paramètres globaux"
+
+#: inc/meta-boxes.php:226 inc/meta-boxes.php:238
+msgid "Enable, always"
+msgstr "Activer, toujours"
+
+#: inc/meta-boxes.php:231
+msgid "Full-width header"
+msgstr "En-tête pleine largeur"
+
+#: inc/meta-boxes.php:232
+msgid ""
+"Enables full-width header for this page, even if it disabled in global "
+"settings"
+msgstr ""
+"Active l'en-tête pleine largeur pour cette page, même s'il est désactivé "
+"dans les paramètres globaux"
+
+#: inc/meta-boxes.php:250
+msgid "Background for header"
+msgstr "Arrière-plan de l'en-tête"
+
+#: inc/meta-boxes.php:251
+msgid "If added, titlebar will use parallax effect"
+msgstr "Si ajouté, la barre de titre utilisera l'effet de parallaxe"
+
+#: inc/meta-boxes.php:257
+msgid "Overlay color"
+msgstr "Couleur de superposition"
+
+#: inc/meta-boxes.php:258
+msgid "For Parallax or Titlebar section"
+msgstr "Pour la section Parallax ou Titlebar"
+
+#: inc/meta-boxes.php:267
+msgid "Parallax overlay opacity"
+msgstr "Opacité de superposition de parallaxe"
+
+#: inc/meta-boxes.php:268
+msgid "Set your value"
+msgstr "Définissez votre valeur"
+
+#: inc/meta-boxes.php:284
+msgid "Page Layout"
+msgstr "Mise en page"
+
+#: inc/meta-boxes.php:298
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+#: inc/meta-boxes.php:299
+msgid "If added, displayed under page title (if applicable)"
+msgstr "Si ajouté, affiché sous le titre de la page (le cas échéant)"
+
+#: inc/mini-cart.php:4 inc/woocommerce.php:232
+#, php-format
+msgid "%d"
+msgid_plural "%d"
+msgstr[0] "%ré"
+msgstr[1] "%ré"
+
+#: inc/mini-cart.php:72 inc/woocommerce.php:329
+msgid "No products in the cart."
+msgstr "Aucun produit dans le chariot."
+
+#: inc/properties-maps.php:91
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s avis"
+msgstr[1] "%s avis"
+
+#: inc/properties-maps.php:96
+msgid "No reviews yet"
+msgstr "Pas encore d'avis"
+
+#: inc/template-tags.php:27 inc/template-tags.php:62
+msgid "By"
+msgstr "Par"
+
+#: inc/template-tags.php:54 inc/template-tags.php:90
+msgid "With 0 comments"
+msgstr "Avec 0 commentaires"
+
+#: inc/template-tags.php:54 inc/template-tags.php:90
+msgid "With 1 comment"
+msgstr "Avec 1 commentaire"
+
+#: inc/template-tags.php:54 inc/template-tags.php:90
+#, php-format
+msgid "With % comments"
+msgstr "Avec % de commentaires"
+
+#: inc/template-tags.php:54 inc/template-tags.php:90
+msgid "Comments are off"
+msgstr "Les commentaires sont désactivés"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:106 inc/template-tags.php:112
+msgid ", "
+msgstr ","
+
+#: inc/template-tags.php:108
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Publié dans %1$s"
+
+#: inc/template-tags.php:114
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Tagué %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:121
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Laisser un commentaire <span class=\"screen-reader-text\">sur %s</span>"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:128
+#, php-format
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#: inc/template-tags.php:155 inc/template-tags.php:195
+msgid "Pingback:"
+msgstr "Ping :"
+
+#: inc/template-tags.php:155 inc/template-tags.php:195
+msgid "(Edit)"
+msgstr "(Éditer)"
+
+#: inc/template-tags.php:165 inc/template-tags.php:206
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: inc/template-tags.php:166
+msgid "<i class=\"fa fa-reply\"></i> Reply"
+msgstr "<i class=\"fa fa-reply\"></i>Répondre"
+
+#: inc/template-tags.php:227
+msgid "Helpful Review"
+msgstr "Examen utile"
+
+#: inc/template-tags.php:392
+msgid "View all posts by"
+msgstr "Voir tous les messages par"
+
+#: inc/template-tags.php:431
+msgid "Related Posts"
+msgstr "Articles Similaires"
+
+#: inc/tgmpa.php:149
+msgid "Contact Form 7"
+msgstr "Formulaire de contact 7"
+
+#: inc/tgmpa.php:154
+msgid "Contact Form 7 - Dynamic Text Extension"
+msgstr "Formulaire de contact 7 - Extension de texte dynamique"
+
+#: inc/woocommerce.php:90 woocommerce/content-product.php:90
+msgid "Unlimited number of listings"
+msgstr "Nombre illimité d'annonces"
+
+#: inc/woocommerce.php:94 woocommerce/content-product.php:94
+#: woocommerce/single-product/tabs/description.php:42
+#: woocommerce/single-product/tabs/description.php:66
+msgid "This plan includes "
+msgstr "Ce régime comprend"
+
+#: inc/woocommerce.php:95 woocommerce/content-product.php:94
+#, php-format
+msgid "%d listing"
+msgid_plural "%s listings"
+msgstr[0] "%d liste"
+msgstr[1] "%s annonces"
+
+#: inc/woocommerce.php:101
+msgid "Listings are published "
+msgstr "Les annonces sont publiées"
+
+#: inc/woocommerce.php:102 woocommerce/content-product.php:99
+#: woocommerce/single-product/tabs/description.php:49
+#: woocommerce/single-product/tabs/description.php:73
+#, php-format
+msgid "for %s day"
+msgid_plural "for %s days"
+msgstr[0] "pour %s jour"
+msgstr[1] "pendant %s jours"
+
+#: inc/woocommerce.php:148 woocommerce/cart/cart.php:117
+msgid "Remove this item"
+msgstr "enlever cet article"
+
+#: inc/woocommerce.php:248
+msgid "Subtotal"
+msgstr "Total"
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de la recherche pour : %s"
+
+#: searchform.php:11
+msgid "To search type and hit enter"
+msgstr "Pour rechercher, tapez et appuyez sur entrée"
+
+#: single.php:68
+msgid "Previous Post"
+msgstr "Post précédent"
+
+#: single.php:69
+msgid "Next Post"
+msgstr "Prochain article"
+
+#: single.php:70
+msgid "Post navigation"
+msgstr "Navigation des articles"
+
+#: template-comming-soon.php:61
+msgid "Your email address"
+msgstr "Votre adresse e-mail"
+
+#: template-comming-soon.php:63
+msgid "Notify Me"
+msgstr "Prévenez-moi"
+
+#: template-dashboard.php:24
+msgid "You do have an email address, right?"
+msgstr "Vous avez une adresse e-mail, n'est-ce pas ?"
+
+#: template-dashboard.php:27
+msgid "You need to enter a password to login."
+msgstr "Vous devez entrer un mot de passe pour vous connecter."
+
+#: template-dashboard.php:30 template-dashboard.php:71
+msgid "This username already exists."
+msgstr "Cet identifiant existe déjà."
+
+#: template-dashboard.php:35
+msgid ""
+"We don't have any users with that email address. Maybe you used a different "
+"one when signing up?"
+msgstr ""
+"Nous n'avons aucun utilisateur avec cette adresse e-mail. Peut-être en avez-"
+"vous utilisé un autre lors de votre inscription ?"
+
+#: template-dashboard.php:41 template-dashboard.php:96
+#, php-format
+msgid ""
+"The password you entered wasn't quite right. <a href='%s'>Did you forget "
+"your password</a>?"
+msgstr ""
+"Le mot de passe que vous avez entré n&#39;était pas tout à fait correct. <a "
+"href='%s'>Vous avez oublié votre mot de passe</a> ?"
+
+#: template-dashboard.php:59
+msgid "The email address you entered is not valid."
+msgstr "L'adresse e-mail que vous avez saisie n'est pas valide."
+
+#: template-dashboard.php:62
+msgid "An account exists with this email address."
+msgstr "Un compte existe avec cette adresse e-mail."
+
+#: template-dashboard.php:65
+msgid "Registering new users is currently not allowed."
+msgstr ""
+"L'enregistrement de nouveaux utilisateurs n'est actuellement pas autorisé."
+
+#: template-dashboard.php:68
+msgid "Please check reCAPTCHA checbox to register."
+msgstr "Veuillez cocher la case reCAPTCHA pour vous inscrire."
+
+#: template-dashboard.php:74
+msgid "You're a bot, aren't you?."
+msgstr "Vous êtes un bot, n'est-ce pas ?."
+
+#: template-dashboard.php:77
+msgid "Please accept the Privacy Policy to register account."
+msgstr ""
+"Veuillez accepter la politique de confidentialité pour enregistrer un compte."
+
+#: template-dashboard.php:80
+msgid "Please accept the Terms and Conditions to register account."
+msgstr "Veuillez accepter les termes et conditions pour créer un compte."
+
+#: template-dashboard.php:83
+msgid "Please provide your first name"
+msgstr "Indiquez s'il vous plait votre prénom"
+
+#: template-dashboard.php:86
+msgid "Please provide your last name"
+msgstr "Veuillez indiquer votre nom de famille"
+
+#: template-dashboard.php:89
+msgid "Please provide your user login"
+msgstr "Veuillez fournir votre identifiant d'utilisateur"
+
+#: template-dashboard.php:92
+msgid "You have forgot about password."
+msgstr "Vous avez oublié le mot de passe."
+
+#: template-dashboard.php:154
+#, php-format
+msgid "You have successfully registered to %s."
+msgstr "Vous vous êtes enregistré avec succès sur %s."
+
+#: template-dashboard.php:159
+#, php-format
+msgid ""
+"You have successfully registered to <strong>%s</strong>. We have emailed "
+"your password to the email address you entered."
+msgstr ""
+"Vous vous êtes inscrit avec succès sur <strong>%s</strong>. Nous avons "
+"envoyé votre mot de passe à l'adresse e-mail que vous avez saisie."
+
+#: template-dashboard.php:203
+msgid "Dashboard Navigation"
+msgstr "Navigation dans le tableau de bord"
+
+#: template-dashboard.php:208
+msgid "Main"
+msgstr "Principal"
+
+#: template-dashboard.php:213 template-dashboard.php:531
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: template-dashboard.php:222 template-dashboard.php:227
+msgid "My Bookings"
+msgstr "Mes réservations"
+
+#: template-dashboard.php:235
+msgid "Messages"
+msgstr "messages"
+
+#: template-dashboard.php:248 template-dashboard.php:517 template-ical.php:18
+msgid "Bookings"
+msgstr "Réservations"
+
+#: template-dashboard.php:258
+msgid "Approved"
+msgstr "Approuvé"
+
+#: template-dashboard.php:273 template-dashboard.php:327
+msgid "Expired"
+msgstr "Expiré"
+
+#: template-dashboard.php:290
+msgid "Wallet"
+msgstr "Portefeuille"
+
+#: template-dashboard.php:296
+msgid "Listings"
+msgstr "Annonces"
+
+#: template-dashboard.php:300
+msgid "Add Listing"
+msgstr "Ajouter une annonce"
+
+#: template-dashboard.php:305
+msgid "My Listings"
+msgstr "Mes annonces"
+
+#: template-dashboard.php:341
+msgid "Coupons"
+msgstr "Coupons"
+
+#: template-dashboard.php:351
+msgid "Bookmarks"
+msgstr "Signets"
+
+#: template-dashboard.php:406
+msgid "Account"
+msgstr "Compte"
+
+#: template-dashboard.php:409
+msgid "My Profile"
+msgstr "Mon profil"
+
+#: template-dashboard.php:419
+msgid "My Orders"
+msgstr "Mes commandes"
+
+#: template-dashboard.php:429
+msgid "My Subscriptions"
+msgstr "Mes abonnements"
+
+#: template-dashboard.php:434
+msgid "Logout"
+msgstr "Se déconnecter"
+
+#: template-dashboard.php:463
+msgid "You have unpaid listing in cart."
+msgstr "Vous avez une annonce non payée dans le panier."
+
+#: template-dashboard.php:464
+msgid " Please pay or cancel it before submitting new listing."
+msgstr " Veuillez payer ou annuler avant de soumettre une nouvelle annonce."
+
+#: template-dashboard.php:465
+msgid "View cart &#8594;"
+msgstr "Voir le panier →"
+
+#: template-dashboard.php:476
+msgid "PayPal email missing!"
+msgstr "E-mail PayPal manquant !"
+
+#: template-dashboard.php:477
+msgid ""
+"Please add your PayPal email address. This is required to get your payments "
+"for booking using PayPal Payout service."
+msgstr ""
+"Veuillez ajouter votre adresse e-mail PayPal. Ceci est nécessaire pour "
+"recevoir vos paiements pour la réservation en utilisant le service de "
+"paiement PayPal."
+
+#: template-dashboard.php:478
+msgid "View Wallet and set the Payout Method there &#8594;"
+msgstr "Afficher le portefeuille et y définir la méthode de paiement →"
+
+#: template-dashboard.php:492
+msgid "Hello"
+msgstr "Bonjour"
+
+#: template-dashboard.php:499
+msgid "Approved Bookings"
+msgstr "Réservations approuvées"
+
+#: template-dashboard.php:503
+msgid "Pending Bookings"
+msgstr "Réservations en attente"
+
+#: template-dashboard.php:507
+msgid "Expired Bookings"
+msgstr "Réservations expirées"
+
+#: template-dashboard.php:511
+msgid "Cancelled Bookings"
+msgstr "Réservations annulées"
+
+#: template-dashboard.php:530
+msgid "Home"
+msgstr "Maison"
+
+#: template-home-search-classic.php:43 template-home-search-slider.php:55
+#: template-home-search.php:58
+msgid "Or browse featured categories:"
+msgstr "Ou parcourez les catégories en vedette :"
+
+#: template-home-search-map.php:41 template-listings-map.php:35
+#: template-split-map.php:21
+msgid "Show Map "
+msgstr "Afficher la carte"
+
+#: template-home-search-map.php:41 template-listings-map.php:35
+#: template-split-map.php:21
+msgid "Hide Map "
+msgstr "Masquer la carte"
+
+#: template-home-search-map.php:44
+msgid "Enable or disable scrolling on map"
+msgstr "Activer ou désactiver le défilement sur la carte"
+
+#: template-home-search-map.php:44
+msgid "Enable Scrolling"
+msgstr "Activer le défilement"
+
+#: template-home-search-map.php:65 template-listings-map.php:57
+#: template-parts/content-page.php:46 template-parts/content-single.php:20
+#: template-parts/content.php:38
+msgid "Pages:"
+msgstr "Pages :"
+
+#: template-parts/author-content-none.php:14
+msgid "This user doesn't have any listings available right now."
+msgstr "Cet utilisateur n'a pas d'annonces disponibles pour le moment."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "rien n'a été trouvé"
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Prêt à publier votre premier poste? <a href=\"%1$s\">Commencez ici</a> ."
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, mais rien ne correspond à vos termes de recherche. Veuillez "
+"réessayer avec d'autres mots-clés."
+
+#: template-parts/content-none.php:40
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Il semble que nous ne trouvions pas ce que vous cherchez. Peut-être que la "
+"recherche peut aider."
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:33
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuer à lire %s <span class=\"meta-nav\">→</span>"
+
+#: template-parts/header-parallax.php:33
+#, php-format
+msgid ""
+"We've found <em class=\"count_properties\">%s</em> <em class=\"count_text\">"
+"listing</em> for you"
+msgid_plural ""
+"We've found <em class=\"count_properties\">%s</em> <em class=\"count_text\">"
+"listings</em> for you"
+msgstr[0] ""
+"Nous avons trouvé la <em class=\"count_text\">fiche</em> <em "
+"class=\"count_properties\">%s</em> pour vous"
+msgstr[1] ""
+"Nous avons trouvé <em class=\"count_properties\">%s</em> <em "
+"class=\"count_text\">annonces</em> pour vous"
+
+#: vc_templates/vc_toggle.php:4
+msgid "Click to toggle"
+msgstr "Cliquez pour basculer"
+
+#: woocommerce/cart/cart.php:29 woocommerce/cart/cart.php:61
+#: woocommerce/checkout/form-pay.php:28
+msgid "Product"
+msgstr "Produit"
+
+#: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:87
+msgid "Quantity"
+msgstr "Quantité"
+
+#: woocommerce/cart/cart.php:76
+msgid "Available on backorder"
+msgstr "Disponible en rupture de stock"
+
+#: woocommerce/cart/cart.php:136
+msgid "Coupon"
+msgstr "Coupon"
+
+#: woocommerce/cart/cart.php:136
+msgid "Coupon code"
+msgstr "Code promo"
+
+#: woocommerce/cart/cart.php:136
+msgid "Apply Coupon"
+msgstr "Appliquer Coupon"
+
+#: woocommerce/cart/cart.php:142
+msgid "Update Cart"
+msgstr "Mise à jour panier"
+
+#: woocommerce/checkout/form-pay.php:29
+msgid "Qty"
+msgstr "Qté"
+
+#: woocommerce/checkout/form-pay.php:30
+msgid "Totals"
+msgstr "Totaux"
+
+#: woocommerce/checkout/form-pay.php:68 woocommerce/checkout/form-pay.php:71
+msgid "Dates:"
+msgstr "Rendez-vous:"
+
+#: woocommerce/checkout/form-pay.php:93
+msgid " at "
+msgstr " à"
+
+#: woocommerce/checkout/form-pay.php:104
+msgid "Extra Services:"
+msgstr "Services supplémentaires :"
+
+#: woocommerce/checkout/form-pay.php:117
+msgid "Booking Details:"
+msgstr "Les détails de réservation:"
+
+#: woocommerce/checkout/form-pay.php:121
+#, php-format
+msgid "%d Child"
+msgid_plural "%s Children"
+msgstr[0] "%d enfant"
+msgstr[1] "%s enfants"
+
+#: woocommerce/checkout/form-pay.php:124
+#, php-format
+msgid "%d Guest"
+msgid_plural "%s Guests"
+msgstr[0] "%d invité"
+msgstr[1] "%s invités"
+
+#: woocommerce/checkout/form-pay.php:127
+#, php-format
+msgid "%d Ticket"
+msgid_plural "%s Tickets"
+msgstr[0] "%d billet"
+msgstr[1] "%s Billets"
+
+#: woocommerce/checkout/form-pay.php:166
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Désolé, il semble qu'il n'y ait pas de méthodes de paiement disponibles pour "
+"votre emplacement. Veuillez nous contacter si vous avez besoin d'aide ou si "
+"vous souhaitez prendre d'autres dispositions."
+
+#: woocommerce/checkout/order-receipt.php:25
+#: woocommerce/checkout/thankyou.php:55
+msgid "Order number:"
+msgstr "Numéro de commande:"
+
+#: woocommerce/checkout/order-receipt.php:29
+#: woocommerce/checkout/thankyou.php:60
+msgid "Date:"
+msgstr "Date:"
+
+#: woocommerce/checkout/order-receipt.php:33
+#: woocommerce/checkout/thankyou.php:72
+msgid "Total:"
+msgstr "Total:"
+
+#: woocommerce/checkout/order-receipt.php:38
+#: woocommerce/checkout/thankyou.php:78
+msgid "Payment method:"
+msgstr "Mode de paiement:"
+
+#: woocommerce/checkout/thankyou.php:25
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+"Malheureusement, votre commande ne peut pas être traitée car la banque/le "
+"commerçant d'origine a refusé votre transaction. Veuillez réessayer votre "
+"achat."
+
+#: woocommerce/checkout/thankyou.php:30
+msgid "Pay"
+msgstr "Payer"
+
+#: woocommerce/checkout/thankyou.php:32
+msgid "My account"
+msgstr "Mon compte"
+
+#: woocommerce/checkout/thankyou.php:48
+msgid "Congratulations"
+msgstr "Toutes nos félicitations"
+
+#: woocommerce/checkout/thankyou.php:50
+msgid "Your order has been received."
+msgstr "Votre commande a été reçue."
+
+#: woocommerce/checkout/thankyou.php:66
+msgid "Email:"
+msgstr "E-mail:"
+
+#: woocommerce/checkout/thankyou.php:92
+msgid "Thank you. Your order has been received."
+msgstr "Merci. Votre commande a été reçue."
+
+#: woocommerce/content-product.php:99
+msgid "Listings are visible "
+msgstr "Les annonces sont visibles"
+
+#: woocommerce/content-product.php:110
+msgid "Add to cart"
+msgstr "Ajouter au panier"
+
+#: woocommerce/global/form-login.php:37
+msgid "Username or email"
+msgstr "Nom d'utilisateur ou email"
+
+#: woocommerce/global/form-login.php:43 woocommerce/myaccount/form-login.php:42
+#: woocommerce/myaccount/form-login.php:92
+msgid "Password"
+msgstr "Mot de passe"
+
+#: woocommerce/global/form-login.php:47 woocommerce/myaccount/form-login.php:56
+msgid "Lost your password?"
+msgstr "Mot de passe perdu?"
+
+#: woocommerce/global/form-login.php:55 woocommerce/myaccount/form-login.php:31
+#: woocommerce/myaccount/form-login.php:50
+msgid "Login"
+msgstr "Connexion"
+
+#: woocommerce/global/form-login.php:61 woocommerce/myaccount/form-login.php:52
+msgid "Remember me"
+msgstr "Souviens-toi de moi"
+
+#: woocommerce/myaccount/form-login.php:38
+msgid "Username or email address"
+msgstr "Nom d'utilisateur ou adresse e-mail"
+
+#: woocommerce/myaccount/form-login.php:69
+#: woocommerce/myaccount/form-login.php:102
+msgid "Register"
+msgstr "S'inscrire"
+
+#: woocommerce/myaccount/form-login.php:78
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: woocommerce/product-searchform.php:24
+msgid "Search for:"
+msgstr "Rechercher:"
+
+#: woocommerce/product-searchform.php:25
+msgid "Search products&hellip;"
+msgstr "Recherche de produits…"
+
+#: woocommerce/product-searchform.php:26
+msgctxt "submit button"
+msgid "Search"
+msgstr "Rechercher"
+
+#. translators: 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:36
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] "%1$s avis pour %2$s"
+msgstr[1] "%1$s avis pour %2$s"
+
+#: woocommerce/single-product-reviews.php:62
+msgid "There are no reviews yet."
+msgstr "Il n'y a pas encore de critiques."
+
+#: woocommerce/single-product-reviews.php:68
+#: woocommerce/single-product-reviews.php:72
+msgid "Add Review"
+msgstr "Ajouter un commentaire"
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Add a review"
+msgstr "Ajouter un commentaire"
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Be the first to review"
+msgstr "Soyez le premier à laisser un avis"
+
+#: woocommerce/single-product-reviews.php:78
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Laisser une réponse aux% s"
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Email"
+msgstr "E-mail"
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Submit"
+msgstr "Nous faire parvenir"
+
+#: woocommerce/single-product-reviews.php:94
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr "Vous devez être <a href=\"%s\">connecté</a> pour publier un avis."
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Your Rating"
+msgstr "Votre note"
+
+#: woocommerce/single-product-reviews.php:99
+msgid "Rate&hellip;"
+msgstr "Taux…"
+
+#: woocommerce/single-product-reviews.php:100
+msgid "Perfect"
+msgstr "Parfait"
+
+#: woocommerce/single-product-reviews.php:101
+msgid "Good"
+msgstr "Bien"
+
+#: woocommerce/single-product-reviews.php:102
+msgid "Average"
+msgstr "Moyen"
+
+#: woocommerce/single-product-reviews.php:103
+msgid "Not that bad"
+msgstr "Pas si mal"
+
+#: woocommerce/single-product-reviews.php:104
+msgid "Very Poor"
+msgstr "Très pauvre"
+
+#: woocommerce/single-product-reviews.php:108
+msgid "Your Review"
+msgstr "Votre avis"
+
+#: woocommerce/single-product-reviews.php:118
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Seuls les clients connectés qui ont acheté ce produit peuvent laisser un "
+"avis."
+
+#: woocommerce/single-product/rating.php:37
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Noté %s sur 5"
+
+#: woocommerce/single-product/related.php:27
+msgid "Related Products"
+msgstr "Produits connexes"
+
+#: woocommerce/single-product/review.php:37
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "Noté %d sur 5"
+
+#: woocommerce/single-product/review.php:46
+msgid "Your comment is awaiting approval"
+msgstr "Votre commentaire est en attente de validation"
+
+#: woocommerce/single-product/review.php:52
+msgid "verified owner"
+msgstr "propriétaire vérifié"
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Product Description"
+msgstr "Description du produit"
+
+#: woocommerce/single-product/tabs/description.php:38
+msgid "Unlimited number of jobs"
+msgstr "Nombre illimité d'emplois"
+
+#: woocommerce/single-product/tabs/description.php:42
+#, php-format
+msgid "%d job"
+msgid_plural "%s jobs"
+msgstr[0] "%d travail"
+msgstr[1] "%s travaux"
+
+#: woocommerce/single-product/tabs/description.php:49
+msgid "Jobs are posted "
+msgstr "Les emplois sont affichés"
+
+#: woocommerce/single-product/tabs/description.php:62
+msgid "Unlimited number of Resumes"
+msgstr "Nombre illimité de CV"
+
+#: woocommerce/single-product/tabs/description.php:66
+#, php-format
+msgid "%d resume"
+msgid_plural "%s resumes"
+msgstr[0] "%d reprendre"
+msgstr[1] "%s reprend"
+
+#: woocommerce/single-product/tabs/description.php:73
+msgid "Resumes are posted "
+msgstr "Les CV sont affichés"
+
+#. Theme Name of the plugin/theme
+msgid "Listeo"
+msgstr "Listeo"
+
+#. Theme URI of the plugin/theme
+msgid "http://listeo.pro/"
+msgstr "http://listeo.pro/"
+
+#. Description of the plugin/theme
+msgid "Directory WordPress Theme by Purethemes"
+msgstr "Annuaire Thème WordPress par Purethemes"
+
+#. Author of the plugin/theme
+msgid "Purethemes.me"
+msgstr "Purethemes.me"
+
+#. Author URI of the plugin/theme
+msgid "http://purethemes.net/"
+msgstr "http://purethemes.net/"
+
+#. Template Name of the plugin/theme
+msgid "Home Page with Search Form on Map"
+msgstr "Page d'accueil avec formulaire de recherche sur la carte"
+
+#. Template Name of the plugin/theme
+msgid "Classic Home Page with Search Form"
+msgstr "Page d'accueil classique avec formulaire de recherche"
+
+#. Template Name of the plugin/theme
+msgid "Comming Soon"
+msgstr "Prochainement"
+
+#. Template Name of the plugin/theme
+msgid "Listeo iCal Output"
+msgstr "Sortie Listeo iCal"
+
+#. Template Name of the plugin/theme
+msgid "Listings With Map"
+msgstr "Annonces avec carte"
+
+#. Template Name of the plugin/theme
+msgid "Home Page with Search Form over Video"
+msgstr "Page d'accueil avec formulaire de recherche sur vidéo"
+
+#. Template Name of the plugin/theme
+msgid "Home Page with Search Form"
+msgstr "Page d'accueil avec formulaire de recherche"
+
+#. Template Name of the plugin/theme
+msgid "Dashboard Page"
+msgstr "Tableau de bord"
+
+#. Template Name of the plugin/theme
+msgid "Home Page with Search Form & Slider"
+msgstr "Page d'accueil avec formulaire de recherche et curseur"
+
+#. Template Name of the plugin/theme
+msgid "Listing With Map - Split Page"
+msgstr "Liste avec carte - Page fractionnée"
