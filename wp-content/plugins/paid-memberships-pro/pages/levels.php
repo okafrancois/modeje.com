@@ -41,7 +41,7 @@ if($pmpro_msg)
 	<tr class="level <?php if($count++ % 2 == 0) { ?>odd<?php } ?><?php if( $has_level ) { ?> active<?php } ?>">
 		<td class="level__name">
             <?php echo $has_level ? "<strong>{$level->name}</strong>" : $level->name?>
-            <?php echo "<img class='level__image' src='https://padeje.com/wp-content/uploads/2023/01/modeje-level-{$level->name}.png' />"?>
+            <?php echo "<img class='level__image' src='" . get_site_url() . "/wp-content/uploads/2023/02/card-photo-{$level->name}.png' />"?>
         </td>
 		<td class="level__detail">
 			<?php
