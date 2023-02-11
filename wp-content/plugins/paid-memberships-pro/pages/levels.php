@@ -63,7 +63,7 @@ if($pmpro_msg)
 				//if it's a one-time-payment level, offer a link to renew	
 				if( pmpro_isLevelExpiringSoon( $user_level ) && $level->allow_signups ) {
 					?>
-						<a class="<?php echo pmpro_get_element_class( 'pmpro_btn pmpro_btn-select', 'pmpro_btn-select' ); ?>" href="<?php echo esc_url( pmpro_url( "checkout", "?level=" . $level->id, "https" ) ) ?>"><?php esc_html_e('Renew', 'paid-memberships-pro' );?></a>
+						<a disabled class="<?php echo pmpro_get_element_class( 'pmpro_btn pmpro_btn-select', 'pmpro_btn-select' ); ?>" href="<?php echo esc_url( pmpro_url( "checkout", "?level=" . $level->id, "https" ) ) ?>"><?php esc_html_e('Renew', 'paid-memberships-pro' );?></a>
 					<?php
 				} else {
 					?>

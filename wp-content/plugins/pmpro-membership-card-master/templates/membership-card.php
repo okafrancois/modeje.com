@@ -15,7 +15,6 @@
 	else
 		$print_large = false;
 
-
 ?>
 <style>
 	/* Hide any thumbnail that might be on the page. */
@@ -27,37 +26,45 @@
         max-width: 550px;
     }
 
-    .pmpro_membership_card.Silver .card-inner{
-        background: linear-gradient(180deg, rgb(220, 220, 220) 0%, rgb(151 151 151) 100%);
+    .pmpro_membership_card .card-inner {
+        position: relative;
     }
 
-    .pmpro_membership_card.Gold .card-inner{
-        background: linear-gradient(180deg, rgba(255,215,0,1) 0%,rgb(198, 167, 1) 100%);
-    }
-
-    .pmpro_membership_card.Classic .card-inner{
-        background: linear-gradient(180deg, rgba(89,154,255,1) 0%, rgba(54,99,171,1) 100%);
+    .pmpro_membership_card .card-inner .card-bg {
+        position: absolute;
+        inset: 0;
+        object-fit: cover;
     }
 		/* Print Styles */
-	@media print
-	{
-		.page, .page .pmpro_membership_card #nav-below {visibility: hidden !important;}
-		.page .pmpro_membership_card {left: 2%; position: fixed; top: 2%; visibility: visible !important; width: 96%;}
-	}
+	@media print {
+
+    }
 
     .pmpro_membership_card-print-custom .card-inner {
         width: 100%;
-        aspect-ratio: 700/400;
+        aspect-ratio: 1155/770;
         overflow: hidden;
         display: flex;
         justify-content: space-between;
-        padding: 3%;
-        background: gray;
-        border-radius: 4vw;
-        color: #fff;
-        border: 8px solid rgba(0, 0, 0, 0.1);
-        margin-bottom: 1rem;
+        padding: 7%;
+        color: #585858;
+        margin-bottom: 2rem;
         position: relative;
+    }
+
+    .pmpro_membership_card-print-custom .user-name > * {
+        color: #585858 !important;
+    }
+
+    .pmpro_membership_card-print-custom .left-content,
+    .pmpro_membership_card-print-custom .right-content {
+        z-index: 1;
+    }
+
+    .pmpro_membership_card-print-custom .left-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
 
     .pmpro_membership_card-print-custom h1 {
@@ -79,10 +86,10 @@
     }
 
     .pmpro_membership_card-print-custom .right-content {
-        width: 38%;
+        width: 30%;
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        justify-content: flex-end;
     }
 
     .pmpro_membership_card-print-custom .user-image {
@@ -117,7 +124,7 @@
     }
 
     .pmpro_membership_card-print-custom .user-qr img {
-        width: 80%
+        width: 100%
     }
     .pmpro_membership_card-print-custom p {
         margin: 0;
@@ -156,18 +163,10 @@
 	?>
     <div class="pmpro_membership_card-print-custom">
         <div class="card-inner">
+            <img class="card-bg" src="<?php echo get_site_url(); echo "/wp-content/uploads/2023/02/card-bg-"; echo pmpro_membership_card_output_levels_for_user($pmpro_membership_card_user); echo ".png"; ?>"  alt="user profil image"/>
             <div class="left-content">
-                <div class="user-image">
-                    <img src="<?php echo pmpro_membership_card_return_avatar_url( $pmpro_membership_card_user ); ?>" border="0"  alt="user profil image"/>
-                </div>
                 <div class="user-name">
                     <h1><?php echo pmpro_membership_card_get_full_name( $pmpro_membership_card_user ); ?><br/></h1>
-                </div>
-                <div class="user-level">
-                    <?php if(function_exists("pmpro_hasMembershipLevel")) { ?>
-
-                        <span> <?php pmpro_membership_card_output_levels_for_user( $pmpro_membership_card_user ); ?> </span>
-                    <?php } ?>
                 </div>
                 <div class="user-since-date">
                     <?php
@@ -190,12 +189,6 @@
                 </div>
             </div>
             <div class="right-content">
-                <div class="site-logo">
-                    <?php
-                    $featured_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-                    ?>
-                    <img src="<?php echo $featured_image; ?>" border="0"  alt="site logo"/>
-                </div>
                 <div class="user-qr">
                     <?php if( has_action( 'pmpro_membership_card_after_card' ) ){ ?>
                         <div class="pmpro_membership_card-after">
