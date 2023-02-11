@@ -82,6 +82,7 @@
         color: inherit;
         font-size: 70%;
         line-height: 1.5em;
+        font-weight: 700;
     }
 
     .pmpro_membership_card-print-custom p strong {
