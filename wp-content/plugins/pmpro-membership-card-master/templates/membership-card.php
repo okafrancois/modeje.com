@@ -50,34 +50,37 @@
         color: #585858;
         margin-bottom: 2rem;
         position: relative;
+        align-items: flex-end;
     }
 
     .pmpro_membership_card-print-custom .user-name > * {
         color: #585858 !important;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
     }
 
-    .pmpro_membership_card-print-custom .left-content,
-    .pmpro_membership_card-print-custom .right-content {
+    .pmpro_membership_card-print-custom .card-content {
         z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
 
     .pmpro_membership_card-print-custom .left-content {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        text-transform: uppercase;
+        width: 60%;
     }
 
-    .pmpro_membership_card-print-custom h1 {
+    .pmpro_membership_card-print-custom .left-content p {
         color: inherit;
-        font-size: 170%;
-        font-weight: 600;
-        margin: 0;
-        padding: 0;
-    }
-
-    .pmpro_membership_card-print-custom p {
-        color: inherit;
-        font-size: 90%;
+        font-size: 70%;
         line-height: 1.5em;
     }
 
@@ -106,14 +109,6 @@
         width: 100%;
         height: 100%;
         object-fit: contain;
-    }
-
-    .pmpro_membership_card-print-custom .site-logo {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 1/1;
-        border-radius: 2vw;
-        overflow: hidden;
     }
 
     .pmpro_membership_card-print-custom .user-qr {
@@ -164,37 +159,39 @@
     <div class="pmpro_membership_card-print-custom">
         <div class="card-inner">
             <img class="card-bg" src="<?php echo get_site_url(); echo "/wp-content/uploads/2023/02/card-bg-"; echo pmpro_membership_card_output_levels_for_user($pmpro_membership_card_user); echo ".png"; ?>"  alt="user profil image"/>
-            <div class="left-content">
-                <div class="user-name">
-                    <h1><?php echo pmpro_membership_card_get_full_name( $pmpro_membership_card_user ); ?><br/></h1>
-                </div>
-                <div class="user-since-date">
-                    <?php
-                    if(!empty($since))
-                    {
-                        ?>
-                        <p><strong><?php _e( 'Member Since', 'pmpro-membership-card' ); ?>:</strong> <?php echo date_i18n(get_option("date_format"), strtotime($pmpro_membership_card_user->user_registered));?></p>
+            <div class="card-content">
+                <div class="left-content">
+                    <div class="user-name">
+                        <h1><?php echo pmpro_membership_card_get_full_name( $pmpro_membership_card_user ); ?><br/></h1>
+                    </div>
+                    <div class="user-since-date">
                         <?php
-                    }
-                    ?>
-                </div>
-                <div class="user-exp-date">
-                    <?php if(function_exists("pmpro_hasMembershipLevel")) { ?>
-                        <p><strong><?php _e("Date d'expiration", 'pmpro-membership-card');?>:</strong>
-                            <?php
-                            echo pmpro_membership_card_return_end_date( $pmpro_membership_card_user );
+                        if(!empty($since))
+                        {
                             ?>
-                        </p>
-                    <?php } ?>
+                            <p><strong><?php _e( 'Member Since', 'pmpro-membership-card' ); ?>:</strong> <?php echo date_i18n(get_option("date_format"), strtotime($pmpro_membership_card_user->user_registered));?></p>
+                            <?php
+                        }
+                        ?>
+                    </div>
+                    <div class="user-exp-date">
+                        <?php if(function_exists("pmpro_hasMembershipLevel")) { ?>
+                            <p><strong><?php _e("Date d'expiration", 'pmpro-membership-card');?>:</strong>
+                                <?php
+                                echo pmpro_membership_card_return_end_date( $pmpro_membership_card_user );
+                                ?>
+                            </p>
+                        <?php } ?>
+                    </div>
                 </div>
-            </div>
-            <div class="right-content">
-                <div class="user-qr">
-                    <?php if( has_action( 'pmpro_membership_card_after_card' ) ){ ?>
-                        <div class="pmpro_membership_card-after">
-                            <?php do_action( 'pmpro_membership_card_after_card', $pmpro_membership_card_user, $print_sizes, $qr_code, $qr_data ); ?>
-                        </div>
-                    <?php } ?>
+                <div class="right-content">
+                    <div class="user-qr">
+                        <?php if( has_action( 'pmpro_membership_card_after_card' ) ){ ?>
+                            <div class="pmpro_membership_card-after">
+                                <?php do_action( 'pmpro_membership_card_after_card', $pmpro_membership_card_user, $print_sizes, $qr_code, $qr_data ); ?>
+                            </div>
+                        <?php } ?>
+                    </div>
                 </div>
             </div>
         </div>
