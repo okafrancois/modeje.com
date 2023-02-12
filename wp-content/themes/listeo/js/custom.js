@@ -1632,7 +1632,13 @@ $('.star-rating').starRating();
 
 	countUp();
 
+	const levels = document.querySelectorAll('#pmpro_levels_table .level.Gold, #pmpro_levels_table .level.Platinum');
 
+	levels.forEach(level => {
+		const linkButton = level.querySelector('a');
+		linkButton.textContent = 'Bientôt disponible';
+		linkButton.setAttribute('disabled', 'true');
+	})
 
 	
 // ------------------ End Document ------------------ //
