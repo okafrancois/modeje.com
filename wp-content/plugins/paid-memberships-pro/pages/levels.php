@@ -38,7 +38,7 @@ if($pmpro_msg)
 		$has_level = ! empty( $user_level );
 		$has_any_level = $has_level ?: $has_any_level;
 	?>
-	<tr class="level <?php if($count++ % 2 == 0) { ?>odd<?php } ?><?php if( $has_level ) { ?> active<?php } ?>">
+	<tr class="level <?php echo "{$level->name}" ?> <?php if($count++ % 2 == 0) { ?>odd<?php } ?><?php if( $has_level ) { ?> active<?php } ?>">
 		<td class="level__name">
             <?php echo $has_level ? "<strong>{$level->name}</strong>" : $level->name?>
             <?php echo "<img class='level__image' src='" . get_site_url() . "/wp-content/uploads/2023/02/card-photo-{$level->name}.png' />"?>
