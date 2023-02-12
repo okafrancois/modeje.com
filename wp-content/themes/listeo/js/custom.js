@@ -1635,6 +1635,7 @@ $('.star-rating').starRating();
 	const levels = document.querySelectorAll('#pmpro_levels_table .level.Gold a, #pmpro_levels_table .level.Platinum a');
 
 	levels.forEach(level => {
+		console.log(level)
 		level.textContent = 'Bientôt disponible';
 		level.setAttribute('disabled', 'true');
 	})
