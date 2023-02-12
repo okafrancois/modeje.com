@@ -1615,7 +1615,7 @@ $('.star-rating').starRating();
 	const link = document.createElement('a');
 	link.classList.add('join-link');
 	link.textContent = "Adhérer au MODEJE"
-	link.setAttribute('href', 'https://padeje.com/compte-dadherent/niveaux-dadhesion/');
+	link.setAttribute('href', 'https://modeje.com/compte-dadherent/niveaux-dadhesion/');
 	mobileMenu.parentNode.insertBefore(link, mobileMenu)
 
 	// ----
