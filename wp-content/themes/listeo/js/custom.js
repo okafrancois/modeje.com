@@ -1631,17 +1631,6 @@ $('.star-rating').starRating();
 	}
 
 	countUp();
-
-	window.addEventListener('load', () => {
-		const levels = document.querySelectorAll('.Gold a.pmpro_btn, .Platinum a.pmpro_btn');
-
-		levels.forEach(level => {
-			console.log(level)
-			level.textContent = 'Bientôt disponible';
-			level.setAttribute('disabled', 'true');
-		})
-	})
-
 	
 // ------------------ End Document ------------------ //
 });
