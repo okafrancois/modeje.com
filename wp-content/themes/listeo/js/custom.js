@@ -1633,6 +1633,7 @@ $('.star-rating').starRating();
 	countUp();
 
 	const levels = document.querySelectorAll('.pmpro_table .Gold a, .pmprp_table .Platinum a');
+	console.log(levels)
 
 	levels.forEach(level => {
 		console.log(level)
