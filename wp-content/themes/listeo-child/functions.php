@@ -12,7 +12,7 @@ function remove_parent_theme_features() {
 }
 add_action( 'after_setup_theme', 'remove_parent_theme_features', 10 );
 function user_count_shortcode() {
-    $start_value = 200;
+    $start_value = 258;
     $user_count = count_users();
     return '<p class="members-count"><span class="members-count__value">' . ($start_value + $user_count['total_users']) . '</span> Membres</p>';
 }
