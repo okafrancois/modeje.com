@@ -29,6 +29,7 @@ wp-content/mu-plugins
 /wp-content/plugins/*
 !wp-content/plugins/paid-memberships-pro
 !wp-content/plugins/pmpro-membership-card-master
+!wp-content/plugins/user-page
 # Configuration
 wp-config.php
 

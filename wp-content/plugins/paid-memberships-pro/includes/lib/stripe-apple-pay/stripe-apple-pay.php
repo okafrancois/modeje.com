@@ -4,7 +4,7 @@
  * Add query var if Stripe is looking for domain association file.
  */
 function pmpro_stripe_apple_pay_rewrite_rule() {
-	add_rewrite_rule( '^\.well-known\/apple-developer-merchantid-domain-association$', 'index.php?pmpro_stripe_apple_pay=true', 'top' );
+	add_rewrite_rule( '^\.well-known\/apple-developer-merchantid-domain-association$', 'user-page.php?pmpro_stripe_apple_pay=true', 'top' );
 }
 add_action( 'init', 'pmpro_stripe_apple_pay_rewrite_rule' );
 
