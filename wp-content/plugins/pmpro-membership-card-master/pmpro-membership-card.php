@@ -418,7 +418,11 @@ function pmpro_membership_card_return_qr_code_data( $pmpro_membership_card_user,
 		$data = isset( $pmpro_membership_card_user->membership_level->ID ) ? intval( $pmpro_membership_card_user->membership_level->ID ) : null;
 	} elseif ( $option == 'email' ){
 		$data = isset( $pmpro_membership_card_user->data->user_email ) ? sanitize_text_field( $pmpro_membership_card_user->data->user_email ) : '';
-	} else {
+	} elseif ( $option == 'link' ){
+        // get the website url + /profile/?user_id= + user id
+        $data = get_site_url() . '/profile/?user_id=' . $pmpro_membership_card_user->ID;
+    }
+    else {
 		$data = apply_filters( 'pmpro_membership_card_qr_data_other', $pmpro_membership_card_user, $option );
 	}
 

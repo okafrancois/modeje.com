@@ -147,3 +147,38 @@ function pmpro_member_shortcode($atts, $content=null, $code='')
 	return $r;
 }
 add_shortcode('pmpro_member', 'pmpro_member_shortcode');
+
+/*
+Shortcode to show user information including user avatar, full name, email address and membership level
+*/
+function pmpro_user_info_shortcode($atts, $content = null, $code = '')
+{
+    // $atts    ::= array of attributes
+    // $content ::= text within enclosing form of shortcode element
+    // $code    ::= the shortcode found, when == callback name
+    // examples: [pmpro_user_info]
+
+    global $current_user;
+    extract(shortcode_atts(array(), $atts));
+
+    // Retrieve the user_id from the current URL parameters
+    if (isset($_GET['user_id'])) {
+        $user_id = sanitize_text_field($_GET['user_id']);
+    } else {
+        $user_id = $current_user->ID;
+    }
+
+    $membership_level = pmpro_getMembershipLevelForUser($user_id);
+    $user = get_userdata($user_id);
+
+    $user_info = '<div class="pmpro_user_info">';
+    $user_info .= '<div class="pmpro_user_avatar">' . get_avatar($user_id) . '</div>';
+    $user_info .= '<div class="pmpro_user_name">Full Name: ' . $user->display_name . '</div>';
+    $user_info .= '<div class="pmpro_user_email">Email: ' . $user->user_email . '</div>';
+    $user_info .= '<div class="pmpro_user_membership">Level: ' . $membership_level->name . '</div>';
+    $user_info .= '</div>';
+
+    return $user_info;
+}
+
+add_shortcode('pmpro_user_info', 'pmpro_user_info_shortcode');
